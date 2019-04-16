@@ -12,3 +12,5 @@ Let me give you a quick summary of myself:
 * Currently working as a Project Officer in NTU, focusing on application of persistent homology machine learning
 * Aspired to be a data scientist with a focus on healthcare
 * Also, working towards financial independence
+
+Side note: I would like to say thank you to [Dean](https://deanattali.com/) for this wonderful layout. 
