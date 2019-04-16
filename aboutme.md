@@ -2,15 +2,14 @@
 layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
+comments: true
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Hi. My name is Brandon Yong. Thanks for dropping by my github website.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Let me give you a quick summary of myself:
 
-What else do you need?
-
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+* Graduated as a Chemical Engineer from [Nanyang Technological University](https://www.ntu.edu.sg/Pages/home.aspx)
+* Currently working as a Project Officer in NTU, focusing on application of persistent homology machine learning
+* Aspired to be a data scientist with a focus on healthcare
+* Also, working towards financial independence
