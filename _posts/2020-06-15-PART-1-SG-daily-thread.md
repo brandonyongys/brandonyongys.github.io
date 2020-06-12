@@ -67,7 +67,21 @@ The trend for the weekend is a little bit tricky to see. You would have to look 
 One thing to note is that on Thursday between 4 to 7pm, the number of comments posted for each hour of the 3 hours time frame is significantly higher than the usual count for a weekday (70 comments vs 60 comments respectively). _Is this because everyone is excited about TGIF the following day?_
 
 ![Hourly posts during CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Hourly%20posts%20-%20average%20CB.png?raw=true)
+I've also plotted the average hourly comments for the ciruit breaker period as well. The shape is generally the same as last year's average hourly comments. However, there are a few notable changes.
 
+The first difference is that there is almost no difference between weekdays and weekend comments especially in the first half of the day. Between 12 to 6am, there was a maximum difference of 20-30 comments for weekday versus weekend comments and it would slowly converge to about 50 comments at 6am. However, during the ciruit breaker, there is almost no difference. The second half of the day, there is still some difference but the difference between weekday and weekend comments are about 10 comments for each hour compared to last year's difference of about 20 comments.
+
+The second difference is that the maximum hourly comments in the first half of the day tend to be lower than the second half of the day. However, that trend is no longer valid as the maximum for the first half and second half are the same, which is about 80 comments. 
+
+Although the hourly comments at 6am is still about 50 comments, the decline in hourly comments have significantly slowed down. For example, in last year's trend, the hourly comments at 8am was about 20 comments but during the circuit breaker period, the comments posted at 8am was nearly double of that (approximately 40 comments).
+
+Another difference is the night activity would slowly die down after a certain hour last year. During circuit breaker, the hourly activity at night didn't die down. Rather, it was stable and sometimes would increase.
+
+All these differences show that circuit breaker has indeed changed the behaviour of the sg redditors. As they couldn't go out and enjoy activities such as dating and shopping, more redditors have spent more time online and engaged with others within the community although the average redditor has posted fewer comments.
+
+That is all for the part 1 of my analysis. Stay tuned for more analysis!
 
 [SGreddit]: https://www.reddit.com/r/singapore/
 [PRAW]: https://praw.readthedocs.io/en/latest/
+
+
