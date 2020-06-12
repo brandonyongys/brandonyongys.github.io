@@ -54,11 +54,12 @@ Looking at the blue bars, which indicate a high number of posts per user, there 
 ![Median daily posts per user](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Median%20no%20of%20posts%20per%20user%20-%20day.png?raw=true)
 Looking at the heatmap above, the average user in 2020 has posted slightly fewer comments as compared to the median posts per user in 2017 to 2019. This is odd as I would have expected that circuit breaker would have increased the number of users and posts. I suppose that since non-essential workers were working from home and students were doing home based learning for the first half of circuit breaker and were on their June holiday in the second half. So their lives were less happening and they have fewer things to rant or talk about. 
 
+
 ### What about the hourly activity of the daily thread?
 I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
 
 ![Hourly posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Hourly%20posts%20-%20average%202019.png?raw=true)
-You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is when the trend of weekday and weekend start to diverge. 
+You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is where the trend of weekday and weekend start to diverge. 
 
 On weekdays, the number of comments posted would climb faster than it would on a weekend and it would reach it maximum at about 6-7pm. From there, it would very slowly decrease all the way to 6am. Then the cycle repeats. 
 
