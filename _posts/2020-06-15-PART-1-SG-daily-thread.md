@@ -3,7 +3,7 @@ layout: post
 title: Analysis of Reddit Singapore Daily Thread - Part 1
 tags: [reddit]
 comments: true
-published: false
+published: true
 ---
 
 This is part 1 of the series on the analysis of the [SGreddit][SGreddit] daily thread. I scraped the daily threads from 24th June 2014 up to 2nd June 2020 using the [PRAW API][PRAW], giving me a total of 2166 threads. Though I have to admit that I was supposed to crawl 2173 daily threads but 7 threads were missing and couldn't be found on Reddit.
@@ -14,7 +14,7 @@ The information thaw I scraped are :
   3. time of comment submission
   4. votes of the comment
 
-I then collated all the information into a huge csv file and used it as the master file for my analysis. Though I should research more on what is the more appropriate method to store all these information _(json or csv or is there a better option?)_. Anyway, below is my initial analysis of the daily threads over the years, primarily focused on the basic descriptive information.
+I then collated all the information into a huge csv file and used it as the master file for my analysis. Though I should research more on what is the more appropriate method to store all these information _(json or csv or is there a better option?)_. Anyway, below is my initial analysis of the daily threads over the years, primarily focused on the basic descriptive information. Before I start my analysis, I first preprocess my data by removing any comment that was removed or deleted.
 
 ### How has the community of SG daily thread grown over the years?
 ![No of daily unique posters](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202006-sg-reddit/No%20of%20unique%20users%20-%20day.png)
@@ -54,7 +54,6 @@ Looking at the blue bars, which indicate a high number of posts per user, there 
 ![Median daily posts per user](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Median%20no%20of%20posts%20per%20user%20-%20day.png?raw=true)
 Looking at the heatmap above, the average user in 2020 has posted slightly fewer comments as compared to the median posts per user in 2017 to 2019. This is odd as I would have expected that circuit breaker would have increased the number of users and posts. I suppose that since non-essential workers were working from home and students were doing home based learning for the first half of circuit breaker and were on their June holiday in the second half. So their lives were less happening and they have fewer things to rant or talk about. 
 
-
 ### What about the hourly activity of the daily thread?
 I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
 
@@ -84,3 +83,17 @@ That is all for the part 1 of my analysis. Stay tuned for more analysis!
 
 [SGreddit]: https://www.reddit.com/r/singapore/
 [PRAW]: https://praw.readthedocs.io/en/latest/
+
+
+
+
+_xx_ 			- italic
+**xx** 			- bold
+# xxx			- header
+[display text](link)	- hyper link
+[display text][ref] 	[ref]: website
+![display text](link)	- hyper link 		- images
+> text 				- block quote
+* text 				- unordered list
+    * text 			- unordered sublist
+1. text 			- ordered list
