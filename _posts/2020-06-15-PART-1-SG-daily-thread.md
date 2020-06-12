@@ -57,8 +57,16 @@ Looking at the heatmap above, the average user in 2020 has posted slightly fewer
 ### What about the hourly activity of the daily thread?
 I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
 
-![Hourly posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Median%20no%20of%20posts%20per%20user%20-%20day.png?raw=true)
+![Hourly posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Hourly%20posts%20-%20average%202019.png?raw=true)
+You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is when the trend of weekday and weekend start to diverge. 
 
+On weekdays, the number of comments posted would climb faster than it would on a weekend and it would reach it maximum at about 6-7pm. From there, it would very slowly decrease all the way to 6am. Then the cycle repeats. 
+
+The trend for the weekend is a little bit tricky to see. You would have to look at the end from 1pm of either Saturday or Sunday and connect the trend to the following day (Sunday or Monday) to see the actual trend and to ensure continuity. The number of posted comments on the weekend pick up slower and reach it peak at about 9pm. Then it would go down a little bit and from midnight onwards, it would go up to about 50 comments per hour at 6am before it goes downhill again.  
+
+One thing to note is that on Thursday between 4 to 7pm, the number of comments posted for each hour of the 3 hours time frame is significantly higher than the usual count for a weekday (70 comments vs 60 comments respectively). _Is this because everyone is excited about TGIF the following day?_
+
+![Hourly posts during CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Hourly%20posts%20-%20average%20CB.png?raw=true)
 
 
 [SGreddit]: https://www.reddit.com/r/singapore/
