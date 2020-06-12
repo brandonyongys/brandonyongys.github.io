@@ -29,6 +29,27 @@ We can also take a look at the total number of unique users on the daily thread 
 
 Looking at this figure, you can see that from 2014 to 2017, the monthly total unique posters keeps increasing. In 2018, the monthly total unique posters hovers around 1600 to 1800 and have been that way since. However, in 2020, there is a spike in total unique users starting from March with a maximum of 2152 unique users in April. This is due to the Covid-19 pandemic that has caused a great impact on the world. Singapore government has encouraged employers to allow employees to work from home whenever possible. On 7 April 2020, circuit breaker was implemented and all non-essential workers were to work from home and all schools were closed. 
 
+### How has the comments on SG daily thread grown over the years?
+![No of daily posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/No%20of%20posts%20-%20day.png?raw=true)
+
+Above is another heatmap for the number of posts for each of the daily thread. Likewise, the horizontal axis is the week number of the year and the vertical axis is the day of the week. The white bars represent missing data. The colour map is centered about 1000 posts. 
+
+You can see a very progression of the daily number of posts from a very low value of about 50 to about 1000 posts. There is a very clear separation at the start of 2017. That's when the daily posts approach 1000 posts and start to hover around that value since. However, there was a brief period of time in 2018 (approximately 4 weeks) that the daily number of posts reached a very high count of 2000 or more posts. The maximum number of posts back then was about 3281.
+
+Besides that, you can also clearly see that the number of posts on the daily threads during the weekend versus the weekdays is vastly different. During the weekdays, the number of posts hover about 1000 posts for the past 3 years. On the other hand, the number of posts would hover about 600 posts. This can be explained simply because of the reduced number of unique users on the weekends.
+
+![Median daily posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/No%20of%20posts%20-%20day%20median.png?raw=true)
+
+
+We can take a look at the above figure which shows the median number of posts for each day of the week by year. I decided to use median instead of mean because of the high count of posts in 2018, which can be considered as outliers. The values for first 3 years (2014 to 2016) should be taken with a pinch of salt as the number of posts back then was still experiencing growth and hasn't reached its stationary stage yet. So simply taking a median value for then period is simply likened to taking the mid point of an ever increasing growth.
+
+However, we can take a look at the data since 2017. The median value of each day of the week is rather consistent with little variance. The data for 2018 is the highest simply because of the outliers in early 2018 as mentioned previously. Looking at the data for 2020, the median number of posts is still about the same value as the previous year despite the implemented circuit breaker. _Could this mean that the number of posts per user has dropped?_
+
+### Have the users been posting more?
+
+
+
+
 
 
 [SGreddit]: https://www.reddit.com/r/singapore/
