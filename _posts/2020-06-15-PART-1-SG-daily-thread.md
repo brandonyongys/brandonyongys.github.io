@@ -55,6 +55,10 @@ Looking at the blue bars, which indicate a high number of posts per user, there 
 Looking at the heatmap above, the average user in 2020 has posted slightly fewer comments as compared to the median posts per user in 2017 to 2019. This is odd as I would have expected that circuit breaker would have increased the number of users and posts. I suppose that since non-essential workers were working from home and students were doing home based learning for the first half of circuit breaker and were on their June holiday in the second half. So their lives were less happening and they have fewer things to rant or talk about. 
 
 ### What about the hourly activity of the daily thread?
+I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
+
+![Hourly posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Median%20no%20of%20posts%20per%20user%20-%20day.png?raw=true)
+
 
 
 [SGreddit]: https://www.reddit.com/r/singapore/
