@@ -41,6 +41,12 @@ by: _unknown user_ (136 votes)
 
 by: _dragonbad30_ (116 votes)
 
+>LIVE: This auntie KPKB this younger guy for sitting on the priority seat. The younger guy just stands up and ripped off his prosthetic leg. The auntie died of embarrassment.
+>
+>UPDATE: Auntie mumble about giving old people sit first...she older.
+
+by: _leo-g_ (106 votes)
+
 #### _Worst comments_
 
 >Yesterday, girlfriend and I created a Tinder account and lured a couple of guys to Esplanade to meet up. They were really horny and dtf. The look on their faces when we made them go in circles and finally unmatch them is priceless. Sorry we had so much free time!
@@ -52,3 +58,7 @@ by: _statelesspirate_ (-81 votes)
 > Speedpost just dump my parcel on my shoe rack and no updates on the delivery status online. Can I report the parcel as lost and get the seller to send/refund me?
 
 by: _Siobak118_ (-43 votes)
+
+> Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
+
+by: _Afraidofdownvotes0_ (-31 votes)
