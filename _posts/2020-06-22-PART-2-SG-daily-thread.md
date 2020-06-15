@@ -29,6 +29,7 @@ You may be wondering what are some of the best and worst comments by votes? Belo
 > This girl... 😂 Can't bear to scold her for trying to be helpful so I just sayang her. Her tail wag until like helicopter. 
 >
 >Edit: postman just came by. here she is doing her job like a good girl http://imgur.com/a/cvxWa
+
 by: _unknown user_ (136 votes)
 
 
@@ -37,6 +38,7 @@ by: _unknown user_ (136 votes)
 >When we have lunch together with the boss, she will do her irritating fake ass laugh whenever the boss say something while I just sit there quietly eat my food and use my phone. Dont even know what she trying to do but always laughing and acting that she v interested in the convo. Heng I intern and gonna leave end of the month, dont need see her anymore.
 >
 >One more thing, she doesnt know I'm the boss' son. Bitch 
+
 by: _dragonbad30_ (116 votes)
 
 #### _Worst comments_
@@ -44,8 +46,9 @@ by: _dragonbad30_ (116 votes)
 >Yesterday, girlfriend and I created a Tinder account and lured a couple of guys to Esplanade to meet up. They were really horny and dtf. The look on their faces when we made them go in circles and finally unmatch them is priceless. Sorry we had so much free time!
 >
 >Then there was this Jewish guy who wanted to meet up at Marina Mandarin and found out it was a prank. He identified us pretty quickly and walked towards our hiding spot. We ran and luckily there was a taxi nearby. That adrenaline rush tho. 5/7 would do it again!
+
 by: _statelesspirate_ (-81 votes)
 
 > Speedpost just dump my parcel on my shoe rack and no updates on the delivery status online. Can I report the parcel as lost and get the seller to send/refund me?
-by: _Siobak118_ (-43 votes)
 
+by: _Siobak118_ (-43 votes)
