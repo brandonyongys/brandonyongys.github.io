@@ -83,17 +83,3 @@ That is all for the part 1 of my analysis. Stay tuned for more analysis!
 
 [SGreddit]: https://www.reddit.com/r/singapore/
 [PRAW]: https://praw.readthedocs.io/en/latest/
-
-
-
-
-_xx_ 			- italic
-**xx** 			- bold
-# xxx			- header
-[display text](link)	- hyper link
-[display text][ref] 	[ref]: website
-![display text](link)	- hyper link 		- images
-> text 				- block quote
-* text 				- unordered list
-    * text 			- unordered sublist
-1. text 			- ordered list
