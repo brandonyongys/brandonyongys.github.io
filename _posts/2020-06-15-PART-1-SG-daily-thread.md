@@ -58,7 +58,7 @@ Looking at the heatmap above, the average user in 2020 has posted slightly fewer
 I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
 
 ![Hourly posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Hourly%20posts%20-%20average%202019.png?raw=true)
-You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is where the trend of weekday and weekend start to diverge. 
+You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is where the trend of weekday and weekend start to diverge. The reason for the drop in activity from 6am to 1pm is because 1) a new daily thread is posted and pinned, replacing the previous day thread and 2) the users are preparing to go to work/school and are focusing on them first.
 
 On weekdays, the number of comments posted would climb faster than it would on a weekend and it would reach it maximum at about 6-7pm. From there, it would very slowly decrease all the way to 6am. Then the cycle repeats. 
 
@@ -83,3 +83,4 @@ That is all for the part 1 of my analysis. Stay tuned for more analysis!
 
 [SGreddit]: https://www.reddit.com/r/singapore/
 [PRAW]: https://praw.readthedocs.io/en/latest/
+
