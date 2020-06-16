@@ -62,3 +62,10 @@ by: _Siobak118_ (-43 votes)
 > Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
 
 by: _Afraidofdownvotes0_ (-31 votes)
+
+### What are some of the commonly used words?
+![Word Cloud - 2019](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Word%20frequency%20for%20year%202019.png?raw=true)
+![Word Cloud - CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Word%20frequency%20for%20CB%20duration.png?raw=true)
+
+I've plotted a word cloud for the entire year of 2019 as well as for the circuit breaker period. Here, you can see what are some of the most frequently used words by the users. The top few words that are consistently used are "one", "think","work", "time" and "lol". 
+
