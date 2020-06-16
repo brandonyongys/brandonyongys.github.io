@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analysis of Reddit Singapore Daily Thread - Part 1
+title: Analysis of Reddit Singapore Daily Thread - Part 2
 tags: [reddit]
 comments: true
 published: true
