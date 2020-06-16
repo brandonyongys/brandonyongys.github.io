@@ -3,7 +3,7 @@ layout: post
 title: Analysis of Reddit Singapore Daily Thread - Part 1
 tags: [reddit]
 comments: true
-published: false
+published: true
 ---
 
 Today, we'll dive deeper into the comments. Let's take a look at the distribution of the votes received throughout the year as well as finding out what are some of the interesting best and worst comments.
@@ -70,3 +70,5 @@ I've plotted a word cloud for the entire year of 2019 as well as for the circuit
 ![Word Cloud - CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Word%20frequency%20for%20CB%20duration.png?raw=true)
 
 Here, you can see what are some of the most frequently used words by the users. The top few words that are consistently used are "one", "think" and"work".
+
+That's all for this part 2. It's quite a short section. In the next section, I'd like to dive further in and see how have the discussion topics changed over the years.
