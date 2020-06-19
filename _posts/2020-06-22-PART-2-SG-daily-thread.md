@@ -64,11 +64,13 @@ by: _Siobak118_ (-43 votes)
 by: _Afraidofdownvotes0_ (-31 votes)
 
 ### What are some of the commonly used words?
-I've plotted a word cloud for the entire year of 2019 as well as for the circuit breaker period. Prior to analysis, I have removed the commonly stopwords and removed more words that do not bring much significance.
+I've plotted a word cloud for the entire year of 2019 as well as for the circuit breaker period. Prior to analysis, I have removed most of the commonly stopwords and removed more words that do not bring much significance.
 
 ![Word Cloud - 2019](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Word%20frequency%20for%20year%202019.png?raw=true)
 ![Word Cloud - CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Word%20frequency%20for%20CB%20duration.png?raw=true)
 
 Here, you can see what are some of the most frequently used words by the users. The top few words that are consistently used are "one", "think" and"work".
+
+Of course, the above analysis is still in progress, as I did not remove all the stopwords nor have I tokenize the text.
 
 That's all for this part 2. It's quite a short section. In the next section, I'd like to dive further in and see how have the discussion topics changed over the years.
