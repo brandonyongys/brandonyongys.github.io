@@ -3,7 +3,7 @@ layout: post
 title: Analysis of Reddit Singapore Daily Thread - Part 3
 tags: [reddit]
 comments: true
-published: false
+published: true
 ---
 
 This will be my first attempt to do a proper text analysis. In this part, I am going to determine the most frequent bigram and trigram, that is the most frequently used two-word and three-word terms. The bigram and trigram are then plotted into a word cloud, as shown in the previous section. This section is particularly difficult because there are a number of things that I have to do first before I can finally determine the most frequent bigram and trigram.
@@ -25,3 +25,18 @@ Anyway, based on the word cloud, the users tend to talk about jobs, both full ti
 Another popular term is to wish someone to get well soon or feel better soon. This shows that when people are sick, they tend to be online and share with the world that they are sick. Besides wishing someone to get well soon, the community also tend to wish "happy birthday" or "happy cake day", which is the day the reddit account was created, quite frequently.
 
 There are a few food that are mentioned frequently too such as cai png, yong tau foo, char kway teow and bak chor mee. On top of that, there are a few places that are mentioned often such as far east plaza and and mo kio. 
+
+
+### Text analysis for CB period
+![Bigram for CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Most%20frequently%20occurring%20bigrams%20connected%20with%20an%20underscore_%20for%20comments%20during%20CB.png?raw=true)
+Generally the bigrams are similar to that of 2019. But you can see a few new terms related to the current Covid-19 pandemic have popped out such as essential service, wear mask and video call. Mental health was mentioned a number of times. This could be because with CB, mental health services were considered as non-essential despite it being a medical service. This sparked a debate as to why it was classified so.
+
+The recently released game, Animal Crossing, was mentioned quite often and the release of the game coincide nicely with the start of circuit breaker. With the CB, this gives the user more time to play Animal Crossing as they would spending more time at home, be it working or studying. 
+
+![Trigram for CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Most%20frequently%20occurring%20trigrams%20connected%20with%20an%20underscore_%20for%20comments%20during%20CB.png?raw=true)
+
+Based on the trigram word cloud, there are indication of users asking others to contact them for talk such as feel free dm, dm talk anything and free dm talk. This is an indication that the community is starting to feel isolated and lonely during the circuit breaker despite spending more time at home with their family. They may need a form of break from their family. Or this is an indication that they are trying to help patients who need the mental health services but couldn't get. 
+
+Another term that's popular is work permit holder. This is very likely due to the outbreak of Covid-19 in the migrant worker dormitory. Back then there was a sudden and explosive counts of confirmed cases, reaching up to 1000 and more for a period of time. This sparked a debate and discussion online. After almost 2 months, the counts have gone down.
+
+This is the end of my analysis of the SGreddit. It may not have been a long and comprehensive analysis, but hey, I've learned a lot of things here and there. 
