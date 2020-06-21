@@ -12,4 +12,16 @@ First, there are modern slangs that I have to replace with such as "gonna" to "g
 
 The challenging part of the preprocessing step is removing the emoji. I have searched online and used a lot of the suggested emoji removal step and it's not 100% successful. Despite that, I still manage to remove most of it and left a few emoji that may skew the results in the end a little bit. But I'll take that as a success for a first attempt.
 
-### 
+### Text analysis for year 2019
+![Bigram for 2019](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Most%20frequently%20occurring%20bigrams%20connected%20with%20an%20underscore_%20for%20comments%20in%20year%202019.png?raw=true)
+Above is the word cloud for the most frequently used bigram terms for year 2019. It may seems like a bunch of random bigrams but you can see what are the terms that users on SG reddit likes to use. Somehow, they prefer to use bigram that ends with "like" such as "feel like", "sound like", "look like" etc. Besides that, you can see what food that are commonly mentioned such as cai png (mixed rice), chicken rice and ice cream. 
+
+![Trigram for 2019](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Most%20frequently%20occurring%20trigrams%20connected%20with%20an%20underscore_%20for%20comments%20in%20year%202019.png?raw=true)
+
+Here, I have plotted the trigram for 2019. Trigram seems to be more useful as it provides terms that are more informative. As mentioned previously, I have tried my best to remove all the emoji and managed to do some for most of it. There are a few left behind, which explains why there are weird trigrams.
+
+Anyway, based on the word cloud, the users tend to talk about jobs, both full time and part time job, but part time job is more popular. This is an indicative that either the communmity comprises of young adults who are looking for part time jobs or adults that are looking for some part time job on top of their full time job.
+
+Another popular term is to wish someone to get well soon or feel better soon. This shows that when people are sick, they tend to be online and share with the world that they are sick. Besides wishing someone to get well soon, the community also tend to wish "happy birthday" or "happy cake day", which is the day the reddit account was created, quite frequently.
+
+There are a few food that are mentioned frequently too such as cai png, yong tau foo, char kway teow and bak chor mee. On top of that, there are a few places that are mentioned often such as far east plaza and and mo kio. 
