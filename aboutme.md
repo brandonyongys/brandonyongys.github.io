@@ -4,12 +4,11 @@ title: About me
 comments: true
 ---
 
-My name is Brandon Yong. This is my GitHub account to display any data science projects I have completed in the past.
+Hello! Welcome to my Github. I have just officially started my Github page although I've had this for over many years. I am primarily using this to showcase any project I have done, be it from some random analysis to replication of a deep learning paper.
 
-Some basic background information about myself:  
-* Currently working as a research associate/project officer in [Nanyang Technological University (NTU)][NTU] with a primary focus in application of Generative Adversarial Network in the financial field
-* Currently pursuing a part time Master of Science (Statistics) in [National University of Singapore (NUS)][NUS]  
-* Graduated with a Bachelor in Engineering (Chemical Engineering) from [NTU][NTU] in 2016  
+I am currently working as a research associate /project officer at Nanyang Technological University (NTU)][NTU] and my current project is primarily focusing on application of Generative Adversarial Network (GAN) in the financial field. Despite the focus, I am greatly interested in research related to language and geospatial data. So, naturally I am doing my own personal research and study on them.
+
+Through my work and personal study, I know that I am not of PhD material yet as there is still much more for me to learn. Like that, there are known knowns and known unknowns but there is also unknown knowns and unknown unknowns. So hopefully, through my work and personal study, I can discover and learn those unknown knowns and unknown unknowns as well. That is partially why I am currently pursuing a Master in Science (Statistics) in [National University of Singapore (NUS)][NUS] on a part time basis.
 
 Side note: I would like to say thank you to [Dean](https://deanattali.com/) for this wonderful layout. 
 
