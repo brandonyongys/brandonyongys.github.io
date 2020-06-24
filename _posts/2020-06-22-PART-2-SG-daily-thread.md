@@ -3,10 +3,10 @@ layout: post
 title: Analysis of Reddit Singapore Daily Thread - Part 2
 tags: [reddit]
 comments: true
-published: true
+published: false
 ---
 
-Today, we'll dive deeper into the comments. Let's take a look at the distribution of the votes received throughout the year as well as finding out what are some of the interesting best and worst comments.
+In this section, I have to say that there isn't much analysis as much as I am curious about certain things. First, I am curious how many upvotes does a typical comment received and what are some of the interesting most upvoted and downvoted comments of all times. Besides that, what are some of the commonly used words by the community.
 
 ### Distribution of votes received
 Here I have plotted the distribution of the votes received for each comment by month using a letter-value plot from 2017 to 2020 only. The letter-value plot is an enhanced version of a boxplot and it is capable of displaying the tail portion of the distribution that covers the extreme values. A distribution plot would not have displayed the extreme values that are deemed to be outliers and a normal boxplot would have labelled many of the extreme values as outliers.
@@ -63,14 +63,17 @@ by: _Siobak118_ (-43 votes)
 
 by: _Afraidofdownvotes0_ (-31 votes)
 
+
+Based on these few examples, we can see that some of the best comments make the readers feel good and amused whereas the worst comments are usually reflect immmature thinking or dishonesty. 
+
 ### What are some of the commonly used words?
+This is my very first noob attempt at determining the commonly user words in sg reddit. I have to say that this is a very low effort, low return section as I am still learning how to do a proper text analysis. 
+
 I've plotted a word cloud for the entire year of 2019 as well as for the circuit breaker period. Prior to analysis, I have removed most of the commonly stopwords and removed more words that do not bring much significance.
 
 ![Word Cloud - 2019](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Word%20frequency%20for%20year%202019.png?raw=true)
 ![Word Cloud - CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Word%20frequency%20for%20CB%20duration.png?raw=true)
 
-Here, you can see what are some of the most frequently used words by the users. The top few words that are consistently used are "one", "think" and"work".
-
-Of course, the above analysis is still in progress, as I did not remove all the stopwords nor have I tokenize the text.
+Here, you can see what are some of the most frequently used words by the users. The top few words that are consistently used are "one", "think" and"work". Of course, the above analysis is still in progress, as I did not remove all the stopwords nor have I removed any emoji or url. 
 
 That's all for this part 2. It's quite a short section. In the next section, I'd like to dive further in and see how have the discussion topics changed over the years.
