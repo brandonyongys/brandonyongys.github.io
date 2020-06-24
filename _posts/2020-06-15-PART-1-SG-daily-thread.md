@@ -14,7 +14,9 @@ The information thaw I scraped are :
   3. time of comment submission
   4. votes of the comment
 
-I then collated all the information into a huge csv file and used it as the master file for my analysis. Though I should research more on what is the more appropriate method to store all these information _(json or csv or is there a better option?)_. Anyway, below is my initial analysis of the daily threads over the years, primarily focused on the basic descriptive information. Before I start my analysis, I first preprocess my data by removing any comment that was removed or deleted.
+I then collated all the information into a huge csv file and used it as the master file for my analysis. Though I should research more on what is the more appropriate method to store all these information _(json or csv or is there a better option?)_. Anyway, this is my first proper data analysis work. Hopefully I do it some justice and gain some insights.
+
+Before I start, I did some preprocessing work first. I first extracted the day of the week and week number for each date that I have. After that, I removed any rows that represent either a deleted or removed comment. Here on out, I am doing my analysis based on the clean data set without any deleted or removed comments unless stated otherwise.
 
 ### How has the community of SG daily thread grown over the years?
 ![No of daily unique posters](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202006-sg-reddit/No%20of%20unique%20users%20-%20day.png)
