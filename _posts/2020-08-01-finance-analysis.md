@@ -14,7 +14,7 @@ Every Monday at the [Finance sub](https://old.reddit.com/r/finance/), a new thre
 
 First thing that I'd like to know is the total number of comments in each weekly thread. So, here I have counted and plotted a figure to illustrate the number of comments since 2014. 
 
-![Weekly no of comments](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202008-reddit-finance/01%20Weekly%20no%20of%20comments.png?raw=true)
+![Weekly no of comments](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/01%20Weekly%20no%20of%20comments.png)
 
 Two things that you can notice: 
 1. There is an obvious upward trend. So it is not a stationary time series data.
@@ -24,7 +24,7 @@ This would be a good time to dig out my time series knowledge and implement an A
 
 I then developed an ARIMA model on a rolling basis assuming that the set of parameter remains valid. What this means is that for next prediction, I refit my ARIMA model based on the most recent _n_ data points, in this case, _n_ = 164. The prediction made and the 95% confidence interval as well as the actual no of comments are plotted in the figure below. The ARIMA model works well as it is able to capture the seasonality trend and most of the actual no of comments are well within the confidence interval. However, it should be noted the confidence interval is rather large as the standard deviation is about 35. 
 
-![Actual vs predicted no of comments](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202008-reddit-finance/02%20ARIMA%20model.png?raw=true)
+![Actual vs predicted no of comments](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/02%20ARIMA%20model.png)
 
 
 
