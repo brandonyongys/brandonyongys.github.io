@@ -31,27 +31,32 @@ The second thing I'm looking at is the number of words in the comments, which in
 
 ![Boxplot of no of words](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/03%20Boxplot%20no%20of%20words.png)
 
-The range of words for each comment doesn't change much throughout the years as a poster would typically write 120 or fewer words per comment, excluding any emoji or no content comments. However, there are still a number of comments in each weekly thread that are considered as outliers. Let's take a look at these comments. For this, I will just consider comments with more than 120 words for simplicity sake.
+I chose to plot the distribution by changing the scale for the y-axis to a log scale so the illustrated boxplot is not skewed to the lower range. The number of words for each comment doesn't change much throughout the years as each comment is typically 120 words or less, excluding comments with emoji only. However, there are still a number of comments in each weekly thread that are considered as outliers in the box plot. These comments are the comments that are more in depth as the poster took the time and effort to put things into perspective for the reader to better understand.
+
 
 ## What are the typically discussed in the weekly thread?
-To answer this, I would plot a word cloud with the font size of the terms representing the frequency of the term used. First, I would remove all the stop words in the comments. I have also removed any url and emails within the comments. After cleaning up the text data, the bigram and trigram word cloud are plotted as below:
+To answer this, I would plot a word cloud with the font size of the terms representing the frequency of the term used. First, I would remove all the stop words in the comments. I have also tried my best to remove all the urls and emails within the comments but some would still slip through. After cleaning up the text data, the top 150 bigram and trigram word cloud are plotted as below:
 
 
 ![Bigram for all comments](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/05%20Bigram%20for%20all%20comments.png)
 ![Trigram for all comments](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/05%20Trigram%20for%20all%20comments.png)
 
-There is nothing surprising here. Most of the terms used are related to finance. In the bigram word cloud, the font size of the different terms are about the same, which indicates that these frequently used terms are used at approximately the same frequency. However, when we look at the trigram, we can see that only a few 3-words terms are frequently used, which are future/free cash flow, some sort of rates such as the risk free rate and federal fund rate.  
+There is nothing surprising here. Most of the terms used are related to finance. In the bigram word cloud, the font size of the different terms are about the same, which indicates that these frequently used terms are used at approximately the same frequency. However, when we look at the trigram, we can see that only a few 3-words terms are frequently used, which are future/free cash flow and some sort of rates such as the risk free rate and federal fund rate.  
 
 Based on these two word clouds, we could conclude that the discussions often revolves around the impact of cash flow and rates on investment such as stock price and stock market. Not to mention, there is a huge emphasis on time value of money. I guess that that huge emphasis is necessary since anyone that asks a question here is often new to finance topic.
 
 
+## How many votes are given to each comment?
+![Boxplot of upvotes](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/04%20Boxplot%20upvotes.png)
+
+Here, I plotted a boxplot for each weekly thread to illustrate the distribution of upvotes. I excluded comments with 0 vote because a posted comment would come with 0 upvote by default. Of course there would be possibility that the net upvote is equal to 0 but I'd assume that that probability is very low. 
+
+It's quite clear that a typical comment in the Moronic Monday would often receive upvotes than downvotes. People would typically give an upvote if they agree with the stated comment or on the same page as the poster. You can see that it's typically 1 to 3 people who upvotes a comment. 
+
+If a comment were to receive a downvote, it would typically receive 1 or 2 downvotes. As the number of downvotes increase, the frequency decreases. Considering that this is a weekly thread pinned to allow the community to ask questions, no matter how stupid it may be, the community in generally are fine with the questions and are more than glad to see such question posted in here than as a whole new thread.
+
+
 ## What are the typical terms used in the comments?
-![Boxplot of upvotes](link)
-
-Here, I plotted a boxplot for each weekly thread to illustrate the distribution of upvotes. I excluded comments with 1 upvote because a posted comment would come with 1 upvote by default. Of course there would be possibility that the net upvote is equal to 1 but I'd assume that that probability is very low. 
-
-It's quite clear that a typical comment in the Moronic Monday would often receive upvotes than downvotes. People would typically give an upvote if they agree with the stated comment in general or the original poster is asking a question that they too would have asked but afraid to do so. You can see that it's typically 1 to 3 people who like the comment. 
-
 You can see that there are a lot of comments with upvotes thaat are considered as outliers. Almost all comments that received at least 1 downvote are considered as outliers. As for the comments that received upvotes, it is usually those with at least 4 upvotes are considered as outliers. Let's take a look at bigrams and trigrams that often appear in comments with at least 4 upvotes and 1 downvote respectively.
 
 
@@ -74,7 +79,7 @@ Looking at the bigram and trigram for comments with at least 1 downvote, one can
 ## Can I predict how many upvotes a comment may receive?
 
 
-
+## Let's take a look at these comments. For this, I will just consider comments with more than 120 words for simplicity sake.
 
 
 
