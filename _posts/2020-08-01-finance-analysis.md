@@ -8,7 +8,7 @@ published: true
 
 Every Monday at the [Finance sub](https://old.reddit.com/r/finance/), a new thread will be posted to allow the community to ask questions anything about finance such as financial careers, homework problems and finance in general. Some of the questions asked may be quite simple and could be easily googled and others are not as easily googled. In those questions, the responses are rather in depth and long. So I would like to see whether can I extract some sort of useful data from the numerous comments. Here, I downloaded every comment in the weekly Moronic Monday thread from 10 November 2014 to 18 July 2020 from a total of 296 threads. With that, I have gathered a total of 15,734 comments to analyse.
 
-## Can I predict next week's total comment counts?
+## 1. Can I predict next week's total comment counts?
 First thing that I'd like to know is the total number of comments in each weekly thread. So, here I have counted and plotted a figure to illustrate the number of comments since 2014. 
 
 ![Weekly no of comments](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/01%20Weekly%20no%20of%20comments.png)
@@ -26,7 +26,7 @@ I then developed an ARIMA model on a rolling basis assuming that the set of para
 However, it should be noted the confidence interval is rather large as the standard deviation is about 35. Since this is a finance thread for Reddit users to ask questions, they could be asking questions related to recent actions taken by some financial institutions or the impacts of some regional or global events such as the ongoing Covid-19 pandemic. A more accurate model could be built if such information can be incorporated. 
 
 
-## How lengthy are the comments?
+## 2. How lengthy are the comments?
 The second thing I'm looking at is the number of words in the comments, which indicates how lengthy each comment is. I first preprocessed the data by removing ny deleted or removed comments as well as comments with no content such as an emoji response. Any URL are replaced with the term "URL" to ease the preprocessing. Besides that, I also removed any quotes the poster may have made within the comment as I would like to see new content rather than repeated contents.
 
 ![Boxplot of no of words](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/03%20Boxplot%20no%20of%20words.png)
@@ -34,7 +34,7 @@ The second thing I'm looking at is the number of words in the comments, which in
 I chose to plot the distribution by changing the scale for the y-axis to a log scale so the illustrated boxplot is not skewed to the lower range. The number of words for each comment doesn't change much throughout the years as each comment is typically 120 words or less, excluding comments with emoji only. However, there are still a number of comments in each weekly thread that are considered as outliers in the box plot. These comments are the comments that are more in depth as the poster took the time and effort to put things into perspective for the reader to better understand.
 
 
-## What are the typically discussed in the weekly thread?
+## 3. What are the typically discussed in the weekly thread?
 To answer this, I would plot a word cloud with the font size of the terms representing the frequency of the term used. First, I would remove all the stop words in the comments. I have also tried my best to remove all the urls and emails within the comments but some would still slip through. After cleaning up the text data, the top 150 bigram and trigram word cloud are plotted as below:
 
 
@@ -46,7 +46,7 @@ There is nothing surprising here. Most of the terms used are related to finance.
 Based on these two word clouds, we could conclude that the discussions often revolves around the impact of cash flow and rates on investment such as stock price and stock market. Not to mention, there is a huge emphasis on time value of money. I guess that that huge emphasis is necessary since anyone that asks a question here is often new to finance topic.
 
 
-## How many votes are given to each comment?
+## 4. How many votes are given to each comment?
 ![Boxplot of upvotes](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/04%20Boxplot%20upvotes.png)
 
 Here, I plotted a boxplot for each weekly thread to illustrate the distribution of upvotes. I excluded comments with 0 vote because a posted comment would come with 0 upvote by default. Of course there would be possibility that the net upvote is equal to 0 but I'd assume that that probability is very low. 
@@ -56,24 +56,15 @@ It's quite clear that a typical comment in the Moronic Monday would often receiv
 If a comment were to receive a downvote, it would typically receive 1 or 2 downvotes. As the number of downvotes increase, the frequency decreases. Considering that this is a weekly thread pinned to allow the community to ask questions, no matter how stupid it may be, the community in generally are fine with the questions and are more than glad to see such question posted in here than as a whole new thread.
 
 
-## What are the typical terms used in the comments?
-You can see that there are a lot of comments with upvotes thaat are considered as outliers. Almost all comments that received at least 1 downvote are considered as outliers. As for the comments that received upvotes, it is usually those with at least 4 upvotes are considered as outliers. Let's take a look at bigrams and trigrams that often appear in comments with at least 4 upvotes and 1 downvote respectively.
 
 
+## 5. What are the typical terms used in the comments with net upvotes and downvotes?
+Likewise, I plotted the bigram and trigram word cloud for the comments with a net upvotes and downvotes respectively. I observed that there are hardly any difference in the terms used for the comments with net upvotes and the terms in the word clouds in Section 3. So I would not be showing the figures for it. Instead, I would show the figures for the comments with net downvotes.
 
-Before constructing the bigrams and trigrams, I first have to remove any url and stopwords such as "the", "those" etc that do not add value or context. 
-![Bigram for upvotes comments](link)
-![Trigram for upvotes comments](link)
+![Bigram for downvotes comments](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/05%20Bigram%20for%20downvotes.png)
+![Trigram for downvotes comments](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-reddit-finance/05%20Trigram%20for%20downvotes.png)
 
-Based on the bigram, the users would often discuss about interest rate, stock market and the financial statements of a company such as cash flow and balance sheet. Based on the trigram, we can observe that the discussions seem to gear more towards the impact of the different matters in the stock market such as the fed interest rate and free cash flow. These can impact how one could evaluate a financial asset and determine whether it is a good investment.
-
-![Bigram for downvotes comments](link)
-![Trigram for downvotes comments](link)
-
-Looking at the bigram and trigram for comments with at least 1 downvote, one can get the general sense that the community is not in favour credit card debts, making fast cash or things that can easily googled.
-
-
-
+Above are the bigram and trigram figures for comments with at least 1 downvote. One can get a general sense that the finance community is not in favour of discussions about one's personal finance management such as credit score or credit card debt, or attempting to make fast money by risky investment such as short selling. These are very much in line with the sub's purpose, which is to discuss about the multiple facets of corporate and advanced finance but not about financial advice and risky statements.
 
 
 ## Can I predict how many upvotes a comment may receive?
