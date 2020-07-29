@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analysis of Reddit Singapore Daily Thread - Part 3
+title: Financial independence
 tags: [reddit]
 comments: true
 published: true
@@ -29,7 +29,7 @@ There is hardly any growth in terms of number of comments in each weekly thread.
 
 ![No of words](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-finance-FIRE/03%20Boxplot%20no%20of%20words.png)
 
-As for the number of words, the comment is typically 400 words or less, excluding any quotes. This is consistent with the need that the user, especially those who are seeking for advice, would need to provide quite an elaborate details of themselves and their financial matters.
+As for the number of words, the comment is typically 400 words or less, excluding any quotes. The comments with 400 words or more are usually the comments from the people who are seeking for advice, as they are doing their best to provide as much information as needed so that they could get as much advice and help as possible. On the other hand, the comments with 400 words or less are usually the responses to the seeker. 
 
 
 ## What is the background of the people who usually ask for help?
@@ -40,8 +40,9 @@ From this, I'd try to mine the data from the somewhat structured yet unstructure
 ### Age group
 ![Age distribution](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-finance-FIRE/01%20Age%20distribution.png)
 
-Most of the users that are seeking for FIRE advice are typically from pre 20s to 30s with the 20s as the major age class. This is not too surprising since it would be much easier to achieve their FIRE goal if they were to start their FIRE journey early. There are still a group of users who are within their 40s and 50s and are seeking help to FIRE. There are not a lof them but still, some of them may need help as they are still struggling to do so. I am happy for them to speak up and ask for advice instead going down their original path. Better late than never :).
+Most of the users that are seeking for FIRE advice are typically from 20s to 30s. This is not too surprising since it would be much easier to achieve their FIRE goal if they were to start their FIRE journey early. There are still a group of users who are within their 40s and 50s and are seeking help to FIRE. There are not a lof them but still, some of them may need help as they are still struggling to do so. I am happy for them to speak up and ask for advice instead going down their original path. Better late than never :).
 
+Nonetheless, this distribution shows how the younger generations are trying to be more financially responsible and are seeking ways to reduce their financial burden and setting up for their kids.
 
 ### Location of users
 
