@@ -49,7 +49,9 @@ Among the thousands of words that are used by the users, I want to find out what
 
 ![Bigram](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-finance-FIRE/06%20Bigram%20for%20all%20comments.png)
 
-Based on the bigram word cloud, the top three bigrams are student loan, Roth IRA, and emergency fund. It makes sense to see student loan as one of the most frequently mentioned bigram considering that most of the users who are seeking for FIRE advice are in their 20s. So they would more likely to have some student loan to pay off, especially in the US since their tuition fee is considerably high, and they are adviced to pay it off as soon as possible to reduce their debt. In order to achieve FIRE with little worry, one would always need to have an emergency fund for unplanned events such as car repair or unemployment during a crisis. That way, one does not have to be too worried about their day to day living expenses. The emergency fund should be placed in some high yield saving account, a term that is frequently shown in the trigram word cloud below.
+Based on the bigram word cloud, the top three bigrams are student loan, Roth IRA, and emergency fund. It makes sense to see student loan as one of the most frequently mentioned bigram considering that most of the users who are seeking for FIRE advice are in their 20s. So they would more likely to have some student loan to pay off, especially in the US since their tuition fee is considerably high, and they are adviced to pay it off as soon as possible to reduce their debt. 
+
+In order to achieve FIRE with little worry, one would always need to have an emergency fund for unplanned events such as car repair or unemployment during a crisis. That way, one does not have to be too worried about their day to day living expenses. The emergency fund should be placed in some high yield saving account, a term that is frequently shown in the trigram word cloud below.
 
 ![Trigram](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202008-finance-FIRE/06%20Trigram%20for%20all%20comments.png)
 
