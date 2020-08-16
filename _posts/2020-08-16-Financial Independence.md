@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Financial independence
+title: The FIRE Movement
 tags: [reddit]
 comments: true
 published: true
