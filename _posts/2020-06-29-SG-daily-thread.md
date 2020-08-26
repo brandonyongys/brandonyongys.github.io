@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Analysis of Reddit Singapore Daily Thread - Part 3
+title: SGReddit - How are you?
 tags: [reddit]
 comments: true
 published: true
 ---
 
 
-[Reddit][https://www.reddit.com/] is a very popular website which I frequent almost on a daily basis. That is how I mostly keep up to date with the daily news. There are subforums, called subreddit, which are dedicated to various communities such as [world news][https://www.reddit.com/r/worldnews/], [data science][https://www.reddit.com/r/datascience/] and [skin care addiction][https://www.reddit.com/r/SkincareAddiction/]. One particular sub that I often visit is the [SGreddit][https://www.reddit.com/singapore/], where I find out the latest memes or happenings in Singapore. Now, just like every other sub, there is a pinned daily thread that allows the users to write comments about anything that don't warrant a separate thread and it is called the "/r/singapore random discussion and small questions thread". I'm interested to analyse the daily thread right from the beginning until now and try to find some insights of the SGreddit, especially during this circuit breaker period where people are either working from home or having home-based learning.
+[Reddit](https://www.reddit.com/) is a very popular website which I frequent almost on a daily basis. That is how I mostly keep up to date with the daily news. There are subforums, called subreddit, which are dedicated to various communities such as [world news](https://www.reddit.com/r/worldnews/), [data science](https://www.reddit.com/r/datascience/) and [skin care addiction](ttps://www.reddit.com/r/SkincareAddiction/). One particular sub that I often visit is the [SGreddit](https://www.reddit.com/singapore/), where I find out the latest memes or happenings in Singapore. Now, just like every other sub, there is a pinned daily thread that allows the users to write comments about anything that don't warrant a separate thread and it is called the "/r/singapore random discussion and small questions thread". I'm interested to analyse the daily thread right from the beginning until now and try to find some insights of the SGreddit, especially during this circuit breaker period where people are either working from home or having home-based learning.
 
-The daily threads are scraped using the [PRAW API][https://praw.readthedocs.io/en/latest/] from 24th June 2014 up to 2nd June 2020. With that, I have managed to mine a total of 2166 out of 2173 threads. 7 threads are missing and cannot be found on Reddit. No idea why is that the case. The information that I mined are:
+The daily threads are scraped using the [PRAW API](https://praw.readthedocs.io/en/latest/) from 24th June 2014 up to 2nd June 2020. With that, I have managed to mine a total of 2166 out of 2173 threads. 7 threads are missing and cannot be found on Reddit. No idea why is that the case. The information that I mined are:
 1. content of the comment  
 1. username of the comment
 1. time of comment submission
