@@ -3,7 +3,7 @@ layout: post
 title: Analysis of Reddit Singapore Daily Thread - Part 3
 tags: [reddit]
 comments: true
-published: true
+published: false
 ---
 
 This will be my first attempt to do a proper text analysis. In this part, I am going to determine the most frequent bigram and trigram, that is the most frequently used two-word and three-word terms. The bigram and trigram are then plotted into a word cloud, as shown in the previous section. This section is particularly difficult because there are a number of things that I have to do first before I can finally determine the most frequent bigram and trigram.
