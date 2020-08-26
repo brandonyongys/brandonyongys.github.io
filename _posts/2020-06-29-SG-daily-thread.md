@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SGReddit - How are you?
+title: SGReddit, how are you?
 tags: [reddit]
 comments: true
 published: true
@@ -175,7 +175,7 @@ Above is the word cloud for the most frequently used bigram terms for year 2019.
 
 Here, I have plotted the trigram for 2019. Trigram seems to be more useful as it provides terms that are more informative. As mentioned previously, I have tried my best to remove all the emoji and managed to do some for most of it. There are a few left behind, which explains why there are weird trigrams.
 
-Anyway, based on the word cloud, the users tend to talk about jobs, both full time and part time job, but part time job is more popular. This is an indicative that either the communmity comprises of young adults who are looking for part time jobs or adults that are looking for some part time job on top of their full time job.
+Anyway, based on the word cloud, the users tend to talk about jobs, both full time and part time job, but part time job is more popular. This is an indicative that either the communmity comprises of young adults who are looking for part time jobs or adults that are looking for some part time job on top of their full time job. This raises a question - **_are people in Singapore earning enough for their daily expenses and retirement or are they spending more than they are earning?_**
 
 Another popular term is to wish someone to get well soon or feel better soon. This shows that when people are sick, they tend to be online and share with the world that they are sick. Besides wishing someone to get well soon, the community also tend to wish "happy birthday" or "happy cake day", which is the day the reddit account was created, quite frequently.
 
@@ -192,6 +192,7 @@ The recently released game, Animal Crossing, was mentioned quite often and the r
 
 Based on the trigram word cloud, there are indication of users asking others to contact them for talk such as feel free dm, dm talk anything and free dm talk. This is an indication that the community is starting to feel isolated and lonely during the circuit breaker despite spending more time at home with their family. They may need a form of break from their family. Or this is an indication that they are trying to help patients who need the mental health services but couldn't get. 
 
-Another term that's popular is work permit holder. This is very likely due to the outbreak of Covid-19 in the migrant worker dormitory. Back then there was a sudden and explosive counts of confirmed cases, reaching up to 1000 and more for a period of time. This sparked a debate and discussion online. After almost 2 months, the counts have gone down.
+Another term that's popular is work permit holder. This is very likely due to the outbreak of Covid-19 in the migrant worker dormitories. Back then there was a sudden and explosive counts of confirmed cases, reaching up to 1000 and more for a period of time. This sparked a debate and discussion online. After almost 2 months, the counts have gone down.
 
-This is the end of my analysis of the SGreddit. It may not have been a long and comprehensive analysis, but hey, I've learned a lot of things here and there. 
+#### In short
+The community of SGreddit has grown since 2014 but the growth has slowed down significantly since 2018 where the total monthly users hover between 1600 and 1800. With the ongoing circuit breaker, the community has become more active with more users logging in. This is due to the extra time everyone studying/working at home. It has come to the point where people are more active than ever especially at night. However, despite the additional activity, some of the users may actually feel more isolated, depressed or lonely during the circuit breaker and feel the need to reach out to others to talk. The recent outbreak in migrant worker dormitories has sparked an online discussion.
