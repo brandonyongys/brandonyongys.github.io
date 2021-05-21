@@ -3,7 +3,6 @@ layout: post
 title: Getting my first official data science job
 subtitle: We are data rich but not information rich.
 gh-repo: daattali/beautiful-jekyll
-gh-badge: [star, fork, follow]
 tags: [data science, job]
 comments: true
 published: true
