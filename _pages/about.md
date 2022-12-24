@@ -22,7 +22,9 @@ Hi there! Welcome to my humble github page. I'm Brandon and this is where you co
 
 My meaningful healthcare data scientist work started at Singapore General Hospital, which is where I am still at! It is also where I got know a lot of like-minded people who wish to contribute back to the public good by improving the 
 
-Whenever I have some down time here and there, I enjoy reading [reddit](http://reddit.com) and plan my next escape. Tentatively, I am due 
+Whenever I have some down time here and there, I enjoy reading [reddit](http://reddit.com) and start planning my next escape. One of my to-do list is to visit the North or South Pole! And also, see the aurora with my own eyes. 
+
+At the moment, I am still setting up my github. So pardon the tardiness.
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
