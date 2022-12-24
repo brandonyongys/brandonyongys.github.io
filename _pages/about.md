@@ -20,6 +20,10 @@ social: true  # includes social icons at the bottom of the page
 
 Hi there! Welcome to my humble github page. I'm Brandon and this is where you could find some of the projects I have worked on or currently working on. It would be updated from time to time as I am focusing most of my time on my meaningful work as a healthcare data scientist as well as living my life to the fullest. 
 
+My meaningful healthcare data scientist work started at Singapore General Hospital, which is where I am still at! It is also where I got know a lot of like-minded people who wish to contribute back to the public good by improving the 
+
+Whenever I have some down time here and there, I enjoy reading [reddit](http://reddit.com) and plan my next escape. Tentatively, I am due 
+
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
