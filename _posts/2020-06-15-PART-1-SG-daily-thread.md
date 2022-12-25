@@ -1,28 +1,28 @@
 ---
 layout: post
-title: Analysis of Reddit Singapore Daily Thread - Part 1
+title: Analysis of SGReddit Daily Thread - Part 1
 date:   2020-06-15
 description: march & april, looking forward to summer
 tags: [reddit, singapore]
-categories: sample-posts
+categories: analysis
 comments: true
 published: true
 ---
 
-This is part 1 of the series on the analysis of the [SGreddit][SGreddit] daily thread. I scraped the daily threads from 24th June 2014 up to 2nd June 2020 using the [PRAW API][PRAW], giving me a total of 2166 threads. Though I have to admit that I was supposed to crawl 2173 daily threads but 7 threads were missing and couldn't be found on Reddit.
+This is part 1 of 3 parts analysis of the [SGreddit][SGreddit] daily threads. The data from 24 Jun 2014 to 2 Jun 2020 were scraped using [PRAW API][PRAW] and this gives me a total of 2166 threads. Though I have to admit that I was supposed to get 2173 threads over 7 threads were missing and couldn't be found on Reddit. The information that I scraped were:
+<ul>
+  <li>content of the comment</li>
+  <li>username of the comment</li>
+  <li>time of comment submission</li>
+  <li>votes of the comment</li>
+</ul> 
 
-The information that I scraped are : 
-  1. content of the comment  
-  2. username of the comment
-  3. time of comment submission
-  4. votes of the comment
+I then collated all these information into a huge master csv file. There must be a better way to collate and analyse these huge amount of data _(perhaps json?)_. Anyway, this is my first proper data analysis work. Hopefully I do it some justice and gain some insights.
 
-I then collated all the information into a huge csv file and used it as the master file for my analysis. Though I should research more on what is the more appropriate method to store all these information _(json or csv or is there a better option?)_. Anyway, this is my first proper data analysis work. Hopefully I do it some justice and gain some insights.
-
-Before I start, I did some preprocessing work first. I first extracted the day of the week and week number for each date that I have. After that, I removed any rows that represent either a deleted or removed comment. Here on out, I am doing my analysis based on the clean data set without any deleted or removed comments unless stated otherwise.
+Before I started any analysis, I first have to do some preprocessing work. The day of the week and week number for each each were extracted. Deleted or removed comments were removed from the data. Thereafter, the analysis is done on the clean dataset.
 
 ### How has the community of SG daily thread grown over the years?
-First thing I want to know is how has the community grown over the years, even before I joined Reddit. One way to track and estimate the growth of the community is to determine the number of daily unique users for the daily thread. No doubt that a person may have created multiple accounts such as a throwaway account and make a comment on the daily thread but based on my experience, I don't see many throwaway accounts. So this should be a good representation of the community growth.
+First thing I want to know is how has the community grown over the years, even before I joined Reddit. One way to track and estimate the growth of the community is to determine the number of daily unique users for the daily thread. No doubt that the same person may have created multiple accounts such as a throwaway account and make a comment on the daily thread but based on my experience, I don't see many throwaway accounts. So this should be a good representation of the community growth.
 
 ![No of daily unique posters](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202006-sg-reddit/No%20of%20unique%20users%20-%20day.png)
 
