@@ -37,12 +37,13 @@ Above figure is the number of daily unique posters for each daily thread in a he
 
 Despite the missing data, you can clearly see that the number of unique posters have been increasing week on week. Besides that, you can see the clear distinction in the number of unique posters on weekday daily threads versus the weekend daily threads. A possible explanation is that more redditors would be online on weekdays due to reasons such as being at work, whereas redditors would be enjoying their lives on the weekends such as going out to the shopping malls or exercising.
 
-![No of monthly unique posters](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/No%20of%20unique%20users%20-%20month%202.png?raw=true)
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/No%20of%20unique%20users%20-%20month%202.png" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Monthly number of unique posters from 24 Jun 2014 to 2 Jun 2020.
 </div>
 
 Besides that, I also plotted the total monthly unique posters as shown in the figure above. The horizontal axis represents the year and the vertical axis is the month. The total number of unique posters for June 2014 and June 2020 are underrepresented as I do not have the full month data. Looking at this figure, you can see that from June 2014 to December 2017, the monthly total unique posters keeps increasing. Starting from January 2018, the monthly total unique posters hovers around 1600 to 1800 and have been that way ever since. 
@@ -59,6 +60,9 @@ Since there is evidence that the community is growing, how about the number of c
         {% include figure.html path="assets/img/202006-sg-reddit/No%20of%20posts%20-%20day.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Heatmap of number of daily posts from 24 Jun 2014 to 2 Jun 2020.
+</div>
 
 I have plotted another heatmap for the daily number of comments for each of the daily thread. Likewise, the horizontal axis is the week number of the year and the vertical axis is the day of the week. The colour map is centered about 1000 comments.
 
@@ -72,6 +76,9 @@ Besides that, you can also clearly see that the number of posts on the daily thr
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/No%20of%20posts%20-%20day%20median.png" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Median number of daily posts from 24 Jun 2014 to 2 Jun 2020.
 </div>
 
 We can take a look from a different perspective by plotting the median number of posts for each day of the week by year. I decided to use the median value instead of mean value because of the high count of comments in 2018, which can significantly skew the results. The values for first 3 years (2014 to 2016) should be taken with a pinch of salt as the number of comments back then was still experiencing growth and hasn't reached its stationary stage yet. So simply taking a median value for then period is like taking the mid point of an ever increasing growth.
@@ -88,6 +95,9 @@ I am wondering and checking whether has an average user submitting fewer comment
         {% include figure.html path="assets/img/202006-sg-reddit/No%20of%20posts%20per%20user%20-%20day.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Heatmap of number of posts per poster from 24 Jun 2014 to 2 Jun 2020.
+</div>
 
 The average number of posts per user back then was about 2 to 3 posts and it has grow up to 3 to 4 posts in recent time. Occasionally the number of posts per user does go up to 5 and beyond. You can see a clear difference in number of posts per user on weekdays versus weekends. Users tend to post about 3 to 4 posts on weekdays and on weekends, they tend to post about 2 to 3. The average user is slightly less chatty because of the reduced number of users that contribute the community engagement.
 
@@ -100,6 +110,9 @@ Looking at the blue bars, which indicate a high number of posts per user, there 
         {% include figure.html path="assets/img/202006-sg-reddit/Median%20no%20of%20posts%20per%20user%20-%20day.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+<div class="caption">
+    Median number of posts per poster from 24 Jun 2014 to 2 Jun 2020.
+</div>
 
 Looking at the heatmap above, the average user in 2020 has posted slightly fewer comments as compared to the median posts per user in 2017 to 2019. This is odd as I would have expected that circuit breaker would have increased the number of users and posts. I suppose that since non-essential workers were working from home for the entire circuit breaker and students were doing home based learning in the first half of circuit breaker and then they were on their June holiday in the second half, so their lives were less happening and they have fewer things to rant or talk about. 
 
@@ -111,6 +124,9 @@ I decided to use the data for 2019 to calculate and plot the average hourly numb
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/Hourly%20posts%20-%20average%202019.png" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Hourly average number of posts by day in the full year of 2019.
 </div>
 
 You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is where the trend of weekday and weekend start to diverge. The reason for the sudden drop in activity from 6am to 1pm is because 1) a new daily thread is posted and pinned, replacing the previous day thread and ending all discussions in the previous day thread, and 2) the users are preparing to go to work/school and are focusing on them first.
@@ -126,6 +142,9 @@ One thing to note is that on Thursday between 4 to 7pm, the number of comments p
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/Hourly%20posts%20-%20average%20CB.png" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Hourly average number of posts by day during circuit breaker 2020.
 </div>
 
 I've also plotted the average hourly comments for the ciruit breaker period as well. The shape is generally the same as last year's average hourly comments. However, there are a few notable changes.
