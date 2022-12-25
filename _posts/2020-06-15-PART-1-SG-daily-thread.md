@@ -24,7 +24,7 @@ Before I started any analysis, I first have to do some preprocessing work. The d
 ### How has the community of SG daily thread grown over the years?
 First thing I want to know is how has the community grown over the years, even before I joined Reddit. One way to track and estimate the growth of the community is to determine the number of daily unique users for the daily thread. No doubt that the same person may have created multiple accounts such as a throwaway account and make a comment on the daily thread but based on my experience, I don't see many throwaway accounts. So this should be a good representation of the community growth.
 
-![No of daily unique posters](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202006-sg-reddit/No%20of%20unique%20users%20-%20day.png)
+![No of daily unique posters](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/assets/img/202006-sg-reddit/No%20of%20unique%20users%20-%20day.png?raw=true)
 
 Above figure is the number of daily unique users for each of the daily thread in a heatmap form. The horizontal axis is the week number of the year and vertical axis is the day of the week with Monday at the top and Sunday at the bottom. As the number of unique users increases, the intensity of the colour increases based on the colour map on the side, starting from light green up to dark green. The white bars in the heatmap represent the missing data. 
 
