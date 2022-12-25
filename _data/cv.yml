@@ -1,7 +1,7 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Brandon Yong
     - name: Date of Birth
       value: 11 Apr 1993
@@ -10,25 +10,22 @@
     - name: Languages
       value: English, Malay, Mandarin
 
+- title: Life milestones
+  type: list
+  contents:
+    1. ??
+    1. ???
+
 - title: Education
   type: time_table
   contents:
     - title: Master of Science (Statistics)
       institution: National University of Singapore (NUS), Singapore
       year: 2021
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+
     - title: Bachelor of Engineering (Chemical and Biomolecular Engineering)
       institution: Nanyang Technological University (NTU), Singapore
       year: 2016
-      description:
-        - Description 1.
-        - Description 2.
 
 - title: Work experience
   type: time_table
@@ -37,27 +34,25 @@
       institution: Department of Data Science, Singapore General Hospital (SGH), Singapore
       year: Dec 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
+        - Technical team lead of 3 junior data scientists.
+        - Constantly looking out for new hires.
+        - Deploying Prophet model to predict daily haemodialysis orders for manpower allocation.
+        - Developing new novel model to dynamically identify patients with impending ICU admission or death.
+
     - title: Data Scientist
-      institution: Data Science and Machine Learning, SGH, Singapore
+      institution: Data Science and Machine Learning (DSML), SGH, Singapore
       year: Nov 2020 - Nov 2022
       description:
-        - Description 1.
-        - Description 2.
+        - First member of the DSML team and pushed the boundaries to expand the DS capabilities.
+        - Developed Prophet model to predict daily haemodialysis orders for manpower allocation.
+        - Developed XGBoost model to identify high-risk A&E patients.
 
     - title: Project Officer
       institution: School of Physical and Mathematical Sciences, NTU, Singapore
       year: Oct 2018 - Oct 2020
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
       description:
+        - Developed ML model that uses topological features to predict RNA flexibility property with at least 16% improvement.
+        - Developed a Maximum Mean Discrepancy GAN algorithm to generate financial data with restrictions.
 
 
 #- title: Open Source Projects
@@ -93,4 +88,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Travelling
