@@ -1,7 +1,8 @@
 - title: Life mission
   contents:
     Don't be evil and strive for the greater good. 
-    
+
+ 
 - title: General Information
   type: map
   contents:
@@ -14,9 +15,6 @@
     - name: Languages
       value: English, Malay, Mandarin
 
-- title: Life mission
-  contents:
-    Don't be evil and strive for the greater good. 
 
 - title: Education
   type: time_table
@@ -28,6 +26,7 @@
     - title: Bachelor of Engineering (Chemical and Biomolecular Engineering)
       institution: Nanyang Technological University (NTU), Singapore
       year: 2016
+
 
 - title: Work experience
   type: time_table
