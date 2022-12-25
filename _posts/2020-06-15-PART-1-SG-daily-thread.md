@@ -21,6 +21,8 @@ I then collated all these information into a huge master csv file. There must be
 
 Before I started any analysis, I first have to do some preprocessing work. The day of the week and week number for each each were extracted. Deleted or removed comments were removed from the data. Thereafter, the analysis is done on the clean dataset.
 
+<hr>
+
 ### How has the community of SG daily thread grown over the years?
 First thing I want to know is how has the community grown over the years, even before I joined Reddit. One way to track and estimate the growth of the community is to determine the number of daily unique users for the daily thread. No doubt that the same person may have created multiple accounts such as a throwaway account and make a comment on the daily thread but based on my experience, I don't see many throwaway accounts. So this should be a good representation of the community growth.
 
@@ -49,6 +51,8 @@ Despite the missing data, you can clearly see that the number of unique posters 
 Besides that, I also plotted the total monthly unique posters as shown in the figure above. The horizontal axis represents the year and the vertical axis is the month. The total number of unique posters for June 2014 and June 2020 are underrepresented as I do not have the full month data. Looking at this figure, you can see that from June 2014 to December 2017, the monthly total unique posters keeps increasing. Starting from January 2018, the monthly total unique posters hovers around 1600 to 1800 and have been that way ever since. 
 
 However, from March 2020, there has been a spike in total monthly unique posters and it reaches its peak of 2152 unique posters in April 2020. This is due to the Covid-19 pandemic that has caused a great impact on the world. Singapore government has encouraged employers to allow employees to work from home whenever possible. On 7 April 2020, circuit breaker was implemented and all non-essential workers were to work from home and all schools were closed. 
+
+<hr>
 
 ### How has the comments on SG daily thread grown over the years?
 Since there is evidence that the community is growing, how about the number of comments made? Are the community becoming more engaged and chattier?
@@ -81,6 +85,8 @@ We can take a look from a different perspective by plotting the median number of
 
 However, we can take a look at the data since 2017. The median value of each day of the week is rather consistent. The data for 2018 is the highest simply because of the outliers in early 2018 as mentioned previously. Looking at the data for 2020, the median number of posts is still about the same value as the previous year despite the implemented circuit breaker. _Could this mean that the number of posts per user has dropped?_
 
+<hr>
+
 ### Have the users been posting more?
 I am wondering and checking whether has an average user submitting fewer comments. Here, I calculated the average comments per user by dividing the total comments by the total unique users for each day. Then, I plotted another heatmap to illustrate the average number of comments per user since 2014, as shown below. The colour map is centered about the value 3.
 
@@ -107,6 +113,8 @@ Looking at the blue bars, which indicate a high number of posts per user, there 
 </div>
 
 Looking at the heatmap above, the average user in 2020 has posted slightly fewer comments as compared to the median posts per user in 2017 to 2019. This is odd as I would have expected that circuit breaker would have increased the number of users and posts. I suppose that since non-essential workers were working from home for the entire circuit breaker and students were doing home based learning in the first half of circuit breaker and then they were on their June holiday in the second half, so their lives were less happening and they have fewer things to rant or talk about. 
+
+<hr>
 
 ### What about the hourly activity of the daily thread?
 I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
