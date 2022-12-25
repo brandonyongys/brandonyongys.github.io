@@ -24,12 +24,14 @@ social: true  # includes social icons at the bottom of the page
 # Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 ---
 
-Hi there! Welcome to my humble github page. I'm Brandon and this is where you could find some of the projects I have worked on or currently working on. It would be updated from time to time as I am focusing most of my time on my meaningful work as a healthcare data scientist as well as living my life to the fullest. 
+Hello! Welcome to my humble github page. I'm Brandon and this is where you could find some of the work I have worked on on or currently working on. It would be updated from time to time as I am focusing most of my time on my meaningful work as a data scientist as well as living my life to the fullest. 
 
-My meaningful healthcare data scientist work started at Singapore General Hospital, which is where I am still at! It is also where I got know a lot of like-minded people who wish to contribute back to the public good by improving the 
+My meaningful work as a data scientist started at Singapore General Hospital in the mid of COVID-19, which is where I am still at! It has been an amazing journey as I was unknowingly the first member of the team and I had to develop the team with guidance from many people. I am now leading the ever growing team (from 3 to 6!) as a technical lead. It is also where I got know a lot of like-minded people who wish to contribute back to the public good. 
 
-Whenever I have some down time here and there, I enjoy reading [reddit](http://reddit.com) and start planning my next escape. One of my to-do list is to visit the North or South Pole! And also, see the aurora with my own eyes. 
+Whenever I have some down time here and there, I enjoy reading [reddit](http://reddit.com) especially the [SGreddit](http://https://reddit.com/r/singapore/) as well as to start planning my next escape. One of my to-do list is to visit the North or South Pole! And also, see the aurora with my own eyes. The world is my oyster.
 
 At the moment, I am still setting up my github. So pardon the tardiness.
+
+If you ever wish to contact me, you could scroll and choose your poison.
 
 
