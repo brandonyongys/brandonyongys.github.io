@@ -10,6 +10,9 @@
     - name: Languages
       value: English, Malay, Mandarin
 
+- title: Life mission
+  contents:
+    Don't be evil and strive for the greater good. 
 
 - title: Education
   type: time_table
