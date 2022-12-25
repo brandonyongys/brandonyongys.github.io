@@ -53,8 +53,6 @@ However, from March 2020, there has been a spike in total monthly unique posters
 ### How has the comments on SG daily thread grown over the years?
 Since there is evidence that the community is growing, how about the number of comments made? Are the community becoming more engaged and chattier?
 
-![No of daily posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/No%20of%20posts%20-%20day.png?raw=true)
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/No%20of%20posts%20-%20day.png" class="img-fluid rounded z-depth-1" %}
@@ -69,8 +67,6 @@ I have plotted another heatmap for the daily number of comments for each of the 
 You can see a progression of the daily number of posts from a very low value of about 50 to about 1000 posts. There is a very clear separation at the start of 2017, that's when the daily posts approach 1000 posts and start to hover around that value since. However, there was a brief period of time in 2018 for approximately 4 weeks that the daily number of posts reached a very high count of 2000 or more posts. The maximum number of posts back then was about 3281.
 
 Besides that, you can also clearly see that the number of posts on the daily threads during the weekend versus the weekdays is vastly different. During the weekdays, the number of posts hover about 1000 posts for the past 3 years. On the other hand, the number of posts would hover about 600 posts. This can be explained simply because of the reduced number of unique users on the weekends, and hence, reduced engagement.
-
-![Median daily posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/No%20of%20posts%20-%20day%20median.png?raw=true)
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -88,8 +84,6 @@ However, we can take a look at the data since 2017. The median value of each day
 ### Have the users been posting more?
 I am wondering and checking whether has an average user submitting fewer comments. Here, I calculated the average comments per user by dividing the total comments by the total unique users for each day. Then, I plotted another heatmap to illustrate the average number of comments per user since 2014, as shown below. The colour map is centered about the value 3.
 
-![Daily posts per user](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/No%20of%20posts%20per%20user%20-%20day.png?raw=true)
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/No%20of%20posts%20per%20user%20-%20day.png" class="img-fluid rounded z-depth-1" %}
@@ -102,8 +96,6 @@ I am wondering and checking whether has an average user submitting fewer comment
 The average number of posts per user back then was about 2 to 3 posts and it has grow up to 3 to 4 posts in recent time. Occasionally the number of posts per user does go up to 5 and beyond. You can see a clear difference in number of posts per user on weekdays versus weekends. Users tend to post about 3 to 4 posts on weekdays and on weekends, they tend to post about 2 to 3. The average user is slightly less chatty because of the reduced number of users that contribute the community engagement.
 
 Looking at the blue bars, which indicate a high number of posts per user, there are two period of time where this happened. First was in end of 2014 and another was in early to mid 2018. In 2014, the users were probably excited about clearing their leaves and school year was going to end, so it was time for them to go on holiday or enjoy their down time. In 2018 though, it was a peculiar period. As indicated previously, this period of time experienced a high number of posts and a high number of users. So this prompts a question - _what was happening back then that caused such a surge in activity?_ 
-
-![Median daily posts per user](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Median%20no%20of%20posts%20per%20user%20-%20day.png?raw=true)
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -119,7 +111,6 @@ Looking at the heatmap above, the average user in 2020 has posted slightly fewer
 ### What about the hourly activity of the daily thread?
 I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
 
-![Hourly posts](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Hourly%20posts%20-%20average%202019.png?raw=true)
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/Hourly%20posts%20-%20average%202019.png" class="img-fluid rounded z-depth-1" %}
@@ -137,7 +128,6 @@ The trend for the weekend is a little bit tricky to see. You would have to look 
 
 One thing to note is that on Thursday between 4 to 7pm, the number of comments posted for each hour of the 3 hours time frame is significantly higher than the usual count for a weekday (70 comments vs 60 comments respectively). _Is this because everyone is excited about TGIF the following day?_
 
-![Hourly posts during CB](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/img/202006-sg-reddit/Hourly%20posts%20-%20average%20CB.png?raw=true)
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202006-sg-reddit/Hourly%20posts%20-%20average%20CB.png" class="img-fluid rounded z-depth-1" %}
