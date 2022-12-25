@@ -10,11 +10,6 @@
     - name: Languages
       value: English, Malay, Mandarin
 
-- title: Life milestones
-  type: list
-  contents:
-    1. ??
-    1. ???
 
 - title: Education
   type: time_table
