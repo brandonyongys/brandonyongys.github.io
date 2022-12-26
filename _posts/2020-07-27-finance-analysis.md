@@ -96,13 +96,20 @@ Likewise, I plotted the bigram and trigram word cloud for the comments with a ne
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Bigram%20for%20upvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Trigram%20for%20upvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202008-reddit-finance/05%20Bigram%20for%20downvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/202008-reddit-finance/05%20Trigram%20for%20downvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-
 
 Above are the bigram and trigram figures for comments with at least 1 downvote. One can get a general sense that the finance community is not in favour of discussions about one's personal finance management such as credit score or credit card debt, or attempting to make fast money by risky investment such as short selling. These are very much in line with the sub's purpose, which is to discuss about the multiple facets of corporate and advanced finance but not about financial advice and risky statements.
 
