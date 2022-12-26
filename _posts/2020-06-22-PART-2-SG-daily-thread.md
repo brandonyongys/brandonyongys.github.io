@@ -4,6 +4,10 @@ title: Analysis of SGReddit Daily Thread - Part 2
 tags: [reddit, singapore]
 comments: true
 published: true
+
+date:   2020-06-22
+description: Part of 2 of 3-parts analysis of SGReddit daily threads
+categories: analysis
 ---
 
 In this section, I have to say that there isn't much analysis as much as I am curious about certain things. First, I am curious how many upvotes does a typical comment received and what are some of the interesting most upvoted and downvoted comments of all times. Besides that, what are some of the commonly used words by the community.

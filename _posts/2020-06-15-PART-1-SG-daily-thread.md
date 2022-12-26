@@ -2,7 +2,7 @@
 layout: post
 title: Analysis of SGReddit Daily Thread - Part 1
 date:   2020-06-15
-description: march & april, looking forward to summer
+description: Part of 1 of 3-parts analysis of SGReddit daily threads
 tags: [reddit, singapore]
 categories: analysis
 comments: true
