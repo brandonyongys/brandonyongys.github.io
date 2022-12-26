@@ -18,9 +18,32 @@ You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll w
 
 **Here is some bold text**
 
+Create horizantal line:
+<hr>
+
 ## Here is a secondary heading
 
-Here's a useless table:
+# Create list
+<ul>
+    <li>brunch</li>
+    <li>fixie</li>
+    <li>raybans</li>
+    <li>messenger bag</li>
+</ul>
+
+# to quote someone:
+For a single line even if the blockquote has multiple lines:
+<blockquote>
+    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+    —Anais Nin
+</blockquote>
+
+OR 
+for multiple quote lines
+> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
+> —Anais Nin
+
+# Here's a useless table:
 
 | Number | Next number | Previous number |
 | :------ |:--- | :--- |
@@ -30,11 +53,35 @@ Here's a useless table:
 | Two | Three | One |
 
 
-How about a yummy crepe?
+# Create image
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
 
-Here's a code chunk:
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Zoomable images with zoomable=true.
+</div>
+
+# Here's a code chunk:
 
 ~~~
 var foo = function(x) {
