@@ -50,46 +50,37 @@ You may be wondering what are some of the best and worst comments by votes? Belo
 > by: _unknown user_ (136 votes)
 
 
-<blockquote>
-So theres this female colleague who is around 30 plus years old. She constantly tries to talk shit about me in front of the boss, e.g. he always never do this.... he anyhow how out this here.... how come he always like that...
+>So theres this female colleague who is around 30 plus years old. She constantly tries to talk shit about me in front of the boss, e.g. he always never do this.... he anyhow how out this here.... how come he always like that...
+>
+>When we have lunch together with the boss, she will do her irritating fake ass laugh whenever the boss say something while I just sit there quietly eat my food and use my phone. Dont even know what she trying to do but always laughing and acting that she v interested in the convo. Heng I intern and gonna leave end of the month, dont need see her anymore.
+>
+>One more thing, she doesnt know I'm the boss' son. Bitch 
+>
+>by: _dragonbad30_ (116 votes)
 
-When we have lunch together with the boss, she will do her irritating fake ass laugh whenever the boss say something while I just sit there quietly eat my food and use my phone. Dont even know what she trying to do but always laughing and acting that she v interested in the convo. Heng I intern and gonna leave end of the month, dont need see her anymore.
+>LIVE: This auntie KPKB this younger guy for sitting on the priority seat. The younger guy just stands up and ripped off his prosthetic leg. The auntie died of embarrassment.
+>
+>UPDATE: Auntie mumble about giving old people sit first...she older.
+>
+>by: _leo-g_ (106 votes)
 
-One more thing, she doesnt know I'm the boss' son. Bitch 
-
-by: _dragonbad30_ (116 votes)
-</blockquote>
-
-<blockquote>
-LIVE: This auntie KPKB this younger guy for sitting on the priority seat. The younger guy just stands up and ripped off his prosthetic leg. The auntie died of embarrassment.
-
-UPDATE: Auntie mumble about giving old people sit first...she older.
-
-by: _leo-g_ (106 votes)
-</blockquote>
 <hr>
 
 #### _Worst comments_
 
-<blockquote>
-Yesterday, girlfriend and I created a Tinder account and lured a couple of guys to Esplanade to meet up. They were really horny and dtf. The look on their faces when we made them go in circles and finally unmatch them is priceless. Sorry we had so much free time!
+>Yesterday, girlfriend and I created a Tinder account and lured a couple of guys to Esplanade to meet up. They were really horny and dtf. The look on their faces when we made them go in circles and finally unmatch them is priceless. Sorry we had so much free time!
+>
+>Then there was this Jewish guy who wanted to meet up at Marina Mandarin and found out it was a prank. He identified us pretty quickly and walked towards our hiding spot. We ran and luckily there was a taxi nearby. That adrenaline rush tho. 5/7 would do it again!
+>
+>by: _statelesspirate_ (-81 votes)
 
-Then there was this Jewish guy who wanted to meet up at Marina Mandarin and found out it was a prank. He identified us pretty quickly and walked towards our hiding spot. We ran and luckily there was a taxi nearby. That adrenaline rush tho. 5/7 would do it again!
+>Speedpost just dump my parcel on my shoe rack and no updates on the delivery status online. Can I report the parcel as lost and get the seller to send/refund me?
+>
+>by: _Siobak118_ (-43 votes)
 
-by: _statelesspirate_ (-81 votes)
-
-</blockquote>
-
-<blockquote>
-Speedpost just dump my parcel on my shoe rack and no updates on the delivery status online. Can I report the parcel as lost and get the seller to send/refund me?
-
-by: _Siobak118_ (-43 votes)
-</blockquote>
-<blockquote>
-Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
-
-by: _Afraidofdownvotes0_ (-31 votes)
-</blockquote>
+>Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
+>
+>by: _Afraidofdownvotes0_ (-31 votes)
 
 Based on these few examples, we can see that some of the best comments make the readers feel good and amused whereas the worst comments are usually reflect immmature thinking or dishonesty. 
 <hr>
