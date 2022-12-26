@@ -40,15 +40,15 @@ Based on the extend of the votes distribution, you may conclude that SG users wo
 You may be wondering what are some of the best and worst comments by votes? Below are some of the interesting best and worst comments over the years.
 
 #### _Best comments_
-<blockquote>
-My Golden Retriever usually welcomes the people she likes home by helping to carry your bag or grocery bags, any letters or folders in your hands, etc. Just got home from school but had nothing for her to carry, so she grabbed my left shoe and tried to bring it into the house. When I told her I had nothing for her, she grabbed my right shoe. I took it back and placed it outside, she grabbed another pair of shoe I had outside. Told her "Don't do that!", she went out to look for my socks to bring in. 
 
-This girl... 😂 Can't bear to scold her for trying to be helpful so I just sayang her. Her tail wag until like helicopter. 
+> My Golden Retriever usually welcomes the people she likes home by helping to carry your bag or grocery bags, any letters or folders in your hands, etc. Just got home from school but had nothing for her to carry, so she grabbed my left shoe and tried to bring it into the house. When I told her I had nothing for her, she grabbed my right shoe. I took it back and placed it outside, she grabbed another pair of shoe I had outside. Told her "Don't do that!", she went out to look for my socks to bring in. 
+> 
+> This girl... 😂 Can't bear to scold her for trying to be helpful so I just sayang her. Her tail wag until like helicopter. 
+> 
+> Edit: postman just came by. here she is doing her job like a good girl http://imgur.com/a/cvxWa
+>
+> by: _unknown user_ (136 votes)
 
-Edit: postman just came by. here she is doing her job like a good girl http://imgur.com/a/cvxWa
-
-by: _unknown user_ (136 votes)
-</blockquote>
 
 <blockquote>
 So theres this female colleague who is around 30 plus years old. She constantly tries to talk shit about me in front of the boss, e.g. he always never do this.... he anyhow how out this here.... how come he always like that...
@@ -86,9 +86,9 @@ Speedpost just dump my parcel on my shoe rack and no updates on the delivery sta
 by: _Siobak118_ (-43 votes)
 </blockquote>
 <blockquote>
-> Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
->
-> by: _Afraidofdownvotes0_ (-31 votes)
+Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
+
+by: _Afraidofdownvotes0_ (-31 votes)
 </blockquote>
 
 Based on these few examples, we can see that some of the best comments make the readers feel good and amused whereas the worst comments are usually reflect immmature thinking or dishonesty. 
