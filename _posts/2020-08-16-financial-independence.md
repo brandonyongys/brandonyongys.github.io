@@ -106,6 +106,11 @@ Another term that is mentioned in the trigram word cloud is the US's 401k plan. 
 
 ## Conclusion
 
-Firstly, we can conclude that the number of comments to the weekly thread is stationary as it would fluctuates between 0 to 300 comments and there is no seasonality observed. The comments can be divided into two groups: 1) the comments by the original poster seeking for advice by providing details would normally have 400 words or more, and 2) the responses to such comments offering suggestions and advices with 400 words or less. Based on the mined profile of the advice seekers, they are usually in their 20's or 30's and are generally from the US (given that Reddit is US centric). There are advice seekers from all over the world but they are mainly from developed countries such as UK, Canada and Australia. 
+Firstly, we can conclude that the number of comments to the weekly thread is stationary as it would fluctuates between 0 to 300 comments and there is no seasonality observed. The comments can be divided into two groups: 
+
+1. the comments by the original poster seeking for advice by providing details would normally have 400 words or more, and 
+1. the responses to such comments offering suggestions and advices with 400 words or less. 
+
+Based on the mined profile of the advice seekers, they are usually in their 20's or 30's and are generally from the US (given that Reddit is US centric). There are advice seekers from all over the world but they are mainly from developed countries such as UK, Canada and Australia. 
 
 The advices that are offered to the US based users typically revolves around the same issues - debt management and Roth IRA. Conceptually, both are talking about the management of some sort rates (interest rate in the former and tax rate in the latter). So the goal would be to minimize such rates by minimizing your debt and maximizing your Roth IRA. In Singapore, our equivalent of Roth IRA is the SRS. Just like Roth IRA, our contributions can be used to reduce our tax rate and it can also be used for investment in the local stock market. 
