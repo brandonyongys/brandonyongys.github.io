@@ -86,9 +86,9 @@ Speedpost just dump my parcel on my shoe rack and no updates on the delivery sta
 by: _Siobak118_ (-43 votes)
 </blockquote>
 <blockquote>
-Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
-
-by: _Afraidofdownvotes0_ (-31 votes)
+> Did Malaysia fuck us over by closing their borders and was it the right move for them to make?
+>
+> by: _Afraidofdownvotes0_ (-31 votes)
 </blockquote>
 
 Based on these few examples, we can see that some of the best comments make the readers feel good and amused whereas the worst comments are usually reflect immmature thinking or dishonesty. 
