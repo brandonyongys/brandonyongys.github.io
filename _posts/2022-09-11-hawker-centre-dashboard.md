@@ -4,6 +4,10 @@ title: Hawker centre dashboard
 tags: [dashboard, heroku, app]
 comments: true
 published: true
+
+date:   2022-09-11
+description: First attempt at deploying a dashboard
+categories: deployment
 ---
 
 
