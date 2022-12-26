@@ -6,7 +6,7 @@ comments: true
 published: true
 
 date:   2020-07-27
-description: Simple predictive model
+description: Could I build a simple predictive model
 categories: modelling
 ---
 
@@ -19,7 +19,7 @@ First thing that I'd like to know is the total number of comments in each weekly
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/00%20Weekly%20no%20of%20comments.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/202008-reddit-finance/01%20Weekly%20no%20of%20comments.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -35,7 +35,7 @@ I then developed an ARIMA model on a rolling basis assuming that the set of para
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/02%20ARIMA%20model.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/202008-reddit-finance/02%20ARIMA%20model.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -48,7 +48,7 @@ The second thing I'm looking at is the number of words in the comments, which in
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/03%20Boxplot%20no%20of%20words.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/202008-reddit-finance/03%20Boxplot%20no%20of%20words.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -61,10 +61,10 @@ To answer this, I would plot a word cloud with the font size of the terms repres
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/05%20Bigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Bigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/05%20Trigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Trigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -79,7 +79,7 @@ Based on these two word clouds, we could conclude that the discussions often rev
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/04%20Boxplot%20upvotes.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/202008-reddit-finance/04%20Boxplot%20upvotes.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -96,10 +96,10 @@ Likewise, I plotted the bigram and trigram word cloud for the comments with a ne
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/05%20Bigram%20for%20downvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Bigram%20for%20downvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-finance-FIRE/05%20Trigram%20for%20downvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Trigram%20for%20downvotes.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
