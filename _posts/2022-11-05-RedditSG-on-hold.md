@@ -4,6 +4,9 @@ title: Roadmap of RedditSG project on pause
 tags: [reddit, singapore, app, roadmap]
 comments: true
 published: true
+
+date:   2022-11-05
+categories: deployment, app-development
 ---
 
 After over 1.5 months of effort, I came to the realization that I have much to learn. I have overestimated the work needed to make the RedditSG project a success, and there are a lot of solutions to unpack and develop. There is too much to do for a one-man team especially when I need to manage the entire pipeline from data collection to developing and deploying the app. Let me break it down in stages.
