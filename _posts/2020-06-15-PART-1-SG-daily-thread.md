@@ -35,12 +35,6 @@ First thing I want to know is how has the community grown over the years, even b
     Heatmap of number of daily unique posters from 24 Jun 2014 to 2 Jun 2020.
 </div>
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://github.com/brandonyongys/test/blob/main/img/202006-sg-reddit/Distribution%20of%20upvotes%20for%20the%20year%202017.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
 Above figure is the number of daily unique posters for each daily thread in a heatmap form. The horizontal axis is the week number of the year and vertical axis is the day of the week with Monday at the top and Sunday at the bottom. As the number of unique posters increases, the intensity of the colour increases based on the colour map on the side, starting from light green up to dark green. The white bars in the heatmap represent the missing data. 
 
 Despite the missing data, you can clearly see that the number of unique posters have been increasing week on week. Besides that, you can see the clear distinction in the number of unique posters on weekday daily threads versus the weekend daily threads. A possible explanation is that more redditors would be online on weekdays due to reasons such as being at work, whereas redditors would be enjoying their lives on the weekends such as going out to the shopping malls or exercising.
