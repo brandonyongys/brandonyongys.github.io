@@ -4,6 +4,9 @@ title: Roadmap of RedditSG project
 tags: [reddit, singapore, app, roadmap]
 comments: true
 published: true
+
+date:   2022-09-25
+categories: deployment, app-development
 ---
 
 I have always wanted to work on my personal project - mining, analysing and developing a model for the daily SG thread on [Singapore subreddit](https://old.reddit.com/r/singapore/) all these while. I have been procrastinating on it for over 2 years since I posted the part 1, 2 and 3 of my daily SG thread analysis.
