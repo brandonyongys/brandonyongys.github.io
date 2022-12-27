@@ -40,11 +40,6 @@ First thing I want to know is how has the community grown over the years, even b
         {% include figure.html path="https://github.com/brandonyongys/test/blob/main/img/202006-sg-reddit/Distribution%20of%20upvotes%20for%20the%20year%202017.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    test 1.
-</div>
-
-
 
 Above figure is the number of daily unique posters for each daily thread in a heatmap form. The horizontal axis is the week number of the year and vertical axis is the day of the week with Monday at the top and Sunday at the bottom. As the number of unique posters increases, the intensity of the colour increases based on the colour map on the side, starting from light green up to dark green. The white bars in the heatmap represent the missing data. 
 
