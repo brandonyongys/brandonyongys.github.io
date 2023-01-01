@@ -8,8 +8,8 @@
   contents:
     - name: Name
       value: Brandon Yong
-    - name: Date of Birth
-      value: 11 Apr 1993
+    - name: Birth year
+      value: 1993
     - name: Citizenship
       value: Malaysian, Singapore PR
     - name: Languages
