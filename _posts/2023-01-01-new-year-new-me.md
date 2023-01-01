@@ -3,155 +3,34 @@ date: 2023-01-01
 
 layout: post
 title: New year, new me
-description: Listing out the goals for my github page for 2023
-tags: [happy new year]
-categories: app
+description: Listing out my goals for 2023
+tags: [goals]
+categories: goals
 
 comments: true
-published: false
+published: true
 
 ---
-New year, new me eh. I have been rather slack in my own professional development for the past 1 year (not only that actually). Now I have to focus on my professional and personal goals and aim to achieve at least 80% of them by end of the year! No more procrastinating!
+New year, new me eh. I have been rather slack in my own professional development for the past 1 year (not only that actually). Now I have to focus and achieve at least 75% of goals by end of the year! No more procrastinating! Below are the goals for the 3 main sections - Professional, Career and Personal.
 
 Professional (Target: 4/5):
 1. Monthly post on github page by the last day of the month (12 posts in total)
-1. Complete the friends' analysis by end of January
-1. Develop an image generator for xxx.
-1. Develop a medical image generator.
-1. Deploy a dashboard using one of the dataset in Data.gov.sg using API and AWS. 
+1. Complete the friends' analysis by January.
+1. Deploy a dashboard using one of the dataset in Data.gov.sg using API and AWS in Q2. 
+1. Develop and deploy a food image generator in Q3.
+1. Develop and deploy a medical image generator in Q4.
 
-Career (Target: 3/4):
+Career (Target: 3/3):
 1. Deploy the Prophet model for the hospital within the timeline (May 2023)
-1. Develop a model that takes in irregular inputs for prediction.
-1. Develop a medical image generator.
+1. Develop a model that takes in irregular inputs for prediction by Q2.
 1. Find an employer that better recognizes the work I've done so far.
 
 Personal (Target 3/4):
-1. Travel to Turkey (booked a tour in February).
-1. Travel to UK (aim to travel in early November).
-1. Lose body fats (body fats percentage from 20% to 15%, 77kg -> 73kg minimally).
+1. Travel to Turkey in February.
+1. Travel to UK in November.
+1. Lose body fats by reducing body fats percentage from 20% to 15% (body weight to decrease from 77kg to 73kg).
 1. Be healthier by eating more fruits, veggies and meat for 80% of the meals while reducing carbs intake to lose body fats (aim to drop to 68 kg)
 
+Technically both professional and career goals could be combined into one section. However, I decided to split them up into two because the first half is meant to build up my own data science portfolio and the other half is meant for the company purpose.
 
-Next post below:
-
-simple clone the git as own repo. 
-rename as brandonyongys.github.io when cloning.
-change the url to brandonyongys.github.io in config file
-allow all actions
-check that the pages are deploy from branch (gh-pages) 
-save then wait
-open own github.io
-
-
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-**Here is some bold text**
-
-Create horizantal line:
-<hr>
-
-## Here is a secondary heading
-
-# Create list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-# to quote someone:
-For a single line even if the blockquote has multiple lines:
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
-
-OR 
-for multiple quote lines
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-# Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-# Create image
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Zoomable images with zoomable=true.
-</div>
-
-# Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+These goals were created using the SMART (Specific, Measureable, Archieveable, Relevant and Time-based) method and I now have a clearer picture of what do and achieve each month. Fingers crossed that I could achieve at least 75% of each section.
