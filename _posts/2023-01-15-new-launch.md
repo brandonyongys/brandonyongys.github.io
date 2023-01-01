@@ -1,137 +1,35 @@
 ---
-date: 2023-01-01
+date: 2023-01-15
 
 layout: post
-title: New year, new me
-description: Listing out the goals for my github page for 2023
-tags: [happy new year]
+title: Launch of new github page
+description: Launching al-folio template as my github page
+tags: [github page]
 categories: app
 
 comments: true
-published: false
+published: true
 
 ---
 
+For over 2 years, I have been using the [Beautiful Jekyll by Dean Attali](https://github.com/daattali/beautiful-jekyll) as my github page. No doubt that it was simple and pleasant looking as a github page. However, I have always wanted to use my github page more than just a platform to post. I wanted to use it to promote myself as well as to build up my data science capability and portfolio.
 
-Next post below:
+I did a quick google search and found this fantastic github page template - [al-folio](https://github.com/alshedivat/al-folio). It is "_a simple, clean, and responsive Jekyll theme for academics_". It is indeed those! I have to admit that I am not as proficient as I thought I was with git and github but hey, today I learned. 
 
-simple clone the git as own repo. 
-rename as brandonyongys.github.io when cloning.
-change the url to brandonyongys.github.io in config file
-allow all actions
-check that the pages are deploy from branch (gh-pages) 
-save then wait
-open own github.io
+In my first few attempts, I had trouble running it despite following the instructions. I am not sure what was the mistakes or could it be that the instructions were slightly outdated? I wouldn't say that it was one or the other but I managed to deploy the page after a few trials. 
 
+Anyway, the point of this post is simply to write down what I did in order to deploy it successfully. This will help me to recap what happened previously if ever I need to repeat the whole process again because of some errors.
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+To begin creating my own github page using al-folio tempalte, I first created a new repository by using this template on github. Thereafter, I gave it a temporary name e.g.`test` or simply name it as `username.github.io` as the repository name. Once that was done, I cloned the repo down to my local machine and went to the `_config.yml` file. In that file, I changed the URL to `username.github.io` and left `baseurl` empty as per the instructions.
 
-**Here is some bold text**
+I then went back to repo on github then navigated to `Settings` > `Action` > `General`. I had to make sure that "_Allow all actions and reusable workflows_" was selected under the "_Actions permissions_". In my previous attempts, I selected the "_Allow `username`, and select non-`username`, actions and reusable workflow_" (last option). This could be the reason why my page didn't get deployed succesfully in my earlier attempts. 
 
-Create horizantal line:
-<hr>
+After that, I went to `Settings` > `Pages` and checked that the source is "_Deploy from a branch_" and the branch is "_gh-pages_". All these changes need to be saved. Once the settings is done, I then pushed my changes to trigger the automatic workflow. The entire workflow typically took a few minutes to complete.
 
-## Here is a secondary heading
+To check the status of the deployment, I went to the `Actions` tab and checked that the "_pages build and deployment_" action was completed and had a green tick on the left side. Or I could simply type in `username.github.io` into the internet browser and check for the changes I made. 
 
-# Create list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
+Each push command would have 3 runs - "_Docker Image CI_", "_deploy_" and "_pages-build-deployment_". Once all three runs are successful then the github page would be successfully updated. 
 
-# to quote someone:
-For a single line even if the blockquote has multiple lines:
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
+That is how I successfully created this whole github page. It is a rather simple process! It definitely took me a few hours over a day to figure out but hey, I learned something new. I am now 1 step closer to being proficient with git (wherever that place may be).
 
-OR 
-for multiple quote lines
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-# Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-# Create image
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Zoomable images with zoomable=true.
-</div>
-
-# Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+Cheers.
