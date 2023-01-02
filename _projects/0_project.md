@@ -5,7 +5,7 @@ description: a project with a background image # Project post description
 img: assets/img/12.jpg # Not necessary to have this image, will be used as thumbnail
 redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
 importance: 1
-category: work
+category: serious # serious / fun
 
 comments: true
 published: false
