@@ -7,7 +7,7 @@ importance: 1
 category: work
 
 comments: true
-published: true
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
