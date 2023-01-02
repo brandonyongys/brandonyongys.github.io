@@ -5,6 +5,7 @@ description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
 category: fun
+date:   2020-06-29
 
 comments: true
 published: true
