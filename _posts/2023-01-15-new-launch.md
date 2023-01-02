@@ -1,5 +1,5 @@
 ---
-date: 2023-01-02
+date: 2023-01-15
 
 layout: post
 title: Launch of new github page
@@ -20,13 +20,13 @@ In my first few attempts, I had trouble running it despite following the instruc
 
 Anyway, the point of this post is simply to write down what I did in order to deploy it successfully. This will help me to recap what happened previously if ever I need to repeat the whole process again because of some errors.
 
-To begin creating my own github page using al-folio tempalte, I first created a new repository by using this template on github. Thereafter, I gave it a temporary name e.g.`test` or simply name it as `_username_.github.io` as the repository name. Once that was done, I cloned the repo down to my local machine and went to the `_config.yml` file. In that file, I changed the `url` to `_username_.github.io` and left `baseurl` empty as per the instructions.
+To begin creating my own github page using al-folio tempalte, I first created a new repository by using this template on github. Thereafter, I gave it a temporary name e.g.`test` or simply name it as `username.github.io` as the repository name. Once that was done, I cloned the repo down to my local machine and went to the `_config.yml` file. In that file, I changed the `url` to `username.github.io` and left `baseurl` empty as per the instructions.
 
-I then went back to repo on github then navigated to `Settings` > `Action` > `General`. I had to make sure that "_Allow all actions and reusable workflows_" was selected under the "_Actions permissions_". In my previous attempts, I selected the "_Allow `_username_`, and select non-`_username_`, actions and reusable workflow_" (last option). This could be the reason why my page didn't get deployed succesfully in my earlier attempts. 
+I then went back to repo on github then navigated to `Settings` > `Action` > `General`. I had to make sure that "_Allow all actions and reusable workflows_" was selected under the "_Actions permissions_". In my previous attempts, I selected the "_Allow `username`, and select non-`username`, actions and reusable workflow_" (last option). This could be the reason why my page didn't get deployed succesfully in my earlier attempts. 
 
 After that, I went to `Settings` > `Pages` and checked that the source is "_Deploy from a branch_" and the branch is "_gh-pages_". All these changes need to be saved. Once the setting was done, I then pushed my changes to trigger the automatic workflow. The entire workflow typically took a few minutes to complete.
 
-To check the status of the deployment, I went to the `Actions` tab and checked that the "_pages build and deployment_" action was completed and had a green tick on the left side. Or I could simply type in `_username_.github.io` into the internet browser and check for the changes I made. 
+To check the status of the deployment, I went to the `Actions` tab and checked that the "_pages build and deployment_" action was completed and had a green tick on the left side. Or I could simply type in `username.github.io` into the internet browser and check for the changes I made. 
 
 Each push command would have 3 runs - "_Docker Image CI_", "_deploy_" and "_pages-build-deployment_". Once all three runs are successful then the github page would be successfully updated. 
 
