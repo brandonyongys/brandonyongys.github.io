@@ -3,7 +3,7 @@ layout: page
 title: project 1 # Project post title
 description: a project with a background image # Project post description
 img: assets/img/12.jpg # Not necessary to have this image, will be used as thumbnail
-redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
+# redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
 importance: 1
 category: deployment # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
@@ -15,14 +15,13 @@ There was a [post](https://towardsdatascience.com/creating-a-web-application-to-
 
 Back then, I was really interested in learning how to develop and deploy an application, be it a model or a dashboard. The main objective was to learn to deploy whatever I would have built in the future and not simply leave it in one of my many local folders or github repos. Not to mention, the post is rather simple and it would serve as a good base for me to learn how to develop and deploy an app.
 
-
-# Hawker centre dashboard
+## Hawker centre dashboard
 I did a search on [data.gov.sg](https://data.gov.sg/) to find what intriguing dataset that I could use to develop such dashboard and I found the [hawker centre closure dates dataset](https://data.gov.sg/dataset/dates-of-hawker-centres-closure). Seeing that there are temporal and spatial elements, I decided to use it. With that in mind, the dashboard has 2 main features:
 
 1. A map of Singapore with all the hawker centres indicated as points. Each point should have 1 of 3 colours to indicate its status (open, closing within a month or closed).
 1. Two separate tables that show a list of hawker centres that are currently closed and the upcoming closures.
 
-# Data API call
+## Data API call
 In the original tds post, the author was using static data to plot the visualization. I, however, did not use a static data. Rather, I used the data API to fetch the latest data. Of course, this again is a challenge for me because how do I do it? I search through tds again and found this [post](https://towardsdatascience.com/exploring-data-gov-sg-api-725e344048dc) by Tony Ng, who did a brief introduction and mimicking what was done, I managed to get the script to use the API instead. The following command was used to call the data using `requests`:
 {% raw %}
 ```html
@@ -32,8 +31,9 @@ requests.get('https://data.gov.sg/api/action/datastore_search?resource_id=b80cb6
 ```
 {% endraw %}
 
-# Data cleaning
-Although the data is
+## Data manipulation
+Although the data has been called via API, the data is a json format. I converted it into a pandas dataframe before converting it from a wide to long table. The table is a wide table as each row represents a single unique hawker centre and some columns represent the cleaning or closure date for a particular quarter. Of course, this wide table could be used but I just prefer using a long table for data manipulation.
+
 
 Despite all the data is readily available, I had to do some data manipulation to create a long table instead of a wide table. That is, each closure period for a hawker centre should be displayed in its own row, as opposed to having all the closure periods across multiple columns for a hawker centre. The status was plotted nicely on a map using the [folium](http://python-visualization.github.io/folium/) package.
 
