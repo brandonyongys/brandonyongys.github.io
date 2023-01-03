@@ -44,18 +44,19 @@ Other than that, there is nothing else interesting than to say that I used panda
 
 
 ## Dashboard development 
-There is few changes from the original codes by Benedict Soh. I simply removed the news and social media tabs as well as any analysis on the text data. I also renamed some of the functions accordingly so that it seems more intuitive when it comes to reading my own codes. 
+There is few changes from the original codes by Benedict Soh. I simply replaced the news and social media tabs with the "Currently Closed" and "Upcoming Closure" tabs. Any analysis on the news and tweets were also removed. Within the codes, some of the functions were renamed accordingly so that it seems more intuitive when it comes to reading my own codes. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202209-hawker-dashboard/202209%20hawker%20dashboard/dashboard.PNG" title="Snapshot of dashboard" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/202209-hawker-dashboard/dashboard.PNG" title="Snapshot of dashboard" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 This is how the dashboard looked like when I ran it back in Sep 2022. 
 
-
 ## Dashboard deployment on Heroku
+
+
 
 ## Area of improvement
 
