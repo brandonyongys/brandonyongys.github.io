@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 1 # Project post title
-description: a project with a background image # Project post description
+title: Hawker centre dashboard # Project post title
+# description: a project with a background image # Project post description
 img: assets/img/12.jpg # Not necessary to have this image, will be used as thumbnail
 # redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
 importance: 1
@@ -21,6 +21,8 @@ I did a search on [data.gov.sg](https://data.gov.sg/) to find what intriguing da
 1. A map of Singapore with all the hawker centres indicated as points. Each point should have 1 of 3 colours to indicate its status (open, closing within a month or closed).
 1. Two separate tables that show a list of hawker centres that are currently closed and the upcoming closures.
 
+The dashboard is built using the same template as that by Benedict Soh. Full credits to him for building the dashboard, I am simply adapting the codes to his. The dashboard and map are built using `dash` and `folium` respectively. 
+
 ## Data API call
 In the original tds post, the author was using static data to plot the visualization. I, however, did not use a static data. Rather, I used the data API to fetch the latest data. Of course, this again is a challenge for me because how do I do it? I search through tds again and found this [post](https://towardsdatascience.com/exploring-data-gov-sg-api-725e344048dc) by Tony Ng, who did a brief introduction and mimicking what was done, I managed to get the script to use the API instead. The following command was used to call the data using `requests`:
 {% raw %}
@@ -32,20 +34,34 @@ requests.get('https://data.gov.sg/api/action/datastore_search?resource_id=b80cb6
 {% endraw %}
 
 ## Data manipulation
-Although the data has been called via API, the data is a json format. I converted it into a pandas dataframe before converting it from a wide to long table. The table is a wide table as each row represents a single unique hawker centre and some columns represent the cleaning or closure date for a particular quarter. Of course, this wide table could be used but I just prefer using a long table for data manipulation.
+Although the data has been called via API, the data is a json format. I converted it into a pandas dataframe before converting it from a wide to long table. The table is a wide table as each row represents a single unique hawker centre and some columns represent the cleaning or closure date for a particular quarter. Of course, this wide table could be used but I just prefer using a long table for data manipulation. 
+
+Once I got a long table, I then had to identify and extract hawker centres that are currently open today, closing within a month and closing more than a month later. One thing that I have to be careful here is to ensure that all hawker centres should appear once and only once and should be in one of the three lists. The difficulty I had with the data manipulation is the manipulation of datetime. I am not particularly good with it but I found [arrow](https://arrow.readthedocs.io/en/latest/) package. It saved my life! And also, save me from all the hassle :D
+
+Based on the three lists, I colour code the hawker centres into green (currently open), orange (closing soon) and red (currently closed) for the map. Tables are also built accordingly for feature #2. 
+
+Other than that, there is nothing else interesting than to say that I used pandas to manipulate the data.
 
 
-Despite all the data is readily available, I had to do some data manipulation to create a long table instead of a wide table. That is, each closure period for a hawker centre should be displayed in its own row, as opposed to having all the closure periods across multiple columns for a hawker centre. The status was plotted nicely on a map using the [folium](http://python-visualization.github.io/folium/) package.
+## Dashboard development 
+There is few changes from the original codes by Benedict Soh. I simply removed the news and social media tabs as well as any analysis on the text data. I also renamed some of the functions accordingly so that it seems more intuitive when it comes to reading my own codes. 
 
-I also had to write a section of the script to monitor today's date and adjust the data needed to be represented in the map. This is particularly challenging for me as I am still not 100% comfortable working with the datetime package but that changed when I discovered the [arrow](https://arrow.readthedocs.io/en/latest/) package. The arrow package saved my life! And also, save me from all the hassle :D
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202209-hawker-dashboard/202209%20hawker%20dashboard/dashboard.PNG" title="Snapshot of dashboard" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+This is how the dashboard looked like when I ran it back in Sep 2022. 
+
+
+## Dashboard deployment on Heroku
+
+## Area of improvement
 
 Finally, I just had to deploy it on Heroku. Sounds easy, right? NOPE! Even as I followed the steps by Benedict, it still took me over 20 tries to troubleshoot. I couldn't remember what I did and it took a while to work but I still got there. As of now, the app is live [here](https://hawker-centre-db.herokuapp.com/) but it would not be available anymore on 28 November 2022 based on this [article](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/).
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202209-hawker-dashboard/202209%20hawker%20dashboard/dashboard.PNG" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 
 ![No of daily unique posters](https://raw.githubusercontent.com/brandonyongys/brandonyongys.github.io/master/img/202209%20hawker%20dashboard/dashboard.PNG)
 
