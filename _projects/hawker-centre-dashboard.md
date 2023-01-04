@@ -65,9 +65,7 @@ reference:
 1. https://aws.amazon.com/getting-started/guides/deploy-webapp-ec2/
 
 
-## Area of improvement
+## Areas of improvement
+I would prefer to add in more interactive features where the user may sort the tables according to any of the columns instead of being sorted by date by default.
 
-Finally, I just had to deploy it on Heroku. Sounds easy, right? NOPE! Even as I followed the steps by Benedict, it still took me over 20 tries to troubleshoot. I couldn't remember what I did and it took a while to work but I still got there. As of now, the app is live [here](https://hawker-centre-db.herokuapp.com/) but it would not be available anymore on 28 November 2022 based on this [article](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/).
-
-
-All in all, I am not here to show my very best work but rather to show what I have learned and what I hope to continue to learn. After all, learning is a lifelong journey. If I've already learned and could do everything as a data scientist, then how else could I improve?
+I would also love to change the background or logo to reflect some Singaporean food. In fact, it would be good if each point within the map could show some famous food or food that are highly rated within that hawker.
