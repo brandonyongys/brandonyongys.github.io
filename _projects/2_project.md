@@ -7,7 +7,7 @@ importance: 2
 category: descriptive
 
 comments: true
-published: true
+published: false
 ---
 
 Every project has a beautiful feature showcase page.
