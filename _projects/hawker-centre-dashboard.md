@@ -9,6 +9,10 @@ category: deployment # deployment / predictive / descriptive, if wrong category,
 
 comments: true
 published: true
+
+# - Need to update based on SG time
+# - tz-naive vs tz-aware time
+
 ---
 
 There was a [post](https://towardsdatascience.com/creating-a-web-application-to-analyse-dengue-cases-1be4a708a533) by Benedict Soh on [tds](https://towardsdatascience.com/) where he was developed and deployed a dashboard to track and analyse dengue cases in Singapore. The tds post was made in late 2020's and I stumbled upon in early 2022. The dengue dashboard would have been of great use if it was more up-to-date with the latest news and tweets about dengue. However, the dashboard was a static app and it did not function properly after 2 Aug 2020.
@@ -57,15 +61,19 @@ This is how the dashboard looked like when I ran it back in Sep 2022.
 ## Dashboard deployment
 Back in September 2022, I was able to use the free service provided by Heroku. I followed the steps as shared by Benedict to deploy on Heroku though it did take me over 20 runs to troubleshoot the errors. I couldn't remember what I did and it took a while to work but I still got there. 
 
-However, Heroku has decided to remove the free service and would start charging from 28 November 2022 onwards based on this [article](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/). I then turned to AWS as it is one of the most popular cloud service providers.
+However, Heroku has decided to remove the free service and would start charging from 28 November 2022 onwards based on this [article](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/). I then had to turn to an alternative platform and I decided to try AWS as it is one of the most popular cloud service providers.
 
+Referencing this [medium post](https://aws.amazon.com/getting-started/guides/deploy-webapp-ec2/), I followed the steps to test out the example provided. The step by step worked well and the app was deployed successfully on AWS Elastic Beanstalk but my app didn't get deployed successfully though. I looked through the log files and found some changes that needed to be done:
 
-
-reference:
-1. https://aws.amazon.com/getting-started/guides/deploy-webapp-ec2/
+1. Updating the packages as some of the packages had deprecated (e.g. I should import `dcc` directly from `dash` instead of importing `dash_core_components` as `dcc`).
+1. My app wouldn't work well with the `folium` map and I had to change it to a `plotly` map. The reason being that the `folium` map had to be saved as html before displaying it. I was having trouble dealing with it and I decided to change it to a `plotly` map so that it can be displayed directly.
+1. Despite making the above changes, the app still wasn't deployed successfully. After looking through the log files, I found out that it was trying to listen to port 8000 instead of the 8080 as specified. After changing it to port 8000, the app was finally running.
+1. When I reviewed it after 1 day, I noticed that there is no change in the dashboard as the timestamp did not change. I realized that it is what it is when it was successfully deployed. I revised the code so that the dashboard is updated daily.
 
 
 ## Areas of improvement
 I would prefer to add in more interactive features where the user may sort the tables according to any of the columns instead of being sorted by date by default.
 
 I would also love to change the background or logo to reflect some Singaporean food. In fact, it would be good if each point within the map could show some famous food or food that are highly rated within that hawker.
+
+Another matter to look at is to allow the dashboard to be updated automatically based on Singapore time. Currently the dashboard doesn't seem to be updated or refreshed. Instead, it is frozen and displayed as it is when it was deployed successfully. I am aware that there are solutions available such as [this](https://stackoverflow.com/questions/65469454/updating-data-used-by-aws-elastic-beanstalk-deployed-webapp). I have yet to take the time to set this up as I realize that I would need to get a good solid foundation of AWS first.
