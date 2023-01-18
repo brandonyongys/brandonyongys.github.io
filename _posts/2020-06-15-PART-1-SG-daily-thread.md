@@ -6,7 +6,7 @@ description: Part of 1 of 3-parts analysis of SGReddit daily threads
 tags: [reddit, singapore]
 categories: analysis
 comments: true
-published: true
+published: false
 ---
 
 This is part 1 of 3 parts analysis of the [SGreddit][SGreddit] daily threads. The data from 24 Jun 2014 to 2 Jun 2020 were scraped using [PRAW API][PRAW] and this gives me a total of 2166 threads. Though I have to admit that I was supposed to get 2173 threads over 7 threads were missing and couldn't be found on Reddit. The information that I scraped were:
