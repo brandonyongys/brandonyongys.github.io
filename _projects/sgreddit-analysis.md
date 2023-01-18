@@ -55,10 +55,9 @@ Despite the missing data, you can clearly observe a few things:
     Monthly number of unique posters from 24 Jun 2014 to 2 Jun 2020. The total number of unique posters for June 2014 and June 2020 are underrepresented as I do not have the full month data.
 </div>
 
-Based on this figure, you can see that from June 2014 to December 2017, the monthly total unique posters keeps increasing. Starting from January 2018, the monthly total unique posters hovers around 1600 to 1800 and have been that way ever since. 
-
-However, from March 2020, there has been a spike in total monthly unique posters and it reaches its peak of 2152 unique posters in April 2020. This is due to the Covid-19 pandemic that has caused a great impact on the world. Singapore government has encouraged employers to allow employees to work from home whenever possible. On 7 April 2020, circuit breaker was implemented and all non-essential workers were to work from home and all schools were closed. 
-
+Based on this figure, you may make a few observations:
+1. The monthly total unique posters keeps increasing from Jun 2014 to Dec 2017. Thereafter, the monthly total unique posters hovers between 1600 to 1800 and hasn't changed since.
+1. There is a spike starting Mar 2020. This is due to the Covid-19 pandemic which triggered lockdowns across the world including Singapore. Employees are forced to work from home and have litte incentives to leave the house given the restrictions. 
 
 
 <hr>
@@ -75,9 +74,11 @@ Since there is evidence that the community is growing, how about the number of s
     Heatmap of number of daily posts from 24 Jun 2014 to 2 Jun 2020, group by the day of the week. The colour map is centered about 1000 comments.
 </div>
 
-You can see a progression of the daily number of posts from a very low value of about 50 to about 1000 posts. There is a very clear separation at the start of 2017, that's when the daily posts approach 1000 posts and start to hover around that value since. However, there was a brief period of time in 2018 for approximately 4 weeks that the daily number of posts reached a very high count of 2000 or more posts. The maximum number of posts back then was about 3281.
+Based on the figure above, you can make the following observations:
 
-Besides that, you can also clearly see that the number of posts on the daily threads during the weekend versus the weekdays is vastly different. During the weekdays, the number of posts hover about 1000 posts for the past 3 years. On the other hand, the number of posts would hover about 600 posts. This can be explained simply because of the reduced number of unique users on the weekends, and hence, reduced engagement.
+1. The number of posts progressed from ~50 posts to about 1000 posts a day. There is a very clear separation at the start of 2017 where the number of posts hover around 1000 posts a day.
+1. There is an abnormality in 2018 where there were 2000 posts or more for approximately 4 weeks.
+1. The number of posts on the weekdays vs the weekend is still vastly different where there are usually 1000 and 600 posts on weekdays and weekends respectively. This can be explained simply because of the reduced number of unique users on the weekends, and hence, reduced engagement.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -85,9 +86,76 @@ Besides that, you can also clearly see that the number of posts on the daily thr
     </div>
 </div>
 <div class="caption">
-    Median number of daily posts from 24 Jun 2014 to 2 Jun 2020.
+    Median number of daily posts from 24 Jun 2014 to 2 Jun 2020, group by day of the week. Median is used instead of mean due to the high count of comments in 2018. It may skew th results.
 </div>
 
-We can take a look from a different perspective by plotting the median number of posts for each day of the week by year. I decided to use the median value instead of mean value because of the high count of comments in 2018, which can significantly skew the results. The values for first 3 years (2014 to 2016) should be taken with a pinch of salt as the number of comments back then was still experiencing growth and hasn't reached its stationary stage yet. So simply taking a median value for then period is like taking the mid point of an ever increasing growth.
 
-However, we can take a look at the data since 2017. The median value of each day of the week is rather consistent. The data for 2018 is the highest simply because of the outliers in early 2018 as mentioned previously. Looking at the data for 2020, the median number of posts is still about the same value as the previous year despite the implemented circuit breaker. _Could this mean that the number of posts per user has dropped?_
+We can take a look from a different perspective by plotting the median number of posts for each day of the week by year. The values for first 3 years (2014 to 2016) should be taken with a pinch of salt as the number of comments back then was still experiencing growth and hasn't reached its stationary stage yet. So simply taking a median value for then period is like taking the mid point of an ever increasing growth.
+
+By making such plot, we can observe the following:
+1. The median value of each day has been rather consistent since 2017.
+1. The data for 2018 is the highest simply because of the outliers in early 2018 as mentioned previously.
+1. Looking at the data for 2020, the median number of posts is still about the same value as the previous year despite the implemented circuit breaker. _Could this mean that the number of posts per user has dropped?_
+
+
+<hr>
+
+### Have the users been posting more?
+I calculated the average comments per user by dividing the total comments by the total unique users for each day. Then, I plotted another heatmap to illustrate the average number of comments per user since 2014, as shown below. 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202006-sg-reddit/No%20of%20posts%20per%20user%20-%20day.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Heatmap of number of posts per poster from 24 Jun 2014 to 2 Jun 2020. The colour map is centered about the value 3 posts per user.
+</div>
+
+The average number of posts per user back then was about 2 to 3 posts and it has grow up to 3 to 4 posts in recent time. Occasionally the number of posts per user does go up to 5 and beyond. You can see a clear difference in number of posts per user on weekdays versus weekends. Users tend to post about 3 to 4 posts on weekdays and on weekends, they tend to post about 2 to 3. The average user is slightly less chatty because of the reduced number of users that contribute the community engagement.
+
+Looking at the blue bars, which indicate a high number of posts per user, there are two period of time where this happened. First was in end of 2014 and another was in early to mid 2018. In 2014, the users were probably excited about clearing their leaves and school year was going to end, so it was time for them to go on holiday or enjoy their down time. In 2018 though, it was a peculiar period. As indicated previously, this period of time experienced a high number of posts and a high number of users. So this prompts a question - _what was happening back then that caused such a surge in activity?_ 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202006-sg-reddit/Median%20no%20of%20posts%20per%20user%20-%20day.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Median number of posts per poster from 24 Jun 2014 to 2 Jun 2020.
+</div>
+
+Looking at the heatmap above, the average user in 2020 has posted slightly fewer comments as compared to the median posts per user in 2017 to 2019. This is odd as I would have expected that circuit breaker would have increased the number of users and posts. I suppose that since non-essential workers were working from home for the entire circuit breaker and students were doing home based learning in the first half of circuit breaker and then they were on their June holiday in the second half, so their lives were less happening and they have fewer things to rant or talk about. 
+
+
+
+<hr>
+
+### What about the hourly activity of the daily thread?
+I decided to use the data for 2019 to calculate and plot the average hourly number of posts for each day of the week. The reason I chose 2019 data is because there doesn't seem to have any outlier data and also because it is the most recent full year data that I have. 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202006-sg-reddit/Hourly%20posts%20-%20average%202019.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hourly average number of posts by day in the full year of 2019.
+</div>
+
+You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is where the trend of weekday and weekend start to diverge. The reason for the sudden drop in activity from 6am to 1pm is because 1) a new daily thread is posted and pinned, replacing the previous day thread and ending all discussions in the previous day thread, and 2) the users are preparing to go to work/school and are focusing on them first.
+
+On weekdays, the number of comments posted would climb faster than it would on a weekend and it would reach it maximum at about 6-7pm. From there, it would very slowly decrease all the way to 6am. Then the cycle repeats. 
+
+The trend for the weekend is a little bit tricky to see. You would have to look at the end from 1pm of either Saturday or Sunday and connect the trend to the following day (Sunday or Monday) to see the actual trend and to ensure continuity. The number of posted comments on the weekend pick up slower and reach it peak at about 9pm. Then it would go down a little bit and from midnight onwards, it would go up to about 50 comments per hour at 6am before it goes downhill again.  
+
+One thing to note is that on Thursday between 4 to 7pm, the number of comments posted for each hour of the 3 hours time frame is significantly higher than the usual count for a weekday (70 comments vs 60 comments respectively). _Is this because everyone is excited about TGIF the following day?_
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202006-sg-reddit/Hourly%20posts%20-%20average%20CB.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Hourly average number of posts by day during circuit breaker 2020.
+</div>
