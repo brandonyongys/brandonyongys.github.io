@@ -177,4 +177,19 @@ The shape is generally the same as last year's average hourly comments. However,
 
 All these differences show that circuit breaker has indeed changed the behaviour of the sg redditors. As they couldn't go out and enjoy activities such as dating and shopping, more redditors have spent more time online and engaged with others within the community although the average redditor has posted fewer comments.
 
+<hr>
+
+### What are some of the commonly used words?
+I've plotted a word cloud for the entire year of 2019 as well as for the circuit breaker period. Prior to analysis, I have removed most of the commonly stopwords and removed more words that do not bring much significance.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202006-sg-reddit/Word%20frequency%20for%20year%202019.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202006-sg-reddit/Word%20frequency%20for%20CB%20duration.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Here, you can see what are some of the most frequently used words by the users. The top few words that are consistently used are "one", "think" and"work". Of course, the above analysis is still in progress, as I did not remove all the stopwords nor have I removed any emoji or url. 
 
