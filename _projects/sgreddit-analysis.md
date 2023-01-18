@@ -12,7 +12,7 @@ published: true
 
 ---
 
-This descriptive project revolves around SGReddit daily threads. The primary python packages used are [PRAW API][PRAW] and pandas. The data covers from 24 Jun 2014 to 2 Jun 2020, which gives me a total of 2166 threads. 7 threads were missing and couldn't be found on SGReddit despite the manual search. The information that I scraped were:
+This descriptive project revolves around SGReddit daily threads. The primary python packages used are [PRAW API](https://praw.readthedocs.io/en/latest/) and pandas. The data covers from 24 Jun 2014 to 2 Jun 2020, which gives me a total of 2166 threads. 7 threads were missing and couldn't be found on SGReddit despite the manual search. The information that I scraped were:
 <ul>
   <li>content of the comment</li>
   <li>username of the comment</li>
@@ -89,7 +89,6 @@ Based on the figure above, you can make the following observations:
     Median number of daily posts from 24 Jun 2014 to 2 Jun 2020, group by day of the week. Median is used instead of mean due to the high count of comments in 2018. It may skew th results.
 </div>
 
-
 We can take a look from a different perspective by plotting the median number of posts for each day of the week by year. The values for first 3 years (2014 to 2016) should be taken with a pinch of salt as the number of comments back then was still experiencing growth and hasn't reached its stationary stage yet. So simply taking a median value for then period is like taking the mid point of an ever increasing growth.
 
 By making such plot, we can observe the following:
@@ -112,9 +111,12 @@ I calculated the average comments per user by dividing the total comments by the
     Heatmap of number of posts per poster from 24 Jun 2014 to 2 Jun 2020. The colour map is centered about the value 3 posts per user.
 </div>
 
-The average number of posts per user back then was about 2 to 3 posts and it has grow up to 3 to 4 posts in recent time. Occasionally the number of posts per user does go up to 5 and beyond. You can see a clear difference in number of posts per user on weekdays versus weekends. Users tend to post about 3 to 4 posts on weekdays and on weekends, they tend to post about 2 to 3. The average user is slightly less chatty because of the reduced number of users that contribute the community engagement.
-
-Looking at the blue bars, which indicate a high number of posts per user, there are two period of time where this happened. First was in end of 2014 and another was in early to mid 2018. In 2014, the users were probably excited about clearing their leaves and school year was going to end, so it was time for them to go on holiday or enjoy their down time. In 2018 though, it was a peculiar period. As indicated previously, this period of time experienced a high number of posts and a high number of users. So this prompts a question - _what was happening back then that caused such a surge in activity?_ 
+Based on the figure above, 
+1. The average number of posts per user back then was about 2 to 3 posts and it has grow up to 3 to 4 posts in recent time. Occasionally the number of posts per user does go up to 5 and beyond. 
+1. You can see a clear difference in number of posts per user on weekdays versus weekends. Users tend to post about 3 to 4 posts on weekdays and on weekends, they tend to post about 2 to 3. The average user is slightly less chatty because of the reduced number of users that contribute the community engagement.
+1. Looking at the blue bars, which indicate a high number of posts per user, there are two period of time where this happened. First was in end of 2014 and another was in early to mid 2018. 
+    1. In 2014, the users were probably excited about clearing their leaves and school year was going to end, so it was time for them to go on holiday or enjoy their down time. 
+    1. In 2018 though, it was a peculiar period. As indicated previously, this period of time experienced a high number of posts and a high number of users. So this prompts a question - _what was happening back then that caused such a surge in activity?_ 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -126,7 +128,6 @@ Looking at the blue bars, which indicate a high number of posts per user, there 
 </div>
 
 Looking at the heatmap above, the average user in 2020 has posted slightly fewer comments as compared to the median posts per user in 2017 to 2019. This is odd as I would have expected that circuit breaker would have increased the number of users and posts. I suppose that since non-essential workers were working from home for the entire circuit breaker and students were doing home based learning in the first half of circuit breaker and then they were on their June holiday in the second half, so their lives were less happening and they have fewer things to rant or talk about. 
-
 
 
 <hr>
@@ -143,7 +144,13 @@ I decided to use the data for 2019 to calculate and plot the average hourly numb
     Hourly average number of posts by day in the full year of 2019.
 </div>
 
-You can clearly is that there is an obvious trend regardless of the day of the week. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. Starting from 1pm, the number of posts start to pick up. This is where the trend of weekday and weekend start to diverge. The reason for the sudden drop in activity from 6am to 1pm is because 1) a new daily thread is posted and pinned, replacing the previous day thread and ending all discussions in the previous day thread, and 2) the users are preparing to go to work/school and are focusing on them first.
+You can clearly is that there is an obvious trend regardless of the day of the week. 
+1. From 6am all the way to 1pm, the number of comments posted is on a downhill trend. 
+1. Starting from 1pm, the number of posts start to pick up. This is where the trend of weekday and weekend start to diverge. 
+
+The reason for the sudden drop in activity from 6am to 1pm is because 
+    1. a new daily thread is posted and pinned, replacing the previous day thread and ending all discussions in the previous day thread, and 
+    1. the users are preparing to go to work/school and are focusing on them first.
 
 On weekdays, the number of comments posted would climb faster than it would on a weekend and it would reach it maximum at about 6-7pm. From there, it would very slowly decrease all the way to 6am. Then the cycle repeats. 
 
@@ -159,3 +166,15 @@ One thing to note is that on Thursday between 4 to 7pm, the number of comments p
 <div class="caption">
     Hourly average number of posts by day during circuit breaker 2020.
 </div>
+
+The shape is generally the same as last year's average hourly comments. However, there are a few notable changes.
+1. There is almost no difference between weekdays and weekend comments especially in the first half of the day. 
+    1. Between 12 to 6am, there was a maximum difference of 20-30 comments for weekday versus weekend comments and it would slowly converge to about 50 comments at 6am. 
+    1. However, during the ciruit breaker, there is almost no difference. The second half of the day, there is still some difference but the difference between weekday and weekend comments are about 10 comments for each hour compared to last year's difference of about 20 comments.
+1. The maximum hourly comments in the first half of the day tend to be lower than the second half of the day. However, that trend is no longer valid as the maximum for the first half and second half are the same, which is about 80 comments. 
+1. Although the hourly comments at 6am is still about 50 comments, the decline in hourly comments have significantly slowed down. For example, in last year's trend, the hourly comments at 8am was about 20 comments but during the circuit breaker period, the comments posted at 8am was nearly double of that (approximately 40 comments).
+1. The night activity would slowly die down after a certain hour last year. During circuit breaker, the hourly activity at night didn't die down. Rather, it was stable and sometimes would increase.
+
+All these differences show that circuit breaker has indeed changed the behaviour of the sg redditors. As they couldn't go out and enjoy activities such as dating and shopping, more redditors have spent more time online and engaged with others within the community although the average redditor has posted fewer comments.
+
+
