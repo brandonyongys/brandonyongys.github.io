@@ -179,17 +179,10 @@ All these differences show that circuit breaker has indeed changed the behaviour
 
 <hr>
 
-### What are some of the commonly used words?
-I've plotted a word cloud for the entire year of 2019 as well as for the circuit breaker period. Prior to analysis, I have removed most of the commonly stopwords and removed more words that do not bring much significance.
+### Conclusion
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202006-sg-reddit/Word%20frequency%20for%20year%202019.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202006-sg-reddit/Word%20frequency%20for%20CB%20duration.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+We could see how far the SGReddit community has grown from Jun 2014 to Jun 2020. It started off slow but it experienced exponential growth in 2017-2018 before reaching its steady state from 2019 onwards. Along with that growth is the number of posts per user as well. It has grew from 2-3 to 3-4 posts per user.
 
-Here, you can see what are some of the most frequently used words by the users. The top few words that are consistently used are "one", "think" and"work". Of course, the above analysis is still in progress, as I did not remove all the stopwords nor have I removed any emoji or url. 
+There is a clear distinction in the SGReddit activity on weekdays vs weekends throughout the year. This is very much likely due to the fact that the users are using Reddit during office hours on weekdays. Whereas on weekends, they are out enjoying their free time and thus spend less time on SGReddit. 
 
+However, there is change in behaviour when circuit breaker (CB) happened in 2020. There is a clear difference in the hourly number of posts pre-CB as we could see 2 distinct lines for weekdays and weekends. However, during CB, the distinct lines became more homogeneous especially between 12am to 12pm.  
