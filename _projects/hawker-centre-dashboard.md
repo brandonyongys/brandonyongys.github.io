@@ -67,8 +67,7 @@ Referencing this [medium post](https://aws.amazon.com/getting-started/guides/dep
 
 1. Updating the packages as some of the packages had deprecated (e.g. I should import `dcc` directly from `dash` instead of importing `dash_core_components` as `dcc`).
 1. My app wouldn't work well with the `folium` map and I had to change it to a `plotly` map. The reason being that the `folium` map had to be saved as html before displaying it. I was having trouble dealing with it and I decided to change it to a `plotly` map so that it can be displayed directly.
-1. Despite making the above changes, the app still wasn't deployed successfully. After looking through the log files, I found out that it was trying to listen to port 8000 instead of the 8080 as specified. After changing it to port 8000, the app was finally running.
-1. When I reviewed it after 1 day, I noticed that there is no change in the dashboard as the timestamp did not change. I realized that it is what it is when it was successfully deployed. I revised the code so that the dashboard is updated daily.
+1. Despite making the above changes, the app still wasn't deployed successfully. After looking through the log files, I found out that it was trying to listen to port `8000` instead of the `8080` as specified. After changing it to port `8000`, the app was finally running.
 
 
 ## Areas of improvement
