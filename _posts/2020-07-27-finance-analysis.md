@@ -3,7 +3,7 @@ layout: post
 title: Moronic Monday at the Finance sub
 tags: [reddit, finance]
 comments: true
-published: true
+published: false
 
 date:   2020-07-27
 description: Could I build a simple predictive model
