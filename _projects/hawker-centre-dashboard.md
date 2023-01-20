@@ -63,7 +63,7 @@ Back in September 2022, I was able to use the free service provided by Heroku. I
 
 However, Heroku has decided to remove the free service and would start charging from 28 November 2022 onwards based on this [article](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/). I then had to turn to an alternative platform and I decided to try AWS as it is one of the most popular cloud service providers.
 
-Referencing this [medium post](https://aws.amazon.com/getting-started/guides/deploy-webapp-ec2/), I followed the steps to test out the example provided. The step by step worked well and the app was deployed successfully on AWS Elastic Beanstalk but my app didn't get deployed successfully though. I looked through the log files and found some changes that needed to be done:
+Referencing this [medium post](https://austinlasseter.medium.com/deploying-a-dash-app-with-elastic-beanstalk-console-27a834ebe91d)   https://aws.amazon.com/getting-started/guides/deploy-webapp-ec2/, I followed the steps to test out the example provided. The step by step worked well and the app was deployed successfully on AWS Elastic Beanstalk but my app didn't get deployed successfully though. I looked through the log files and found some changes that needed to be done:
 
 1. Updating the packages as some of the packages had deprecated (e.g. I should import `dcc` directly from `dash` instead of importing `dash_core_components` as `dcc`).
 1. My app wouldn't work well with the `folium` map and I had to change it to a `plotly` map. The reason being that the `folium` map had to be saved as html before displaying it. I was having trouble dealing with it and I decided to change it to a `plotly` map so that it can be displayed directly.
