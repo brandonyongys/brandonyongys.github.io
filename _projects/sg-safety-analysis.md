@@ -1,27 +1,25 @@
 ---
 layout: page
-title: sg safety analysis 1 # Project post title
-#description: a project with a background image # Project post description
-img: assets/img/12.jpg # Not necessary to have this image, will be used as thumbnail
-#redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
-importance: 1
+title: SG Safety # Project post title
+description: Analysis on SG crimes # Project post description
+img: https://qph.cf2.quoracdn.net/main-qimg-41e5f3b766414dee38a0f09f0923185f-pjlq
+importance: 3
 category: descriptive # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
 comments: true
 published: descriptive
 ---
 
+I moved to Singapore back in 2012 to further my studies without knowing much about it. I have only been to Singapore once and that was a 4D3N trip with my friends. I didn't know how expensive the things were, how different Singapore was from Malaysia, and more importantly, how safe it was. It was only after I moved here that I started to learn about all these little things that make Singapore *Singapore*.
 
-I moved to Singapore back in 2012 to further my studies without knowing much about it. I have only been to Singapore once prior to my move and that was a 4d3n trip with my friends. I didn't know how expensive the things are, how different Singapore is from Malaysia, and more importantly, how safe it was to the point a lady could be walking late at night alone. It was only after I've moved here and started to learn about all these little things that make Singapore Singapore.
+Throughout the years, it has been very safe for me. I could cross the road safely, walk late at night with little worries and leave things unattended for a while without being paranoid that it would go missing. However, my perspective of Singapore safety changed when my laundry that was hanging out in the corridor was stolen. Everything including my favourite shirts was missing _or stolen_! I lodged a police report but nothing was achieved. I guess that saying, "Low crime does not mean no crime" is true. Most people are very likely to be taking Singapore's low crime rate for granted.
 
-In the 8 years, it has been very safe for me. I could cross the road safely, walk late at night with little worries and leave things unattended for a while without being paranoid that it'll go missing. But my perspective of Singapore safety has changed when my laundry that was hanging out in the lift lobby was stolen earlier this month. Everything including my underwears and my favourite shirts! I have lodged a police report but nothing was achieved. I guess that saying, "Low crime does not mean no crime". Most people are very likely to be taking Singapore's low crime rate for granted.
-
-I'd like to take a deeper look and see how has safety in Singapore changed over the years, especially since I moved. All the data that I am using here are all obtained from [Data.gov.sg](https://data.gov.sg/), published by the Ministry of Home Affairs - Singapore Police Force. The data is accurate as of 15 Aug 2020.
+Given the unfortunate incident, I would like to take a deeper look at Singapore safety over the years, especially since I moved. All the data that I am using here are all obtained from [Data.gov.sg](https://data.gov.sg/), published by the Ministry of Home Affairs - Singapore Police Force. The data was accurate as of 15 Aug 2020.
 
 <hr>
 
 # Total crime in Singapore
-In the dataset provided by SPF, the cases can be categorized into 6 different categories, which are:
+In the dataset provided by SPF, the cases were categorized into 6 different categories, which were:
 1. Crimes Against Persons,
 1. Violent / Serious Property Crimes,
 1. Housebreaking And Related Crimes,
@@ -36,16 +34,17 @@ In the dataset provided by SPF, the cases can be categorized into 6 different ca
 </div>
 
 
-Above figure shoes the total annual number of cases as well as the number of cases for each of the 6 categories. Firstly, you can observe that the total cases have decreased from almost 37,500 cases in 2005 to about 30k cases in 2013 before rising again to a total of 35k cases in 2019. A huge chunk of the reported cases were theft related cases. Violent/serious property related and housebreaking crimes have declined slowly. From 2005 to 2013, as other categories of crime remain relatively stable, the total annual cases have declined.
+Above figure shows the total annual number of cases as well as the number of cases for each of the 6 categories. 
+Firstly, you could observe that the total cases have decreased from almost 37,500 cases in 2005 to about 30k cases in 2013 before rising again to a total of 35k cases in 2019. A huge chunk of the reported cases were theft related cases. Violent/serious property related and housebreaking crimes have declined slowly over the years. From 2005 to 2013, as other categories of crime remain relatively stable, the total annual cases have declined.
 
 However, from 2014 onwards, the number of cases for commercial related crimes have started to rise rapidly as well as crimes against persons and miscellaneous crimes have been rising slowly. These increase has outpaced the decline in the other 3 categories leading to an increase in total crimes.
 
-It seems quite daunting to learn that as theft crimes decline, people are commiting another type of crime. Does this mean that Singapore is still equally dangerous as before? 
+It is quite daunting to learn that as theft crimes decline, people were commiting another type of crime. Does this mean that Singapore is still equally dangerous as before? 
 
 <hr>
 
 # Crime rate in Singapore
-The total crime shows a part of the big picture. When we consider the population growth in Singapore, the numbers don't seem as daunting anymore.
+The total crime shows a part of the big picture. When we considered the population growth in Singapore, the numbers didn't seem as daunting anymore.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -55,7 +54,7 @@ The total crime shows a part of the big picture. When we consider the population
 
 The crime rate has declined from about 900 cases per 100k population in 2005 to 555 in 2013 before increasing and hover about 650 cases per 100k population ever since. Just as before, the initial decline in crime rate are mainly due to decrease in theft crimes. Then, the commercial and miscellaneous crimes started to increase which effectively cancel off the effect from theft crime decline. 
 
-No doubt that we should be thankful that the overall crime rate is relatively stable since 2014. However, the breakdown of crime rate by category shows where SPF are currently lacking. SPF will need to up their effort in curbing commercial crimes.
+No doubt that we should be thankful that the overall crime rate is relatively stable since 2014. However, the breakdown of crime rate by category shows where SPF may be lacking. SPF would need to up their effort in curbing commercial crimes.
 
 <hr>
 
