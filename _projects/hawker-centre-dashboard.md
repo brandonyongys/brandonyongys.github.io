@@ -1,9 +1,7 @@
 ---
 layout: page
 title: Hawker centre dashboard # Project post title
-# description: a project with a background image # Project post description
-img: https://danielfooddiary.com/wp-content/uploads/2019/08/Hawkercentre-scaled.jpg #assets/img/12.jpg # Not necessary to have this image, will be used as thumbnail
-# redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
+img: https://danielfooddiary.com/wp-content/uploads/2019/08/Hawkercentre-scaled.jpg 
 importance: 1
 category: deployment # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
@@ -15,20 +13,21 @@ published: true
 
 ---
 
-There was a [post](https://towardsdatascience.com/creating-a-web-application-to-analyse-dengue-cases-1be4a708a533) by Benedict Soh on [tds](https://towardsdatascience.com/) where he was developed and deployed a dashboard to track and analyse dengue cases in Singapore. The tds post was made in late 2020's and I stumbled upon in early 2022. The dengue dashboard would have been of great use if it was more up-to-date with the latest news and tweets about dengue. However, the dashboard was a static app and it did not function properly after 2 Aug 2020.
+There was a [post](https://towardsdatascience.com/creating-a-web-application-to-analyse-dengue-cases-1be4a708a533) by Benedict Soh on [tds](https://towardsdatascience.com/) where he developed and deployed a dashboard to track and analyse dengue cases in Singapore. However, the dashboard was a static app and it did not function properly after 2 Aug 2020. It would have been of great use to the Singapore community if it was up-to-date with the latest news and tweets about dengue.
 
-Back then, I was really interested in learning how to develop and deploy an application, be it a model or a dashboard. The main objective was to learn to deploy whatever I would have built in the future and not simply leave it in one of my many local folders or github repos. Not to mention, the post is rather simple and it would serve as a good base for me to learn how to develop and deploy an app.
+Back then when I stumbled upon it in early 2022, I was interested in learning how to develop and deploy an application, be it a model or a dashboard. The main objective was simply to learn the deployment techniques, which would be useful for anything that I would have built. That would deliver more value than to simply leave the apps in one of my many local folders or github repos. Not to mention, the tds post was rather simple and serve a rather good introduction for me given my lack of knowledge and skills.
 
-## Data.gov.sg search
-I did a search on [data.gov.sg](https://data.gov.sg/) to find what intriguing dataset that I could use to develop such dashboard and I found the [hawker centre closure dates dataset](https://data.gov.sg/dataset/dates-of-hawker-centres-closure). Seeing that there are temporal and spatial elements, I decided to use it. With that in mind, the dashboard has 2 main features:
-
-1. A map of Singapore with all the hawker centres indicated as points. Each point should have 1 of 3 colours to indicate its status (open, closing within a month or closed).
+# Data.gov.sg search
+I searched through [data.gov.sg](https://data.gov.sg/) and found the [hawker centre closure dates dataset](https://data.gov.sg/dataset/dates-of-hawker-centres-closure). There are temporal and spatial elements in the dataset and I could foresee 2 main features in my dashboard:
+1. A map of Singapore with all the hawker centres indicated as points. Each point would be 1 of 3 colours to reflect its current status - open, closing within a month or closed.
 1. Two separate tables that show a list of hawker centres that are currently closed and the upcoming closures.
 
-The dashboard is built using the same template as that by Benedict Soh. Full credits to him for building the dashboard, I am simply adapting the codes to his. The dashboard and map are built using `dash` and `folium` respectively. 
+The dashboard was built in the similar fashion as that by Benedict Soh. Full credits to him for building the dashboard as I am simply adapting his codes to my dashboard. The dashboard and map were built using `dash` and `folium` respectively.
 
-## Data API call
-In the original tds post, the author was using static data to plot the visualization. I, however, did not use a static data. Rather, I used the data API to fetch the latest data. Of course, this again is a challenge for me because how do I do it? I search through tds again and found this [post](https://towardsdatascience.com/exploring-data-gov-sg-api-725e344048dc) by Tony Ng, who did a brief introduction and mimicking what was done, I managed to get the script to use the API instead. The following command was used to call the data using `requests`:
+**EDIT:** The map was subsequently replaced with `plotly`.
+
+# Data API call
+In the original post, the author was using static data to plot the visualization. However, I did the opposite and wanted to use the latest dataset. I utilized the data API to fetch the latest data. This [post](https://towardsdatascience.com/exploring-data-gov-sg-api-725e344048dc) by Tony Ng did a great job of providing a high level introduction of the data.gov.sg API and I adapted his work to my work again. For the benefits of others, the following command was used to call the data using `requests`:
 {% raw %}
 ```html
 import requests
@@ -37,18 +36,18 @@ requests.get('https://data.gov.sg/api/action/datastore_search?resource_id=b80cb6
 ```
 {% endraw %}
 
-## Data manipulation
-Although the data has been called via API, the data is a json format. I converted it into a pandas dataframe before converting it from a wide to long table. The table is a wide table as each row represents a single unique hawker centre and some columns represent the cleaning or closure date for a particular quarter. Of course, this wide table could be used but I just prefer using a long table for data manipulation. 
+To use the above command, go to your desired data.gov.sg dataset and click on the "Data API" button at the top right, if any. Copy the query example link and simply remove the last term ('&limit=5') or you could simply change it to a larger number like what I did in the above.
 
-Once I got a long table, I then had to identify and extract hawker centres that are currently open today, closing within a month and closing more than a month later. One thing that I have to be careful here is to ensure that all hawker centres should appear once and only once and should be in one of the three lists. The difficulty I had with the data manipulation is the manipulation of datetime. I am not particularly good with it but I found [arrow](https://arrow.readthedocs.io/en/latest/) package. It saved my life! And also, save me from all the hassle :D
+# Data manipulation
+Although the data has been called via API, the data is a json format. I converted it into a simple `pandas` dataframe. The dataframe is is a wide table as each row represents a single unique hawker centre and some columns represent the cleaning or closure date for a particular quarter. I further processed it to be a long table where each row represents a particular hawker centre and closure period. The conversion from wide to long table was done as I preferred using a long table for data manipulation.
 
-Based on the three lists, I colour code the hawker centres into green (currently open), orange (closing soon) and red (currently closed) for the map. Tables are also built accordingly for feature #2. 
+I then manipulated the long table to identify and extract 3 tables of hawker centres. The 3 tables contain hawker centres that are currently open, closing within a month and currently closed respectively. I had to take the precaution step to ensure that all hawker centres are accounted for and each hawker centre be in one of the 3 tables. Based on these 3 tables, the hawker centres were then colour coded as green (currently open), orange (closing within a month) and red (currently closed).
 
-Other than that, there is nothing else interesting than to say that I used pandas to manipulate the data.
+The main difficulty I had with the data manipulation is the manipulation of datetime. I am not particularly good with it but I found [arrow](https://arrow.readthedocs.io/en/latest/) package. It saved my life! And also, save me from all the hassle :D
 
 
-## Dashboard development 
-There is few changes from the original codes by Benedict Soh. I simply replaced the news and social media tabs with the "Currently Closed" and "Upcoming Closure" tabs. Any analysis on the news and tweets were also removed. Within the codes, some of the functions were renamed accordingly so that it seems more intuitive when it comes to reading my own codes. 
+# Dashboard development 
+There are a few changes from the original codes by Benedict Soh. I replaced the news and social media tabs with the "Currently Closed" and "Upcoming Closure" tabs. Any analysis on the news and tweets were also removed. Within the codes, some of the functions were renamed accordingly so that it is more intuitive when it comes to reading the codes. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -58,19 +57,19 @@ There is few changes from the original codes by Benedict Soh. I simply replaced 
 
 This is how the dashboard looked like when I ran it back in Sep 2022. 
 
-## Dashboard deployment
+# Dashboard deployment
 Back in September 2022, I was able to use the free service provided by Heroku. I followed the steps as shared by Benedict to deploy on Heroku though it did take me over 20 runs to troubleshoot the errors. I couldn't remember what I did and it took a while to work but I still got there. 
 
-However, Heroku has decided to remove the free service and would start charging from 28 November 2022 onwards based on this [article](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/). I then had to turn to an alternative platform and I decided to try AWS as it is one of the most popular cloud service providers.
+However, Heroku has decided to remove the free service and would start charging from 28 November 2022 onwards ([article](https://techcrunch.com/2022/08/25/heroku-announces-plans-to-eliminate-free-plans-blaming-fraud-and-abuse/)). I then had to turn to an alternative platform and I decided to try AWS as it is one of the most popular cloud service providers. I decided to deploy using AWS Elastic Beanstalk as there is a step by step [medium post](https://austinlasseter.medium.com/deploying-a-dash-app-with-elastic-beanstalk-console-27a834ebe91d) by Austin Lassseter.
 
-Referencing this [medium post](https://austinlasseter.medium.com/deploying-a-dash-app-with-elastic-beanstalk-console-27a834ebe91d)   https://aws.amazon.com/getting-started/guides/deploy-webapp-ec2/, I followed the steps to test out the example provided. The step by step worked well and the app was deployed successfully on AWS Elastic Beanstalk but my app didn't get deployed successfully though. I looked through the log files and found some changes that needed to be done:
+I tested out the step by step using the provided example and the app was successfully deployed on AWS Elastic Beanstalk. However, when I tried the same set of steps with my app, it was not deployed successfully. I looked through the log files and found some changes that needed to be done:
 
-1. Updating the packages as some of the packages had deprecated (e.g. I should import `dcc` directly from `dash` instead of importing `dash_core_components` as `dcc`).
-1. My app wouldn't work well with the `folium` map and I had to change it to a `plotly` map. The reason being that the `folium` map had to be saved as html before displaying it. I was having trouble dealing with it and I decided to change it to a `plotly` map so that it can be displayed directly.
+1. Some of the packages had to be updated as they had deprecated (e.g. I should import `dcc` directly from `dash` instead of importing `dash_core_components` as `dcc`).
+1. My app wouldn't work well with the `folium` map as the map would be saved first as html file before being called back for visualization. I changed it to a `plotly` map. 
 1. Despite making the above changes, the app still wasn't deployed successfully. After looking through the log files, I found out that it was trying to listen to port `8000` instead of the `8080` as specified. After changing it to port `8000`, the app was finally running.
 
 
-## Areas of improvement
+# Areas of improvement
 I would prefer to add in more interactive features where the user may sort the tables according to any of the columns instead of being sorted by date by default.
 
 I would also love to change the background or logo to reflect some Singaporean food. In fact, it would be good if each point within the map could show some famous food or food that are highly rated within that hawker.
