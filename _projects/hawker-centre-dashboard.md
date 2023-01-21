@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hawker centre dashboard # Project post title
+title: Hawker Centre Dashboard # Project post title
 img: https://danielfooddiary.com/wp-content/uploads/2019/08/Hawkercentre-scaled.jpg 
 importance: 1
 category: deployment # deployment / predictive / descriptive, if wrong category, the post won't be posted
