@@ -1,20 +1,64 @@
 ---
 layout: page
-title: Moronic Monday at the Finance sub # Project post title
+title: Moronic Monday at the Finance subreddit # Project post title
 description: Could I build a simple predictive model # Project post description
 img: assets/img/12.jpg # Not necessary to have this image, will be used as thumbnail
-#redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
 importance: 1
 category: predictive # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
 comments: true
-published: true
+published: false
 ---
 
+A new thread would be posted at the [Finance sub](https://old.reddit.com/r/finance/) every Monday as a platform for the wider community especially those who are new to ask questions related to finance such as financial careers, homework problems or even finance in general. Most of the questions have been asked numerous times and could be easily answered using Google.
 
-Every Monday a new thread will be posted at the [Finance sub](https://old.reddit.com/r/finance/) to allow the community to ask questions anything related to finance such as financial careers, homework problems and finance in general. Some of the questions asked may be quite simple and could be easily googled and others are not as easily googled. In those questions, the responses are rather in depth and long. So I would like to see whether can I extract some sort of useful data from the numerous comments. Here, I downloaded every comment in the weekly Moronic Monday thread from 10 November 2014 to 18 July 2020 from a total of 296 threads. With that, I have gathered a total of 15,734 comments to analyse.
+Despite the general questions, the members are still helpful and they do their best to help the newcomers by providing lengthy and in-depth answers. Here, I attempted to analyse the responses to extract some useful data. 
 
 <hr>
+
+# Data collection
+
+The data were collected using the PRAW API and it contained comments in the weekly Moronic Monday threads from 10 Nov 2014 to 18 Jul 2020. With that, I have gathered a total of 15,734 comments out of the 296 threads.
+
+<hr>
+
+# How lengthy are the comments?
+As mentioned earlier, the members are generally helpful and tried their best to provide a detailed responses. But how long are their responses? Before I begun the analysis, I would have to preprocessed the data by removing any deleted or removed comments as well as comments with no content such as an emoji response. All URLs are replaced with the term "URL" to ease the preprocessing. All quoted comments were removed.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202008-reddit-finance/03%20Boxplot%20no%20of%20words.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Above is the distribution of number of words for each weekly thread. The y-axis is plotted on a log scale so that the illustrated boxplot is not skewed to the lower range. The number of words for each comment doesn't change much throughout the years as each comment is typically 120 words or less. However, there were still a number of comments in each weekly thread that were considered as outliers in the box plot. These comments are the comments that are more in depth as the members took the time and effort to put things into perspective for the reader to better understand.
+
+<hr>
+
+# What are the typically discussed in the weekly thread?
+All stop words as well as URLs and emails were removed from the comments. The top 150 bigram and trigrams from the comments were then plotted in a word cloud as shown below:
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Bigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/202008-reddit-finance/05%20Trigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+
+There is nothing surprising here. Most of the terms used are related to finance. In the bigram word cloud, the font size of the different terms are about the same, which indicates that these frequently used terms are used at approximately the same frequency. However, when we look at the trigram, we can see that only a few 3-words terms are frequently used, which are future/free cash flow and some sort of rates such as the risk free rate and federal fund rate.  
+
+Based on these two word clouds, we could conclude that the discussions often revolves around the impact of cash flow and rates on investment such as stock price and stock market. Not to mention, there is a huge emphasis on time value of money. I guess that that huge emphasis is necessary since anyone that asks a question here is often new to finance topic.
+
+<hr>
+
+
+
+
+
+
 
 ## 1. Can I predict next week's total comment counts?
 First thing that I'd like to know is the total number of comments in each weekly thread. So, here I have counted and plotted a figure to illustrate the number of comments since 2014. 
@@ -45,37 +89,11 @@ However, it should be noted the confidence interval is rather large as the stand
 
 <hr>
 
-## 2. How lengthy are the comments?
-The second thing I'm looking at is the number of words in the comments, which indicates how lengthy each comment is. I first preprocessed the data by removing ny deleted or removed comments as well as comments with no content such as an emoji response. Any URL are replaced with the term "URL" to ease the preprocessing. Besides that, I also removed any quotes the poster may have made within the comment as I would like to see new content rather than repeated contents.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-reddit-finance/03%20Boxplot%20no%20of%20words.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-I chose to plot the distribution by changing the scale for the y-axis to a log scale so the illustrated boxplot is not skewed to the lower range. The number of words for each comment doesn't change much throughout the years as each comment is typically 120 words or less, excluding comments with emoji only. However, there are still a number of comments in each weekly thread that are considered as outliers in the box plot. These comments are the comments that are more in depth as the poster took the time and effort to put things into perspective for the reader to better understand.
 
 <hr>
 
-## 3. What are the typically discussed in the weekly thread?
-To answer this, I would plot a word cloud with the font size of the terms representing the frequency of the term used. First, I would remove all the stop words in the comments. I have also tried my best to remove all the urls and emails within the comments but some would still slip through. After cleaning up the text data, the top 150 bigram and trigram word cloud are plotted as below:
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-reddit-finance/05%20Bigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/202008-reddit-finance/05%20Trigram%20for%20all%20comments.png" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-
-There is nothing surprising here. Most of the terms used are related to finance. In the bigram word cloud, the font size of the different terms are about the same, which indicates that these frequently used terms are used at approximately the same frequency. However, when we look at the trigram, we can see that only a few 3-words terms are frequently used, which are future/free cash flow and some sort of rates such as the risk free rate and federal fund rate.  
-
-Based on these two word clouds, we could conclude that the discussions often revolves around the impact of cash flow and rates on investment such as stock price and stock market. Not to mention, there is a huge emphasis on time value of money. I guess that that huge emphasis is necessary since anyone that asks a question here is often new to finance topic.
-
-<hr>
 
 ## 4. How many votes are given to each comment?
 
