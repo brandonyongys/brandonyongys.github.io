@@ -1,14 +1,16 @@
 ---
-layout: post
-title: Moronic Monday at the Finance sub
-tags: [reddit, finance]
-comments: true
-published: false
+layout: page
+title: Moronic Monday at the Finance sub # Project post title
+description: Could I build a simple predictive model # Project post description
+img: assets/img/12.jpg # Not necessary to have this image, will be used as thumbnail
+#redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
+importance: 1
+category: predictive # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
-date:   2020-07-27
-description: Could I build a simple predictive model
-categories: modelling
+comments: true
+published: true
 ---
+
 
 Every Monday a new thread will be posted at the [Finance sub](https://old.reddit.com/r/finance/) to allow the community to ask questions anything related to finance such as financial careers, homework problems and finance in general. Some of the questions asked may be quite simple and could be easily googled and others are not as easily googled. In those questions, the responses are rather in depth and long. So I would like to see whether can I extract some sort of useful data from the numerous comments. Here, I downloaded every comment in the weekly Moronic Monday thread from 10 November 2014 to 18 July 2020 from a total of 296 threads. With that, I have gathered a total of 15,734 comments to analyse.
 
