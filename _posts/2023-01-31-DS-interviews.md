@@ -7,7 +7,7 @@ title: Series of interviews
 #categories: sample-posts
 
 comments: true
-published: false
+published: true
 
 
 # Content
