@@ -1,5 +1,5 @@
 ---
-date: 2023-01-21
+date: 2023-01-31
 
 layout: post
 title: Series of interviews
@@ -39,6 +39,7 @@ published: true
 I have been going through a series of interviews for the past few months as an interviewer as well as an interviewee. It all started back my supervisor, who was a senior principal analyst, submitted his resignation after the original department has achieved all three main objectives. After his resignation, I had to take on the role as a technical interviewer to assess the technical capability of the interviewees. 
 
 However, for the same reason, I had suddenly lost a good supervisor and were no longer guided and mentored by an experienced IT professional. I no longer could receive constructive feedback on my technical and professional development. I no longer know what I know and know what I don't know. Concurrently, I was trying to figure out where is the next direction for my own career.
+<hr>
 
 # Technical interviewer
 As a technical interviewer, I knew what I was looking for to be part of the data science team. The candidate had to display a very strong interest as well as understanding of data science (machine learning at the very least). This included understanding the intuition behind ML models such as random forest, ensemble methods and support vector machine. 
@@ -46,7 +47,7 @@ As a technical interviewer, I knew what I was looking for to be part of the data
 It would be helpful for the candidate to be able to present their ML/DL projects and able to defend it as we asked in-depth questions regarding it. It would demonstrate how much the candidate has done and how much they have researched to get the best performing results. At the same time, we would be able to find out where are their strengths and weaknesses and figure out how we could complement each other.
 
 Besides that, we were looking at the fit of the person to the existing team as well. There were strong candidates that we would have loved to hire but due to the misfit to the team that we decided not to hire. So to those out that who are technically strong, don't feel dejected! You are valued somewhere, you just need to find a good fit.
-
+<hr>
 
 # Technical interviewee
 As a technical interviewee, I was trying to figure out where are the gaps in my technical skills and I realized that I am missing out on a lot of skills and experiences despite the fact that I am a senior data scientist and a technical lead in a newly formed data science team! After going through multiple interviews, there are three main area that I am lacking or I could continue to improve on.
@@ -76,4 +77,4 @@ In conclusion, I am still lacking a lot of skills and experiences as a data scie
 
 1. Study and write fortnightly blog posts on NLP from Feb to Dec 2023.
 1. Study and complete AWS Cloud Practitioner and Solutions Architect Associate certificates by Jun 2023.
-1. 
+
