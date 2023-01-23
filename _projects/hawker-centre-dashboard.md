@@ -68,6 +68,7 @@ I tested out the step by step using the provided example and the app was success
 1. My app wouldn't work well with the `folium` map as the map would be saved first as html file before being called back for visualization. I changed it to a `plotly` map. 
 1. Despite making the above changes, the app still wasn't deployed successfully. After looking through the log files, I found out that it was trying to listen to port `8000` instead of the `8080` as specified. After changing it to port `8000`, the app was finally running.
 
+The dashboard is now running on [here](http://sg-hawker-centre-dashboard.ap-southeast-1.elasticbeanstalk.com/). Please take a look at it. 
 
 # Areas of improvement
 I would prefer to add in more interactive features where the user may sort the tables according to any of the columns instead of being sorted by date by default.
