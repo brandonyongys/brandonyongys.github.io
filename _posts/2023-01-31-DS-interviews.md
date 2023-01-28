@@ -52,16 +52,15 @@ Besides that, we were looking at the fit of the person to the existing team as w
 # Technical interviewee
 As a technical interviewee, I was trying to figure out where are the gaps in my technical skills and I realized that I am missing out on a lot of skills and experiences despite the fact that I am a senior data scientist and a technical lead in a newly formed data science team! After going through multiple interviews, there are three main area that I am lacking or I could continue to improve on.
 
+## Cloud experiences
+I often get asked about my experience with cloud technologies (AWS, GCP, Azure) and my answer is "Sorry, I don't have any experience with that at the moment. My company does not allow such technologies at the moment due to IT security and data governance concerns. However, I am learning it on the side as part of my own career development.".
+
+It is a sad truth. However, I realize that it shouldn't limit my own career growth. I am now studying for the AWS Cloud Practitioner certificate before I move on to AWS Solutions Architect Associate certificate. Hopefully I would be able to get these two by Jun 2023.
+
 ## Data science knowledge 
 The interviewers drilled down on my experience especially on NLP and sequential data. I have always been interested in NLP and sequential data (and also spatial data to a lesser extent). I have a good general idea of them but what I am lacking is, again, the practical experience. 
 
 I would have work on it as well. My current plan is to write blog posts about NLP every 2 weeks for the entire 2023 starting from Feb. Ideally there should be a portion on the theory and another portion on the implementation using some toy dataset.
-
-## Cloud experiences
-I often get asked about my experience with cloud technologies (AWS, GCP, Azure) and my answer is "Sorry, I don't have any experience with that at the moment. My company does not allow such technologies at the moment due to IT security and data governance concerns. However, I am learning it on the side as part of my own career development.".
-
-That is true. I was looking at platforms to redeploy my hawker centre dashboard, which I ultimately chose AWS Elastic Beanstalk to do it. My experience is definitely limited and I am now studying for AWS Cloud Practitioner certificate before I move on to AWS Solutions Architect Associate certificate. Hopefully I would be able to get these two by Jun 2023.
-
 
 ## Data engineering skill
 One of the interviews tested my knowledge on data structure and SQL. I have to admit that I have very little knowledge and exposure to it other than the random courses I took a while back. Even if I did learn about it, I wouldn't have much opportunities to apply it at work given the IT security and data governance in place. 
@@ -75,6 +74,7 @@ I do remember that one of the interviewers asked me about my experience working 
 # Conclusion and follow up actions
 In conclusion, I am still lacking a lot of skills and experiences as a data scientist. To address my gaps, these are my plans:
 
-1. Study and write fortnightly blog posts on NLP from Feb to Dec 2023.
 1. Study and complete AWS Cloud Practitioner and Solutions Architect Associate certificates by Jun 2023.
+1. Study and write fortnightly blog posts on NLP from Apr to Dec 2023 once I got more bandwidth.
+
 
