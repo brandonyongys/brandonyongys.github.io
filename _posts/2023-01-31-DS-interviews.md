@@ -24,6 +24,14 @@ published: true
 #     - SQL - have very little exposure. had to rely on Chat GPT to write out somewhat functional SQL. couldn't do more complex.
 #     - logistic regression - ask about regularization. What happens to beta_0 and beta_j if lambda increases. 
 
+# interview:
+#     - Why am I looking to leave
+#     - work done at SGH 
+#     - considered different models for time series (ARIMA vs Prophet)
+#     - sample problem statement and how to design a classifier - to understand my thought process
+#     - didn't choose the right evaluation metric (was asked why precision and not recall - answered wrongly. the reason is the same but i misunderstood the meaning of precision vs recall)
+
+
 # MSD:
 #     - API - what are APIs? tested to read a script and explain briefly what's happening. sugegst a few things to improve it - couldn't answer
 #     - NLP experience - little exposure other than theory.
@@ -60,7 +68,9 @@ It is a sad truth. However, I realize that it shouldn't limit my own career grow
 ## Data science knowledge 
 The interviewers drilled down on my experience especially on NLP and sequential data. I have always been interested in NLP and sequential data (and also spatial data to a lesser extent). I have a good general idea of them but what I am lacking is, again, the practical experience. 
 
-I would have work on it as well. My current plan is to write blog posts about NLP every 2 weeks for the entire 2023 starting from Feb. Ideally there should be a portion on the theory and another portion on the implementation using some toy dataset.
+Another interviewer asked why did I choose to evaluate my ML models using precision. I shared that it is dependent on context and in healthcare, it is more important to correctly detect the true positive as undetected true positive may result in death. However, I mixed up precision with recall as this answer is more appropriate for 'recall'. 
+
+There is still much for me to work on in terms of my basics. My current plan is to write blog posts about NLP every 2 weeks for the entire 2023 starting from Feb. Ideally there should be a portion on the theory and another portion on the implementation using some toy dataset. I would have to find other resources to read up especially on basic statistics.
 
 ## Data engineering skill
 One of the interviews tested my knowledge on data structure and SQL. I have to admit that I have very little knowledge and exposure to it other than the random courses I took a while back. Even if I did learn about it, I wouldn't have much opportunities to apply it at work given the IT security and data governance in place. 
