@@ -84,7 +84,8 @@ I do remember that one of the interviewers asked me about my experience working 
 # Conclusion and follow up actions
 In conclusion, I am still lacking a lot of skills and experiences as a data scientist. To address my gaps, these are my plans:
 
-1. Study and complete AWS Cloud Practitioner and Solutions Architect Associate certificates by Jun 2023.
-1. Study and write fortnightly blog posts on NLP from Apr to Dec 2023 once I got more bandwidth.
+1. Study and complete AWS Cloud Practitioner by Jun 2023
+1. Study and pass  Solutions Architect Associate certificate by Dec 2023.
+1. Complete Stanford CS224n [Natural Language Processing with Deep Learning](http://web.stanford.edu/class/cs224n/).
 
 
