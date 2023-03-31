@@ -2,30 +2,24 @@
 date: 2023-02-15
 
 layout: post
-title: Series of interviews
+title: Getting my AWS Cloud Practitioner certificate
 #tags: [test]
 #categories: sample-posts
 
 comments: true
-published: false
+published: true
 ---
 
-STarted AWS cloud practitioner on 22 Jan ()
-Target exam is 2 Mar
-because away for overseas trip between 9 to 18 Feb
+Throughout my career as a healthcare data scientist, there was no immediate need for me to get any cloud certificates (be it from AWS, GCP, Azure or anyt other platforms). It is simply because we are not allowed to use or connect our corporate machines to the internet. With that policy, my healthcare cluster did not explore or build a separate IT infrastructure to connect to the cloud services (that I am aware of).
 
-been readign the various AWS training and certification (https://explore.skillbuilder.aws/learn/home)
-took the Cloud essentials learning plan 
+This would hinder my professional growth as a data scientist, unless I decide to stay on with my company. So I've taken the liberty to at least get myself certified as a Cloud Practitioner by AWS. It was not an easy task as the entire cloud terms are totally new to me and there is no one within my team to guide me. All I have is Google.
 
-cloud practitioner certificate page: https://aws.amazon.com/certification/certified-cloud-practitioner/?ch=sec&sec=rmg&d=1
-started reading up on it here: https://aws.amazon.com/training/learn-about/cloud-practitioner/
-signed up for the cloud essentials learning plan as suggested: https://explore.skillbuilder.aws/learn/public/learning_plan/view/82/cloud-foundations-learning-plan?la=cta&cta=topbanner
+Thankfully, I managed to find some free resources by AWS. They are all on the [AWS Training and Certification](https://explore.skillbuilder.aws/learn/home). I enrolled into the Cloud Essential Learning Plan and watched all the videos in sequence. I started my journey on 22 Jan and it took me over 1.5 months to complete all the videos and take the exam on 2 Mar. It took longer than expected because of my 2 weeks vacation in mid Feb.
 
-13 hrs 26 mins of reading and video time
-7 courses: job roles in cloud, aws cloud practitioner essentials etc.. 
-took longer than that.
-read up on the various suggested materials at the end of each module
+Other than simply watching the videos, I also spent some time reading the white papers but the papers were just too much for me. There are just too many different available services provided by AWS and I couldn't possibly learn every single service. Instead, I simply spent my time reading up on the more popular services and understand how they work.
 
-learnings:
-1. greater understanding of the entire AWS and the potential
-1. greater understanding and appreciation of the security and networking as well as databases.
+After my 2 weeks vacation, I signed up for the exams on 2 Mar. Even then, I was still nervous taking the exam simply because I didn't feel that I am prepared and have yet to revise another round. That and also that I had to catch up on my work, which left me with little time to re-read the materials.
+
+During the exam, I did encounter some services that I am not familiar with i.e. have not heard of it. It was a daunting time for me but thankfully I passed the exam. The result was released immediately after I submitted my answers. My score was definitely not the best but hey, at least now I have basic understanding of AWS and its services as well as the ecosystem.
+
+My next mission is to get the AWS Solutions Architect Associate certificate by Dec 2023 before getting the AWS Machine Learning Specialty certificate in the next 2 years.
