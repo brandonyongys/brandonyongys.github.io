@@ -31,9 +31,15 @@
 - title: Work experience
   type: time_table
   contents:
+    - title: Senior Assistant Manager (Data Scientist)
+      institution: National University Health System (NUHS), Singapore
+      year: Apr 2023
+      description:
+        - **Coming soon!**
+
     - title: Senior Data Scientist
       institution: Department of Data Science, Singapore General Hospital (SGH), Singapore
-      year: Dec 2022 - present
+      year: Dec 2022 - Mar 2023
       description:
         - Technical team lead of 3 junior data scientists.
         - Constantly looking out for new hires.
