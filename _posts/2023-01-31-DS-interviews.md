@@ -2,7 +2,7 @@
 date: 2023-01-31
 
 layout: post
-title: Series of interviews
+title: Understanding my professional gaps
 #tags: [test]
 #categories: sample-posts
 

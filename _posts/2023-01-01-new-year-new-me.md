@@ -8,7 +8,7 @@ tags: [goals]
 categories: goals
 
 comments: true
-published: true
+published: false
 
 ---
 New year, new me eh. I have been rather slack in my own professional development for the past 1 year (not only that actually). Now I have to focus and achieve at least 75% of goals by end of the year! No more procrastinating! Below are the goals for the 3 main sections - Professional, Career and Personal.
