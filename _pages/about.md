@@ -33,7 +33,7 @@ I am currently working as a data scientist in National University Health System 
 
 I started off my data scientist journey as a project officer in Nanyang Technological University first. During my 2 years stint, I researched on the application of Generative Adversarial Network in the finance industry. 
 
-After that, I moved over to Singapore General Hospital as a data scientist in the midst of Covid-19 pandemic for almost 2.5 years. Over there, I was the first member of the newly formed data science team and I have grown tremendously from an individual contributor as a data scientist to a technical team where I recruited and managed 2 junior data scientists. 
+After that, I moved over to Singapore General Hospital as a data scientist in the midst of Covid-19 pandemic for almost 2.5 years. Over there, I was the first member of the newly formed data science team and I have grown tremendously from an individual contributor as a data scientist to a technical team where I recruited and managed 3 junior data scientists. 
 
 Whenever I have some down time here and there, I enjoy reading [reddit](http://reddit.com) especially the [SGreddit](http://https://reddit.com/r/singapore/) as well as to start planning my next escape. One of my to-do list is to visit the North or South Pole! And also, see the aurora with my own eyes. The world is huge and definitely is my oyster.
 
