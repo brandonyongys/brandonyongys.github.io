@@ -44,7 +44,7 @@ published: true
 
 ---
 
-I have been going through a series of interviews for the past few months as an interviewer as well as an interviewee. It all started back my supervisor, who was a senior principal analyst, submitted his resignation after the original department has achieved all three main objectives. After his resignation, I had to take on the role as a technical interviewer to assess the technical capability of the interviewees. 
+I have been going through a series of interviews for the past few months as an interviewer as well as an interviewee. It all started back when my supervisor, who was a senior principal analyst, submitted his resignation after the original department has achieved all three main objectives. After his resignation, I had to take on the role as a technical interviewer to assess the technical capability of the interviewees. 
 
 However, for the same reason, I had suddenly lost a good supervisor and were no longer guided and mentored by an experienced IT professional. I no longer could receive constructive feedback on my technical and professional development. I no longer know what I know and know what I don't know. Concurrently, I was trying to figure out where is the next direction for my own career.
 <hr>
