@@ -27,7 +27,9 @@ social: true  # includes social icons at the bottom of the page
 
 Hello! Welcome to my humble github page. 
 
-I'm Brandon and this is where you could find some of the work I have worked on on or currently working on. It would be updated from time to time as I am focusing most of my time on my meaningful work as a data scientist as well as living my life to the fullest. I am currently working as a data scientist in National University Health System (NUHS), Singapore.
+I'm Brandon and this is where you could find some of the work I have worked on on or currently working on. It would be updated from time to time as I am focusing most of my time on my meaningful work as a data scientist as well as living my life to the fullest. 
+
+I am currently working as a data scientist in National University Health System (NUHS), Singapore.
 
 I started off my data scientist journey as a project officer in Nanyang Technological University first. During my 2 years stint, I researched on the application of Generative Adversarial Network in the finance industry. 
 
