@@ -30,6 +30,11 @@ Throughout my few stays, I have enjoyed myself very much and would like to find 
     A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
 </div>
 
+<hr>
+
+<iframe width="1000" height="750" frameborder="0" scrolling="yes" src="/assets/img/mbs_reviews/avg_rating_over_time.html"></iframe>
+
+<hr>
 
 # Sentiment analysis
 
