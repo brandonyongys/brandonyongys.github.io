@@ -9,34 +9,65 @@ comments: true
 published: true
 
 ---
+# ORIGINAL 
 Data is an important aspect in any data science work. Without data, tasks like modelling and feature extraction could not be done. But it need not be de-identified as the identifiers often serve little to no purpose in a data science project except at the initial stage where multiple datasets are stitched together to form a more holistic picture. 
 
 However, as an individual, I would love to have my data de-identified as much as possible so as to protect my own privacy and confidential information such as personal health information (PHI). Such data would definitely need to be de-identified as it could expose extremely sensitive information such as HIV and AIDS status. Other than that, stolen identifiable data could be used for malicious intent. Hence, there are rules and regulations across countries to ensure PHI is fully de-identified before any work could be done including research work. In Singapore, all personal data is protected by the PDPA law, which serves as the base law, and all health records are subjected to HBRA on top of PDPA. 
 
-De-identification is not mainly applied in the healthcare sector. It is also applied in other sectors such as financial institutions or e-commerce where the analysts could access personal information and cause clients financial losses if it is not managed well.
+De-identification is not mainly applied in the healthcare sector. It is also applied in other sectors such as financial institutions or e-commerce where the analysts could access personal information and cause financial losses to either the clients or company, or worse both, if it is not managed well.
+
+# REWRITTEN BY CHATGPT
+Data is a critical component in any data science project, as it serves as the foundation for tasks such as modeling and feature extraction. However, in some cases, it is essential to de-identify data to protect the privacy of individuals and sensitive information, such as personal health information (PHI). In such instances, identifying information such as names and addresses may serve little to no purpose, except during the initial stage where multiple datasets are combined to form a more comprehensive picture.
+
+In Singapore, the Personal Data Protection Act (PDPA) serves as the base law protecting personal data, while the Healthcare Services Act's (HSA) provisions safeguard the confidentiality of medical records. Such regulations are necessary to ensure that PHI is adequately de-identified before any research work or data analysis is performed. This is particularly crucial in the healthcare sector, where identifying data could expose sensitive information such as HIV and AIDS status, leading to stigmatization and discrimination.
+
+However, de-identification is not only applicable in the healthcare industry but also other sectors such as finance and e-commerce. Analysts who access personal information without proper management could cause significant financial losses to clients and the company. As such, it is crucial to adhere to regulatory requirements and best practices when handling sensitive data.
+
+In summary, de-identification is an essential practice for protecting personal information and sensitive data in various industries, including healthcare, finance, and e-commerce. Regulatory frameworks such as the PDPA and HSA provide guidelines and rules that companies and individuals must follow when dealing with personal information to ensure compliance and mitigate risks.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 List of identifiers
 https://www.immuta.com/blog/what-is-data-de-identification/#:~:text=There%20are%20two%20primary%20de%2Didentification%20methods%3A%20generalizing%20and%20randomizing.
 
 Below is the list of identifiers that would need to be de-identified based on the link above:
-Names
-Dates, except the year
-Telephone numbers
-Geographic data
-Fax numbers
-Social Security numbers
-Email addresses
-Medical record numbers
-Account numbers
-Health plan beneficiary numbers
-Certificate/license numbers
-Vehicle identifiers and serial numbers, including license plates
-Web URLs
-Device identifiers and serial numbers
-Internet protocol addresses
-Full face photos and comparable images
-Biometric identifiers
-Any unique identifying number, characteristic, or code
+<ul>
+    <li>Names</li>
+    <li>Dates, except the year</li>
+    <li>Telephone numbers</li>
+    <li>Geographic data</li>
+    <li>Fax numbers</li>
+    <li>Social Security numbers</li>
+    <li>Email addresses</li>
+    <li>Medical record numbers</li>
+    <li>Account numbers</li>
+    <li>Health plan beneficiary numbers</li>
+    <li>Certificate/license numbers</li>
+    <li>Vehicle identifiers and serial numbers, including license plates</li>
+    <li>Web URLs</li>
+    <li>Device identifiers and serial numbers</li>
+    <li>Internet protocol addresses</li>
+    <li>Full face photos and comparable images</li>
+    <li>Biometric identifiers</li>
+    <li>Any unique identifying number, characteristic, or code</li>
+</ul>
+
 
 De-identification techniques
 1) pseudonymization 
