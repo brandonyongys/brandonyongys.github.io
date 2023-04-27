@@ -26,49 +26,23 @@ However, de-identification is not only applicable in the healthcare industry but
 In summary, de-identification is an essential practice for protecting personal information and sensitive data in various industries, including healthcare, finance, and e-commerce. Regulatory frameworks such as the PDPA and HSA provide guidelines and rules that companies and individuals must follow when dealing with personal information to ensure compliance and mitigate risks.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-List of identifiers
-https://www.immuta.com/blog/what-is-data-de-identification/#:~:text=There%20are%20two%20primary%20de%2Didentification%20methods%3A%20generalizing%20and%20randomizing.
-
-Below is the list of identifiers that would need to be de-identified based on the link above:
+# Personally Identifiable Information (PII)
+According to ChatGPT, below are some of the common PII that are typically de-identified, which overlaps with the list found [here](https://www.immuta.com/blog/what-is-data-de-identification/#:~:text=There%20are%20two%20primary%20de%2Didentification%20methods%3A%20generalizing%20and%20randomizing):
 <ul>
-    <li>Names</li>
-    <li>Dates, except the year</li>
-    <li>Telephone numbers</li>
-    <li>Geographic data</li>
-    <li>Fax numbers</li>
-    <li>Social Security numbers</li>
+    <li>Names (including first, middle, and last names)</li>
+    <li>Addresses (including street address, city, state/province, and postal code)</li>
+    <li>Phone numbers (including mobile, home, and work numbers)</li>
     <li>Email addresses</li>
+    <li>Social Security Numbers (or equivalent national identification numbers)</li>
+    <li>Driver's license numbers</li>
+    <li>Passport numbers</li>
+    <li>Health insurance policy numbers</li>
     <li>Medical record numbers</li>
-    <li>Account numbers</li>
-    <li>Health plan beneficiary numbers</li>
-    <li>Certificate/license numbers</li>
-    <li>Vehicle identifiers and serial numbers, including license plates</li>
-    <li>Web URLs</li>
-    <li>Device identifiers and serial numbers</li>
-    <li>Internet protocol addresses</li>
-    <li>Full face photos and comparable images</li>
-    <li>Biometric identifiers</li>
-    <li>Any unique identifying number, characteristic, or code</li>
+    <li>Biometric identifiers (such as fingerprints or facial recognition data)</li>
 </ul>
+The list is not exhaustive and it may vary depending on the context, sensitivity of the data as well as the regulatory requirements.
 
-
+# De-identification techniques
 De-identification techniques
 1) pseudonymization 
 - individuals are given another set of identifiers (e.g. Brandon is renamed to Michael, all dates are shifted by n days). This helps the user to track the individuals across time. However, this step alone does not prevent the user from re-identifying the individual if there are specific unique set of characteristics. 
