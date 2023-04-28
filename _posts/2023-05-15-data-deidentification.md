@@ -1,9 +1,9 @@
 ---
-date: 2023-05-15
+date: 2023-04-28
 
 layout: post
-title: How well perceived is Marina Bay Sands?
-description: Sentiment analysis of MBS reviews
+title: Data de-identification
+description: How to utilize data while protecting privacy?
 
 comments: true
 published: true
@@ -43,154 +43,64 @@ According to ChatGPT, below are some of the common PII that are typically de-ide
 
 None of these common identifiers came as a surprise as having any one of these would directly identify the individuals. There are other identifiers such as race and age which could identify the individual. However, such identifiers would need to exist in a particular set in order to identify the individual with high confidence.
 
-
-
 # De-identification techniques
 
-De-identification can be achieved through pseudonymization, which involves replacing the individual's set of identifiers with another set of identifiers that may or may not be random or nonsensical. For instance, a name like `Brandon` could be replaced with `Michael` or even a random alphanumeric string such as `jkas89sdfln298dxciu`. However, pseudonymization may not be appropriate for other identifiers, such as dates, that are required to study the temporal or spatial effects. Furthermore, pseudonymization alone may not be sufficient to protect against re-identification if there are specific unique characteristics that can be linked back to the individual.
+De-identification can be achieved through pseudonymization, which involves replacing the individual's set of identifiers with another set of identifiers that may or may not be random or nonsensical. For instance, a name like `Brandon` could be replaced with `Michael` or even a random alphanumeric string such as `b295d117135a9763da282e7dae73a5ca7d3e5b11`. However, pseudonymization may not be appropriate for other identifiers, such as dates, that are required to study the temporal or spatial effects. Furthermore, pseudonymization alone may not be sufficient to protect against re-identification if there are specific unique characteristics that can be linked back to the individual.
 
 To provide further privacy protection, the k-anonymization technique can be employed. This method ensures that any subset of individuals sharing a set of specific unique characteristics includes at least k individuals. For example, if there are very few individuals aged 95 and above, they could be grouped together with a subgroup of individuals aged 80 to 94 years old to protect their identities. Any analysis conducted on this group would not reveal the identity of any specific individual.
 
+# Simple de-identification codes
+In order to de-identify strings or numbers, one could simply use the `hashlib`. A sample code is as shown below:
+~~~
+import hashlib
 
+# Create a hash object for SHA-256
+hash_object = hashlib.sha1()
 
-# Sample de-identification codes
+# Convert the string to bytes and update the hash object
+original_string = "Hello, World!"
+original_string += "salt"
+hash_object.update(original_string.encode('utf-8'))
+# Update is needed to update the state of the hash object with the input bytes, which will be used to compute the final hash value
+# Additional string (termed as 'salt') may be added to the string to add security so that could not try to re-identify the original string
 
-Conclusion
+# Get the hashed value as a hexadecimal string
+hashed_string = hash_object.hexdigest() # cae017a3404068bde266528e0187c79a86d95baf
+~~~
+To enhance the security of the de-identification framework, a 'salt' term is introduced into the original string. This additional layer of protection reduces the risk of re-identification, particularly through brute-force methods that test all possible strings. Omitting the salt would always result in a consistent hashed string, such as `0a0a9f2a6772942557ab5355d76af442f8f65e01` for 'Hello, World!' string, but adding the salt ensures that the output differs each time. Additionally, the lack of salt could result in multiple datasets sharing the same de-identified identifiers, which could enable malicious users to combine and analyze the data for a more comprehensive view of individuals.
 
-
-
-
-<hr>
-
-
-reference: 
-https://github.com/AxelBogos/AxelBogos.github.io
-
-_xx_ 			- italic
-**xx** 			- bold
-# xxx			- header
-[display text](link)	- hyper link 
-[display text][ref] 	[ref]: website
-![display text](link) 		- images
-> text 				- block quote
-* text 				- unordered list
-    * text 			- unordered sublist
-1. text 			- ordered list
-
-
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-**Here is some bold text**
-
-Create horizantal line:
-<hr>
-
-## Here is a secondary heading
-
-# Create list
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-# to quote someone:
-For a single line even if the blockquote has multiple lines:
-<blockquote>
-    We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-    —Anais Nin
-</blockquote>
-
-OR 
-for multiple quote lines
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-# Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-# Create image
-
-For plotly figure, use below
-<iframe width="1000" height="750" frameborder="0" scrolling="yes" src="/assets/img/mbs_reviews/avg_rating_over_time.html"></iframe>
-
-
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="caption">
-    Zoomable images with zoomable=true.
-</div>
-
-# Here's a code chunk:
+One could always use the above technique to de-identify dates as well. However, the hashed dates are of no use if the analyst wants to track the individuals over time and space in order to study the temporal effect. One way is to systematically shift the dates for each individual randomly by using the `hashlib` and `random` libraries.
 
 ~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+import datetime
+import hashlib
+import random
+
+salt = "34535"
+original_date = datetime.date(2022, 4, 1)
+
+# Use a cryptographic hash function to generate a unique hash value for the input
+hash_value = hashlib.sha1(str(salt).encode()).hexdigest()
+
+# Set the random seed to the hash value
+random.seed(hash_value)
+
+# Generate a random number between 0 and 1
+random_number = random.random()*2 - 1
+
+# Scale the random number to the desired range
+fixed_random_number = int(random_number * 3650)
+
+offset_n = datetime.timedelta(days=fixed_random_number)
+shifted_date = original_date + offset_n # datetime.date(2029, 10, 29) 
 ~~~
+Again, the same salt and original string could be combined to generate a unique hash value for each individual. The hash value is then used to generate a random fixed value before shifting all the dates for a particular individual. For more information, please refer to my [deidentification github](https://github.com/brandonyongys/deidentification)
 
-And here is the same code with syntax highlighting:
+# Limitations
+The techniques mentioned earlier are effective for de-identifying data that is structured in a tabular form, such as in a dataframe. However, when dealing with free text data, the task of de-identification becomes more challenging. One approach to de-identify free text data is to use a Large Language Model (LLM) to perform Part-of-Speech (POS) tagging. This involves identifying and labeling the different parts of speech in the text, such as nouns, verbs, and adjectives.
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
+However, using an LLM for de-identification may result in over-generalization, where more information than necessary is removed, ultimately rendering the data unusable. This is because LLMs are designed to generate language based on patterns they have learned from large datasets. In some cases, they may generalize too much and remove information that is actually relevant to the data. Therefore, it's important to carefully evaluate the results of using an LLM for de-identification and adjust the approach as needed.
 
-And here is the same code yet again but with line numbers:
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+# Conclusion
+In conclusion, de-identification is an important step when it comes to protecting the individual's private information. Direct identifiers may be de-identified using the `hashlib` library and dates could be shifted using a combination of `hashlib` and `random` packages. 
