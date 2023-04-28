@@ -8,15 +8,15 @@ description: Sentiment analysis of MBS reviews
 comments: true
 published: true
 
----
 # ORIGINAL 
-Data is an important aspect in any data science work. Without data, tasks like modelling and feature extraction could not be done. But it need not be de-identified as the identifiers often serve little to no purpose in a data science project except at the initial stage where multiple datasets are stitched together to form a more holistic picture. 
+# Data is an important aspect in any data science work. Without data, tasks like modelling and feature extraction could not be done. But it need not be de-identified as the identifiers often serve little to no purpose in a data science project except at the initial stage where multiple datasets are stitched together to form a more holistic picture. 
 
-However, as an individual, I would love to have my data de-identified as much as possible so as to protect my own privacy and confidential information such as personal health information (PHI). Such data would definitely need to be de-identified as it could expose extremely sensitive information such as HIV and AIDS status. Other than that, stolen identifiable data could be used for malicious intent. Hence, there are rules and regulations across countries to ensure PHI is fully de-identified before any work could be done including research work. In Singapore, all personal data is protected by the PDPA law, which serves as the base law, and all health records are subjected to HBRA on top of PDPA. 
+# However, as an individual, I would love to have my data de-identified as much as possible so as to protect my own privacy and confidential information such as personal health information (PHI). Such data would definitely need to be de-identified as it could expose extremely sensitive information such as HIV and AIDS status. Other than that, stolen identifiable data could be used for malicious intent. Hence, there are rules and regulations across countries to ensure PHI is fully de-identified before any work could be done including research work. In Singapore, all personal data is protected by the PDPA law, which serves as the base law, and all health records are subjected to HBRA on top of PDPA. 
 
-De-identification is not mainly applied in the healthcare sector. It is also applied in other sectors such as financial institutions or e-commerce where the analysts could access personal information and cause financial losses to either the clients or company, or worse both, if it is not managed well.
+# De-identification is not mainly applied in the healthcare sector. It is also applied in other sectors such as financial institutions or e-commerce where the analysts could access personal information and cause financial losses to either the clients or company, or worse both, if it is not managed well.
 
-# REWRITTEN BY CHATGPT
+---
+
 Data is a critical component in any data science project, as it serves as the foundation for tasks such as modeling and feature extraction. However, in some cases, it is essential to de-identify data to protect the privacy of individuals and sensitive information, such as personal health information (PHI). In such instances, identifying information such as names and addresses may serve little to no purpose, except during the initial stage where multiple datasets are combined to form a more comprehensive picture.
 
 In Singapore, the Personal Data Protection Act (PDPA) serves as the base law protecting personal data, while the Healthcare Services Act's (HSA) provisions safeguard the confidentiality of medical records. Such regulations are necessary to ensure that PHI is adequately de-identified before any research work or data analysis is performed. This is particularly crucial in the healthcare sector, where identifying data could expose sensitive information such as HIV and AIDS status, leading to stigmatization and discrimination.
@@ -27,7 +27,7 @@ In summary, de-identification is an essential practice for protecting personal i
 
 
 # Personally Identifiable Information (PII)
-According to ChatGPT, below are some of the common PII that are typically de-identified, which overlaps with the list found [here](https://www.immuta.com/blog/what-is-data-de-identification/#:~:text=There%20are%20two%20primary%20de%2Didentification%20methods%3A%20generalizing%20and%20randomizing):
+According to ChatGPT, below are some of the common PII that are typically de-identified, which overlaps with the list found [here](https://www.immuta.com/blog/what-is-data-de-identification/#:~:text=There%20are%20two%20primary%20de%2Didentification%20methods%3A%20generalizing%20and%20randomizing). The list is not exhaustive and it may vary depending on the context, sensitivity of the data as well as the regulatory requirements.
 <ul>
     <li>Names (including first, middle, and last names)</li>
     <li>Addresses (including street address, city, state/province, and postal code)</li>
@@ -40,18 +40,20 @@ According to ChatGPT, below are some of the common PII that are typically de-ide
     <li>Medical record numbers</li>
     <li>Biometric identifiers (such as fingerprints or facial recognition data)</li>
 </ul>
-The list is not exhaustive and it may vary depending on the context, sensitivity of the data as well as the regulatory requirements.
+
+None of these common identifiers came as a surprise as having any one of these would directly identify the individuals. There are other identifiers such as race and age which could identify the individual. However, such identifiers would need to exist in a particular set in order to identify the individual with high confidence.
+
+
 
 # De-identification techniques
-De-identification techniques
-1) pseudonymization 
-- individuals are given another set of identifiers (e.g. Brandon is renamed to Michael, all dates are shifted by n days). This helps the user to track the individuals across time. However, this step alone does not prevent the user from re-identifying the individual if there are specific unique set of characteristics. 
 
-2) k-anonymization
-- this is when data is dealt in such a way that any subset of data would contain at least k individuals sharing the same characteristics. E.g. there may be many individuals below the age 80 with positive HIV and not many individuals aged 80 and above with positive HIV. Instead, the age threshold may be lowered 80-> 40 so that there are more individuals in the 40+HIV subset. This makes re-identification effort by chance significantly less likely. 
+De-identification can be achieved through pseudonymization, which involves replacing the individual's set of identifiers with another set of identifiers that may or may not be random or nonsensical. For instance, a name like `Brandon` could be replaced with `Michael` or even a random alphanumeric string such as `jkas89sdfln298dxciu`. However, pseudonymization may not be appropriate for other identifiers, such as dates, that are required to study the temporal or spatial effects. Furthermore, pseudonymization alone may not be sufficient to protect against re-identification if there are specific unique characteristics that can be linked back to the individual.
+
+To provide further privacy protection, the k-anonymization technique can be employed. This method ensures that any subset of individuals sharing a set of specific unique characteristics includes at least k individuals. For example, if there are very few individuals aged 95 and above, they could be grouped together with a subgroup of individuals aged 80 to 94 years old to protect their identities. Any analysis conducted on this group would not reveal the identity of any specific individual.
 
 
-Sample codes to de-identify
+
+# Sample de-identification codes
 
 Conclusion
 
