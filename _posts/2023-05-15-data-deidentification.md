@@ -6,7 +6,7 @@ title: Data de-identification
 description: How to utilize data while protecting privacy?
 
 comments: true
-published: false
+published: true
 
 # ORIGINAL 
 # Data is an important aspect in any data science work. Without data, tasks like modelling and feature extraction could not be done. But it need not be de-identified as the identifiers often serve little to no purpose in a data science project except at the initial stage where multiple datasets are stitched together to form a more holistic picture. 
