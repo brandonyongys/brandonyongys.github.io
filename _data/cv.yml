@@ -16,6 +16,41 @@
       value: English, Malay, Mandarin
 
 
+- title: Work experience
+  type: time_table
+  contents:
+    - title: Senior Assistant Manager (Data Scientist)
+      institution: National University Health System (NUHS), Singapore
+      year: Apr 2023 - Present
+      description:
+        - Create and implement fresh functionalities for the OneNUHS chatbot
+        - Create models aimed at enhancing the detection and treatment of ophthalmological conditions in clinical settings.
+
+    - title: Senior Data Scientist
+      institution: Department of Data Science, Singapore General Hospital (SGH), Singapore
+      year: Nov 2022 - Mar 2023
+      description:
+        - Oversaw a group of three junior data scientists as the technical team leader.
+        - Deployed Prophet model to forecast daily haemodialysis orders and optimize manpower allocation accordingly.
+        - Developed a new innovative model that can dynamically identify patients who are at risk of imminent ICU admission or death
+
+    - title: Data Scientist
+      institution: Data Science and Machine Learning (DSML), SGH, Singapore
+      year: Nov 2020 - Oct 2022
+      description:
+        - As the inaugural member of the DSML team, I spearheaded efforts to broaden the scope of the data science capabilities.
+        - Developed Prophet model to forecast daily haemodialysis orders and optimize manpower allocation.
+        - Developed XGBoost model to identify high-risk patients in the A&E department.
+
+    - title: Project Officer
+      institution: School of Physical and Mathematical Sciences, NTU, Singapore
+      year: Oct 2018 - Oct 2020
+      description:
+        - Developed ML model that uses topological features to predict RNA flexibility property with at least 16% improvement.
+        - Developed a Maximum Mean Discrepancy GAN algorithm to generate financial data with restrictions.
+
+
+
 - title: Education
   type: time_table
   contents:
@@ -28,37 +63,7 @@
       year: 2016
 
 
-- title: Work experience
-  type: time_table
-  contents:
-    - title: Senior Assistant Manager (Data Scientist)
-      institution: National University Health System (NUHS), Singapore
-      year: Apr 2023 - Present
-      description:
-        - Coming soon!
 
-    - title: Senior Data Scientist
-      institution: Department of Data Science, Singapore General Hospital (SGH), Singapore
-      year: Nov 2022 - Mar 2023
-      description:
-        - Technical team lead of 3 junior data scientists.
-        - Deploying Prophet model to predict daily haemodialysis orders for manpower allocation.
-        - Developing new novel model to dynamically identify patients with impending ICU admission or death.
-
-    - title: Data Scientist
-      institution: Data Science and Machine Learning (DSML), SGH, Singapore
-      year: Nov 2020 - Oct 2022
-      description:
-        - First member of the DSML team and pushed the boundaries to expand the DS capabilities.
-        - Developed Prophet model to predict daily haemodialysis orders for manpower allocation.
-        - Developed XGBoost model to identify high-risk A&E patients.
-
-    - title: Project Officer
-      institution: School of Physical and Mathematical Sciences, NTU, Singapore
-      year: Oct 2018 - Oct 2020
-      description:
-        - Developed ML model that uses topological features to predict RNA flexibility property with at least 16% improvement.
-        - Developed a Maximum Mean Discrepancy GAN algorithm to generate financial data with restrictions.
 
 
 # - title: Open Source Projects
