@@ -1,11 +1,9 @@
 ---
 date: 2023-05-15
+
 layout: post
 title: Automating Google Photos download # Project post title
-# img: https://i.pcmag.com/imagery/articles/01eGstfLC8DcJFtCbjOVe69-12..v1623096915.jpg 
-# importance: 1
-# categories: deployment # deployment / predictive / descriptive, if wrong category, the post won't be posted
-# tags: [test]
+description: What's the lazy way?
 
 comments: true
 published: true
