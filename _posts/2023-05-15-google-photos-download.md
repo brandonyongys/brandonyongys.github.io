@@ -1,22 +1,24 @@
 ---
 date: 2023-05-15
+
 layout: post
 title: Automating Google Photos download # Project post title
-# img: https://i.pcmag.com/imagery/articles/01eGstfLC8DcJFtCbjOVe69-12..v1623096915.jpg 
-# importance: 1
-# categories: deployment # deployment / predictive / descriptive, if wrong category, the post won't be posted
-# tags: [test]
+description: What's the lazy way?
 
 comments: true
 published: true
 
 ---
 # The Problem
+<hr>
+
 For the past five years, I have been a big admirer of Google and have used several of their services including Google Photos, Gmail, and Google Maps. I particularly rely on Google Photos to automatically upload and store my photos and videos. While Google offers free 15 GB of storage, recently, I have been capturing a lot of videos during special occasions, and they are quite long, resulting in me exceeding the free storage limit. To ensure I can continue backing up my photos and videos, I had to upgrade to the basic membership, which offers 100GB of storage, at a reasonable monthly fee of $2.79. 
 
 The amount may not seem like much at the moment. However, the amount of media stored in my Google Photos will only keep going up and I would have to constantly delete unwanted photos. Considering the potential cost over my lifetime and possible price increases by Google, I have adapted a script that utilizes Google Photos REST API to download all files automatically. This way, I can save money and also have offline backups of my precious memories in the event that I lost access to my Google account.
 
 # The Solution
+<hr>
+
 To create this script, I first sought out resources online to better understand and experiment with the Google Photos REST API. I found a helpful [Medium post](https://towardsdatascience.com/how-to-download-images-from-google-photos-using-python-and-photos-library-api-6f9c1e60a3f3) by Dominik Polzer (Jupyter notebook may be found [here](https://github.com/polzerdo55862/google-photos-api/blob/main/Google_API.ipynb)), which provided me with the necessary knowledge to use the API. After studying the code and playing around with it, I was able to successfully adapt it for my own use. 
 
 The codes written by Dominik work well generally and it is able to connect to your Google Photos with no issue after following the provided steps to obtain your credentials. However, upon further testing, I found that there are generally two main issues:
@@ -27,6 +29,8 @@ The codes written by Dominik work well generally and it is able to connect to yo
 With that said, Dominik's notebook would be sufficient if you intend to download all media as images in 512 by 288 dimension. My adapted codes may be found on my [github](https://github.com/brandonyongys/gphotos).
 
 # The Code
+<hr>
+
 ## The credentials
 
 The `GooglePhotosApi`, as found in my `gphotos.py` file, is as written by Dominik. The only change I made is to add a new function, `delete_pickle_file`, to delete the token file after each run. This is to, in my opinion, add a layer of security so that the user does not accidentally upload the token file online, which allows others to access the user's Google Photos. Though the user could always setup a `gitignore` file
@@ -83,5 +87,7 @@ Though I would have to acknowledge that there are some limitations to the codes.
 
 
 # The End
+<hr>
+
 While my code may not be the most polished or organized, I am pleased with its functionality and the benefits it provides for me and others who are seeking to save on their storage usage. I would like to say thank you and give the credit to Dominik Polzer, who has very kindly posted a helpful Medium post.
 
