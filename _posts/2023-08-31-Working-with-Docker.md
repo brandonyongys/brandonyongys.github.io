@@ -6,7 +6,7 @@ date: 2023-08-31
 tags: [Docker, development, deployment]
 
 comments: true
-published: false
+published: true
 ---
 
 There are plenty of articles online that could explain what is Docker and how it could benefit your work in developing and deploying your applications and I have been reading them but I just haven't had the hands-on experience of working with Docker. Eventhough the Docker commands seem rather simple like `docker pull`, `docker logs` etc. but how does one actually build a customized Docker image and use it for their own development work? 
