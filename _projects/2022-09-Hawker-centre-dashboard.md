@@ -6,7 +6,7 @@ importance: 1
 category: deployment # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
 comments: true
-published: true
+published: false
 
 # - Need to update based on SG time
 # - tz-naive vs tz-aware time
