@@ -22,6 +22,7 @@ This section teaches you how to build a basic Docker image and container using a
 1. Create a `Dockerfile` (without extension). 
 * An example `Dockerfile` that I am currently using is as below. 
 * Though you are welcomed to further customize it after reading this [Dockerfile reference](https://docs.docker.com/engine/reference/builder/) by Docker.
+
 ~~~
 # Use an official Python runtime as the base image
 FROM python:3.8-slim
@@ -40,16 +41,20 @@ RUN pip install -r requirements.txt
 ~~~
 
 2. Build a Docker image by running the command below in the terminal.
+
 ~~~
 docker build -t <IMAGE_NAME> . 
 ~~~
+
 * Make sure to give your image a unique name so that you could easily identify it.
 * Don't forget the `.` at the end!
 
 3. Run a Docker container using your Docker image by running the command below in the terminal.
+
 ~~~
 docker run -it -v /path/to/local/directory:/home  -p 9999:9999 --name <CONTAINER_NAME> <IMAGE_NAME>
 ~~~
+
 * The `-v /path/to/local/directory:/home` argument is to mount your local volume to your container for subsequent development.
 * Mounting your volume is necessary if you wish to develop and save your codes in your local volume. Else, all is lost when the container is terminated.
 * Feel free to give your own unique `<CONTAINER_NAME>` such as `homey`, `hawker`.
@@ -60,10 +65,12 @@ docker run -it -v /path/to/local/directory:/home  -p 9999:9999 --name <CONTAINER
 This section teaches you how to develop your codes in a container while ensuring that your codes are saved to your local directory instead of the container directory. 
 
 1. Build and run a Docker container using the instructions in [Basic instructions](#basic-instructions) with the below command in the `Dockerfile`.
+
 ~~~
 # Command to keep the container running (python script)
 CMD tail -f /dev/null
 ~~~
+
 * The `CMD tail -f /dev/null` line in the Dockerfile is used to keep the container running, so you can attach to it with VSCode.
 
 2. Attach the running container to VSCode (which I am currently using. If you're using PyCharm or Spyder etc., I'm so sorry I couldn't help you :( )
@@ -79,10 +86,7 @@ CMD tail -f /dev/null
 
 4. Create, edit and/or delete your `.py` files away. These files will appear in your chosen local directory as well. Feel free to test out the steps. 
 
-5. To run the script, simply open a bash terminal and run the following command: 
-~~~
-python <PY_NAME>.py
-~~~
+5. To run the script, simply open a bash terminal and run the command: `python <PY_NAME>.py`
 
 6. To exit the container, simply close the VSCode instance and stop/delete the container in Docker.
 * You could restart the container and reattach to the VSCode before continue development. There is no need to remount the local volume. This is provided that you did not delete the instance.
@@ -91,6 +95,7 @@ python <PY_NAME>.py
 # EDA with Jupyter notebook
 1. Build and run a Docker container using the instructions in [Basic instructions](#basic-instructions) with the additional run and command lines in the `Dockerfile`.
 * Ensure to install `jupyter`. Else, you wouldn't be able to use Jupyter notebook in the container.
+
 ~~~
 RUN pip install jupyter
 
