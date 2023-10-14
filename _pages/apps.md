@@ -4,7 +4,7 @@ permalink: /apps/
 title: apps
 description: All my deployed apps
 nav: true
-nav_order: 5
+nav_order: 3
 published: true
 ---
 
