@@ -1,7 +1,7 @@
 ---
 layout: post
-title: An effort to collect product details from the major supermarket chains
-# description: Want to know when your favourite hawker is closing?
+title: Dealing with the rising living cost - Part 1
+description: An effort to collect product details from the major supermarket chains
 date: 2023-11-30
 tags: [AWS, python, database]
 
