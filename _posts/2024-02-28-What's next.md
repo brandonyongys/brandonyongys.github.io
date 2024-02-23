@@ -3,7 +3,7 @@ layout: post
 title: What's next?
 description: A thought on my career plan
 date: 2024-02-28
-tags: [AWS, python, database]
+tags: [career]
 
 comments: true
 published: true
