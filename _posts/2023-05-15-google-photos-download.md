@@ -6,7 +6,7 @@ title: Automating Google Photos download # Project post title
 description: What's the lazy way?
 
 comments: true
-published: true
+published: false
 
 ---
 # The Problem

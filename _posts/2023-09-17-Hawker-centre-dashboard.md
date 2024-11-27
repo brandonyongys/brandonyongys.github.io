@@ -3,7 +3,7 @@ layout: post
 title: Singapore Hawker Centre Dashboard
 description: Want to know when your favourite hawker is closing?
 date: 2023-09-17
-tags: [AWS, python, dashboard]
+tags: [technical, programming, project]
 
 comments: true
 published: true

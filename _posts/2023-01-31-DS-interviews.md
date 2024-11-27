@@ -3,8 +3,8 @@ date: 2023-01-31
 
 layout: post
 title: Understanding my professional gaps
-#tags: [test]
-#categories: sample-posts
+tags: [career, technical]
+# categories: career
 
 comments: true
 published: true

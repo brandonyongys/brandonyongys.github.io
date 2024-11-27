@@ -5,7 +5,7 @@ title: apps
 description: All my deployed apps
 nav: true
 nav_order: 3
-published: true
+published: false
 ---
 
 This pagae contains all the apps that I have deployed.

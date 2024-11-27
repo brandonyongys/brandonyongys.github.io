@@ -7,7 +7,7 @@ importance: 3
 category: descriptive # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
 comments: true
-published: descriptive
+published: false
 ---
 
 I moved to Singapore back in 2012 to further my studies without knowing much about it. I have only been to Singapore once and that was a 4D3N trip with my friends. I didn't know how expensive the things were, how different Singapore was from Malaysia, and more importantly, how safe it was. It was only after I moved here that I started to learn about all these little things that make Singapore *Singapore*.

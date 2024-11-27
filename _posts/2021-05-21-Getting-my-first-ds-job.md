@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Getting my first official data science job
-tags: [data science, job]
+tags: [life, career]
 comments: true
-published: true
+published: false
 
 date:   2021-05-21
 description: We are data rich but not information rich.
-categories: job
+# categories: career
 ---
 
 When I was deciding what undergraduate degree should I pursue almost a decade ago, I was selecting by the process of elimination. I eliminated all biology or medical related courses simply because I did not want to study them anymore. I knew that I wanted something that is mathematically rigorous. Well, life has its own ways and look where did I land my first official data science job - in a hospital! Singapore General Hospital (SGH) to be exact - the largest and oldest hospital in Singapore. 

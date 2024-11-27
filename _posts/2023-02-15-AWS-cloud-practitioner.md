@@ -3,8 +3,8 @@ date: 2023-02-15
 
 layout: post
 title: Getting my AWS Cloud Practitioner certificate
-#tags: [test]
-#categories: sample-posts
+tags: [career, AWS, technical]
+# categories: career
 
 comments: true
 published: true

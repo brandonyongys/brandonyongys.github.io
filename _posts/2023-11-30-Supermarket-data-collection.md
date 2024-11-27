@@ -6,7 +6,7 @@ date: 2023-11-30
 tags: [AWS, python, database]
 
 comments: true
-published: true
+published: false
 ---
 ## The idea
 With the rising cost of living here in Singapore, I figure it would be nice to visualize and understand how the price has changed over time for a particular product. However, this information is not easily found since companies would secretly change (or at least without me knowing) and hope that the consumers wouldn't notice it. I could always look up the product price at a particular time but not over time.
