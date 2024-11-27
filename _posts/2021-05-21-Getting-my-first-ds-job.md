@@ -3,7 +3,7 @@ layout: post
 title: Getting my first official data science job
 tags: [data science, job]
 comments: true
-published: true
+published: false
 
 date:   2021-05-21
 description: We are data rich but not information rich.

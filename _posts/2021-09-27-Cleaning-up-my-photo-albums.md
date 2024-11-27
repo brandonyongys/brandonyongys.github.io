@@ -3,7 +3,7 @@ layout: post
 title: Cleaning up my photo albums
 tags: [photos, images]
 comments: true
-published: true
+published: false
 
 date:   2021-09-27
 categories: image analysis

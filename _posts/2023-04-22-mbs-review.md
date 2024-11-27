@@ -10,7 +10,7 @@ description: Sentiment analysis of MBS reviews
 # categories: sample-posts # if post
 
 comments: true
-published: true
+published: false
 
 ---
 

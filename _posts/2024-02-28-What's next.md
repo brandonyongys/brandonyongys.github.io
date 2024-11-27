@@ -6,7 +6,7 @@ date: 2024-02-28
 tags: [career]
 
 comments: true
-published: true
+published: false
 
 
 In my current role, my current archtype proportion is 70-80% solver and 20-30% right hand given the 2 portfolios I am managing. Since I now know my current proportion and what type of arch engineer I want be, what can I do to achieve that? 
