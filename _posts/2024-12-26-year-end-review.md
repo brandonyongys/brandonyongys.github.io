@@ -25,8 +25,11 @@ This year, I decided to learn Golang. There is no particular reason to learn Gol
 
 Age is catching up and as I got more busy with work, it can be quick easy to neglect one's health - be it mental or physical health. Despite failing to prioritize my health in the first 3 quarters of the year, I am slowly building up the regular routine to hit the gym in the morning before heading to work. It can be challenging when you always have meetings in the morning and I would always have to rush my workout routine.
 
+At the start of the year, I had a plan to build a supermarket chatbot. The idea is that the user is able to interact with the chatbot to get latest prices of an item across different supermarkets such as Fairprice, Sheng Siong, Cold Storage and Giant. I have been collecting the prices from various webpages on regular basis throughout the year but I failed to processed the collected data into a structured format and building the chatbot. 
+
 # The future (plans)
 For next year, I have 3 main objectives:
 1. Pass AWS Machine Learning Specialty (MLS-C01) exam. I am looking to transition into MLOps and roles that would allow me to develop and deploy AI solutions, this exam would be a good compliment. Also given the fact that I have prior ML/DL knowledge and also prior experience in developing ML/DL solutions, it would be a waste to not get this certificate.
 2. Learn and develop a small Golang application. The Go app could be done in work or for my personal project. This is still undecided.
 3. Build a regular workout routine. This is especially important given that my role is quite a desk bound role and it is very important and beneficial to build this healthy lifestyle early so that I could live a long life.
+4. Build a simple Supermarket Chatbot.
