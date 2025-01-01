@@ -3,7 +3,10 @@ layout: post
 title: Improving my application performance
 # description: What have I done successfully and failed to do?
 date: 2025-01-15
-tags: [career, learning]
+tags: [career, technical, programming]
+
+# display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
+
 
 comments: true
 published: true
