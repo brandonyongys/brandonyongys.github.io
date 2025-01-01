@@ -54,6 +54,10 @@
 - title: Certifications
   type: time_table
   contents:
+    - title: AWS Developer Associate
+      institution: Amazon Web Services
+      year: 2024
+
     - title: AWS Solutions Architect Associate
       institution: Amazon Web Services
       year: 2024
