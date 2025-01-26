@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I tried to sync my personan and work to-do lists...
+title: How I tried to sync my personal and work to-do lists...
 description: ...and what I learned 
 date: 2025-01-26
 tags: [life, career]
