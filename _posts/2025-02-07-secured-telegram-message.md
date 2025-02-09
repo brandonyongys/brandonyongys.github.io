@@ -3,7 +3,7 @@ layout: post
 title: Securing My Telegram Bot
 description: Preventing unauthorized requests
 date: 2025-02-07
-tags: [career, technical, programming, project, AWS]
+tags: [technical, programming, project, AWS]
 
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 

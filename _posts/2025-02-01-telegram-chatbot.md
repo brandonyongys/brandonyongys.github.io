@@ -3,7 +3,7 @@ layout: post
 title: Building a Telegram Chatbot with AWS Lambda
 description: What a fun challenge!
 date: 2025-02-01
-tags: [career, technical, programming, project, AWS]
+tags: [technical, programming, project, AWS]
 
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 
