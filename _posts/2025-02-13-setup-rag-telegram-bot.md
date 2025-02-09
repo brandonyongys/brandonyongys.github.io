@@ -2,7 +2,7 @@
 layout: post
 title: Connecting My Telegram Bot to an RAG Pipeline on AWS
 description: Just the initial setup
-date: 2025-02-07
+date: 2025-02-13
 tags: [technical, programming, project, AWS]
 
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
