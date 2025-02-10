@@ -11,7 +11,7 @@ comments: true
 published: true
 
 ---
-Lately, it feels like "RAG" is everywhere. It’s not a new concept, but it keeps popping up. At its core, Retrieval-Augmented Generation (RAG) is pretty straightforward:
+Lately, it feels like "RAG" is everywhere. It's not a new concept, but it keeps popping up. At its core, Retrieval-Augmented Generation (RAG) is pretty straightforward:
 1. Convert a data source into vector embeddings.
 1. Store the embeddings in a vector database.
 1. Convert a query into a vector embedding.
@@ -27,7 +27,7 @@ To implement RAG on AWS, I need two additional resources:
 
 Why these services? Simply put, I don't want to manage infrastructure. Let AWS handle that for me.
 
-Now, let’s dive into setting up Amazon Kendra and Bedrock!
+Now, let's dive into setting up Amazon Kendra and Bedrock!
 
 # Setting up Amazon Kendra
 1. Create a new index in the Amazon Kendra console.
