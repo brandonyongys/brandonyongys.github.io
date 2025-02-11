@@ -41,8 +41,3 @@ if received_token != TELEGRAM_SECRET:
 While this doesn't fully protect against all threats, it ensures that only requests coming from my Telegram bot are processed, preventing unauthorized access and unnecessary AWS resource consumption during development.
 
 Of course, more advanced security measures-such as rate limiting, IP allowlists, or input validation-would be necessary as the chatbot evolves, but for now, this simple addition provides a good starting point.
-
-# Further thoughts
-While this doesn't fully protect against all threats, it ensures that only requests coming from my Telegram bot are processed, preventing unauthorized access and reducing AWS resource consumption during development.
-
-However, this alone does not prevent DDoS attacks or API scraping, as attackers could still flood the API Gateway with requests. In the future, I may implement rate limiting via AWS WAF or API Gateway throttling for additional protection.
