@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A picture speaks a thousand words
-description: Why NLP? Why LLMs?
+title: Where do I see myself in 3-5 years?
+description: Am I ready for it?
 date: 2025-03-07
 tags: [career, growth]
 
