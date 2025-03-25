@@ -21,7 +21,7 @@ For my setup, I chose PostgreSQL as it is lightweight, open-source, and widely s
 # Setting Up an EC2 Bastion Host
 Since my RDS database resides in a private subnet, I cannot access it directly. To connect securely, I set up an SSH tunnel using a bastion host. The architecture is illustrated below:
 
-![Overall_architecture](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/assets/img/2025-imgs/rds-ssh.png)
+![Overall_architecture](https://github.com/brandonyongys/brandonyongys.github.io/blob/master/assets/img/2025-imgs/rds-ssh.png?raw=true)
 
 I launched an Ubuntu EC2 instance in the public subnet of the same VPC and attached the same security group as my database. This instance is used solely as a bastion host, so I chose a small instance type to minimize costs.
 
