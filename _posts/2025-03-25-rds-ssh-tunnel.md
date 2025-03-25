@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Connecting to RDS DB with SSH Tunnel / Hosting a Database: From EC2 to RDS with an SSH Tunnel
+title: Hosting a Database: From EC2 to RDS with an SSH Tunnel
 description: What is I'm not satisfied?
 date: 2025-03-25
-tags: [career, life, growth]
+tags: [AWS, growth]
 
 comments: true
 published: true
