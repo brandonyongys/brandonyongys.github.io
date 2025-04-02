@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 4
-display_categories: [deployment, predictive, descriptive]
+display_categories: [chatbot, data analysis, web app]
 horizontal: false
 published: true
 ---
