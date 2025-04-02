@@ -5,7 +5,7 @@ title: SGReddit analysis # Project post title
 img: https://imageio.forbes.com/specials-images/imageserve/63a74ad3ee640389b2cc7317/In-this-photo-illustration-the-Reddit-logo-seen-displayed-on---/960x0.jpg?format=jpg&width=960 # Not necessary to have this image, will be used as thumbnail
 # redirect: https://unsplash.com # Insert link if want to redirect to another website, else ignore/remove this.
 importance: 1
-category: descriptive # deployment / predictive / descriptive, if wrong category, the post won't be posted
+category: data analysis # chatbot, data analysis, web app, if wrong category, the post won't be posted
 
 comments: true
 published: true
