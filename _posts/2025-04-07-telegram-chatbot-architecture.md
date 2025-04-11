@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Building a Secure Go Server for My AWS Lambda Microservices
-description: An opportunity to learn a new language!
-date: 2025-04-01
+title: Building a Basic Telegram Chatbot
+# description: An opportunity to learn a new language!
+date: 2025-04-07
 tags: [AWS, project, technical]
 
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
