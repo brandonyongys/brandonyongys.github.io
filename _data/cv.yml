@@ -19,50 +19,58 @@
 - title: Work experience
   type: time_table
   contents:
-    - title: Senior Assistant Manager (Data Scientist)
+    - title: Senior Backend Engineer
       institution: National University Health System (NUHS), Singapore
       year: Apr 2023 - Present
       description:
-        - Develop and enhance the CHAMP Chatbot using AWS services and Django Framework
-        - Create and implement fresh functionalities for the NUHS chatbot
-        - Create models aimed at enhancing the detection and treatment of ophthalmological conditions in clinical settings.
+        - Architected and developed serverless AWS and Kubernetes-based platforms to support patient follow-up, food logging, and clinical decision support for 3,000+ patients.
+        - Built real-time bidirectional chatbots using AWS Lambda and Django, enabling seamless patient communication via WhatsApp.
+        - Developed and deployed production-grade Kubernetes CronJobs to analyze 15,000+ patient records for health risk scoring and reporting.
+        - Implemented a Clinical Decision Support System used across 11 hospitals and polyclinics, reducing manual checks and consultation time by up to 20%.
+        - Designed an AI-powered drug knowledge ingestion pipeline integrating AWS Bedrock and Claude 3.5, eliminating manual drug data curation.
+        - Created a full-stack food logging system with AI feedback that accelerates dietitian consultations and improves patient engagement.
+        - Optimized AWS Athena query performance by 90% and reduced S3 storage costs by 50% through log partitioning and lifecycle policies.
+        - Collaborated closely with data scientists to build end-to-end pipelines combining NLP, embeddings, and LLMs for clinical and patient-facing applications.
 
     - title: Senior Data Scientist
       institution: Department of Data Science, Singapore General Hospital (SGH), Singapore
       year: Nov 2022 - Mar 2023
       description:
-        - Oversaw a group of three junior data scientists as the technical team leader.
-        - Deployed Prophet model to forecast daily haemodialysis orders and optimize manpower allocation accordingly.
-        - Developed a new innovative model that can dynamically identify patients who are at risk of imminent ICU admission or death
-
-    - title: Data Scientist
-      institution: Data Science and Machine Learning (DSML), SGH, Singapore
-      year: Nov 2020 - Oct 2022
-      description:
-        - As the inaugural member of the DSML team, I spearheaded efforts to broaden the scope of the data science capabilities.
-        - Developed Prophet model to forecast daily haemodialysis orders and optimize manpower allocation.
-        - Developed XGBoost model to identify high-risk patients in the A&E department.
+        - Led and scaled a cross-functional data science team while spearheading forecasting, risk modeling, and real-time prediction projects.
+        - Deployed a Prophet-based system to predict dialysis demand, improving nurse scheduling and resource planning.
+        - Evaluated ML models to predict ICU risk and hypoglycemia using real-world patient data.
+        - Established HPC workflows, SOPs, and reviewed hospital-wide AI proposals for feasibility and impact.
 
     - title: Project Officer
       institution: School of Physical and Mathematical Sciences, NTU, Singapore
       year: Oct 2018 - Oct 2020
       description:
-        - Developed ML model that uses topological features to predict RNA flexibility property with at least 16% improvement.
-        - Developed a Maximum Mean Discrepancy GAN algorithm to generate financial data with restrictions.
+        - Improved RNA flexibility prediction by 16% through a novel ML + topological data analysis framework.
+        - Simulated realistic financial time series using GANs and HMMs to explore market regime dynamics and investment strategies.
+        - Published and validated multiple research models in both biomedical and financial domains.
+
+    - title: Data Analyst
+      institution: DB Schenker
+      year: Oct 2016 - Oct 2018
+      description:
+        - Optimized warehouse layout, routing, and fleet usage, achieving over SGD 270K in annual cost savings.
+        - Automated product velocity and truck allocation analyses using Python, improving logistics efficiency.
+        - Revised SOPs post-automation rollout to align operations with new conveyor and sorting systems.
+
 
 
 - title: Certifications
   type: time_table
   contents:
-    - title: AWS Developer Associate
+    - title: AWS Certified Developer - Associate
       institution: Amazon Web Services
       year: 2024
 
-    - title: AWS Solutions Architect Associate
+    - title: AWS Certified Solutions Architect - Associate
       institution: Amazon Web Services
       year: 2024
 
-    - title: AWS Cloud Practitioner
+    - title: AWS Certified Cloud Practitioner
       institution: Amazon Web Services
       year: 2023
 
@@ -74,9 +82,9 @@
       institution: National University of Singapore (NUS), Singapore
       year: 2021
 
-    - title: Bachelor of Engineering (Chemical and Biomolecular Engineering)
-      institution: Nanyang Technological University (NTU), Singapore
-      year: 2016
+    # - title: Bachelor of Engineering (Chemical and Biomolecular Engineering)
+    #   institution: Nanyang Technological University (NTU), Singapore
+    #   year: 2016
 
 
 
