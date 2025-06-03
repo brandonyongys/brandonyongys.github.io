@@ -27,14 +27,24 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-Hi, I'm Brandon! I'm an IT professional working in public healthcare, with a strong background in data science, data engineering, and application development. While my current role focuses more on app development and data engineering, I'm eager to transition back into data science, particularly in LLMs, model deployment, and AI infrastructure.
+👋 Hi, I'm Brandon — a backend & cloud engineer working in Singapore's public healthcare system. I wear many hats across data engineering, app development, and cloud infrastructure, with a growing passion for large language models (LLMs) and AI systems that actually do useful things.
 
-I've worked across multiple industries - including logistics, education, and healthcare - building and deploying data-driven solutions. In healthcare, I've led projects involving chatbots, clinician decision support systems, food logging pipelines, and AWS cloud solutions. I enjoy being hands-on in both modeling and deployment, with a growing interest in AWS architecture, Golang, and Docker to enhance my cloud and backend skills.
+By day, I build real-world tools for clinicians and patients — like WhatsApp-based health chatbots, food logging platforms, clinical decision support APIs, and LLM pipelines that help make sense of messy drug data. I've deployed production systems across Kubernetes, AWS Lambda, and Django, and I'm especially hands-on with building scalable serverless pipelines using the AWS stack.
 
-Outside of work, I love building personal projects that combine data, automation, and real-world utility. Some of my current projects include:
-1. A supermarket price tracking pipeline that scrapes, processes, and serves price data via a Telegram chatbot.
-1. A RAG-based chatbot to simplify banking product research by answering questions about savings accounts, interest rates, and more.
+I started my career in logistics and academia, then transitioned into healthcare — and along the way, picked up a few AWS certifications, a love for automating things, and a decent collection of side projects.
 
-When I'm not coding, I'm probably browsing Reddit, exploring ways to optimize my finances, or planning my next adventure—one day, I hope to see the aurora at the North or South Pole.
+🧪 Side Projects I Tinker With
+* Supermarket Price Tracker – A scraper + MySQL + Telegram chatbot that lets you check product prices from major supermarkets.
+* RAG Banking Assistant – A chatbot that answers Singapore credit card and banking FAQs using embeddings + OpenSearch + LLMs.
+* LLM playgrounds – Always experimenting with retrieval strategies, prompt tuning, and how to make LLMs less… dumb.
 
-Feel free to check out my projects or reach out if you'd like to connect!
+⚙️ What I'm Into
+* AWS, Python, Django, Docker, Kubernetes
+* Exploring Golang for backend systems
+* Building scrappy but useful prototypes
+* Learning more about AI infrastructure and deployment patterns
+* Automating boring stuff
+
+When I'm not working, you'll probably find me reading about financial independence, lurking on Reddit, or planning my dream trip to see the aurora somewhere cold.
+
+Feel free to check out my projects or say hi!
