@@ -47,4 +47,6 @@ I started my career in logistics and academia, then transitioned into healthcare
 
 When I'm not working, you'll probably find me reading about financial independence, lurking on Reddit, or planning my dream trip to see the aurora somewhere cold.
 
+🛠️ This blog is called **Build, Break, Rebuild** because that's exactly how my systems (and skills) have evolved - one failure at a time.
+
 Feel free to check out my projects or say hi!
