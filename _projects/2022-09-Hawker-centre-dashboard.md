@@ -6,7 +6,7 @@ importance: 1
 category: deployment # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
 comments: true
-published: false
+published: true
 
 # - Need to update based on SG time
 # - tz-naive vs tz-aware time
@@ -17,6 +17,8 @@ There was a [post](https://towardsdatascience.com/creating-a-web-application-to-
 
 Back then when I stumbled upon it in early 2022, I was interested in learning how to develop and deploy an application, be it a model or a dashboard. The main objective was simply to learn the deployment techniques, which would be useful for anything that I would have built. That would deliver more value than to simply leave the apps in one of my many local folders or github repos. Not to mention, the tds post was rather simple and serve a rather good introduction for me given my lack of knowledge and skills.
 
+<hr>
+
 # Data.gov.sg search
 I searched through [data.gov.sg](https://data.gov.sg/) and found the [hawker centre closure dates dataset](https://data.gov.sg/dataset/dates-of-hawker-centres-closure). There are temporal and spatial elements in the dataset and I could foresee 2 main features in my dashboard:
 1. A map of Singapore with all the hawker centres indicated as points. Each point would be 1 of 3 colours to reflect its current status - open, closing within a month or closed.
@@ -25,6 +27,8 @@ I searched through [data.gov.sg](https://data.gov.sg/) and found the [hawker cen
 The dashboard was built in the similar fashion as that by Benedict Soh. Full credits to him for building the dashboard as I am simply adapting his codes to my dashboard. The dashboard and map were built using `dash` and `folium` respectively.
 
 **EDIT:** The map was subsequently replaced with `plotly`.
+
+<hr>
 
 # Data API call
 In the original post, the author was using static data to plot the visualization. However, I did the opposite and wanted to use the latest dataset. I utilized the data API to fetch the latest data. This [post](https://towardsdatascience.com/exploring-data-gov-sg-api-725e344048dc) by Tony Ng did a great job of providing a high level introduction of the data.gov.sg API and I adapted his work to my work again. For the benefits of others, the following command was used to call the data using `requests`:
@@ -38,6 +42,8 @@ requests.get('https://data.gov.sg/api/action/datastore_search?resource_id=b80cb6
 
 To use the above command, go to your desired data.gov.sg dataset and click on the "Data API" button at the top right, if any. Copy the query example link and simply remove the last term ('&limit=5') or you could simply change it to a larger number like what I did in the above.
 
+<hr>
+
 # Data manipulation
 Although the data has been called via API, the data is a json format. I converted it into a simple `pandas` dataframe. The dataframe is is a wide table as each row represents a single unique hawker centre and some columns represent the cleaning or closure date for a particular quarter. I further processed it to be a long table where each row represents a particular hawker centre and closure period. The conversion from wide to long table was done as I preferred using a long table for data manipulation.
 
@@ -45,6 +51,7 @@ I then manipulated the long table to identify and extract 3 tables of hawker cen
 
 The main difficulty I had with the data manipulation is the manipulation of datetime. I am not particularly good with it but I found [arrow](https://arrow.readthedocs.io/en/latest/) package. It saved my life! And also, save me from all the hassle :D
 
+<hr>
 
 # Dashboard development 
 There are a few changes from the original codes by Benedict Soh. I replaced the news and social media tabs with the "Currently Closed" and "Upcoming Closure" tabs. Any analysis on the news and tweets were also removed. Within the codes, some of the functions were renamed accordingly so that it is more intuitive when it comes to reading the codes. 
@@ -56,6 +63,8 @@ There are a few changes from the original codes by Benedict Soh. I replaced the 
 </div>
 
 This is how the dashboard looked like when I ran it back in Sep 2022. 
+
+<hr>
 
 # Dashboard deployment
 Back in September 2022, I was able to use the free service provided by Heroku. I followed the steps as shared by Benedict to deploy on Heroku though it did take me over 20 runs to troubleshoot the errors. I couldn't remember what I did and it took a while to work but I still got there. 
@@ -69,6 +78,8 @@ I tested out the step by step using the provided example and the app was success
 1. Despite making the above changes, the app still wasn't deployed successfully. After looking through the log files, I found out that it was trying to listen to port `8000` instead of the `8080` as specified. After changing it to port `8000`, the app was finally running.
 
 The dashboard is now running on [here](http://sg-hawker-centre-dashboard.ap-southeast-1.elasticbeanstalk.com/). Please take a look at it. 
+
+<hr>
 
 # Areas of improvement
 I would prefer to add in more interactive features where the user may sort the tables according to any of the columns instead of being sorted by date by default.

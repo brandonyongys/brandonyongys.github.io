@@ -17,6 +17,8 @@ At the start of 2023, I started to look into AWS certificates and prepared for A
 
 At the same time, I also decided to work with Docker (finally! It is a shame to not know Docker as a IT professional :P).  
 
+<hr>
+
 # Development work
 The entire project was developed using a Docker container as I am simply too lazy to create a new virtual environment when I use another machine. That and I also intend to deploy using AWS ECS. So it would be good to work on the Docker image concurrently.
 
@@ -44,6 +46,8 @@ CMD ["jupyter", "notebook", "--port=8888", "--no-browser", "--ip=0.0.0.0", "--al
 
 After building the Docker image, I would then attach my local directory to the Docker container using the command `docker run -it -v "/path/to/local/dir":/home -p 8888:8888 --name hawker hawker`. With that, the changes would be saved to my local directory instead of within the Docker container. It would be lost once the container is removed and it would be hassle to redevelop the code again.
 
+<hr>
+
 # App improvement
 I have refactored the codes as I do not feel the first version is a good product though it is a minimum viable product. 
 
@@ -67,6 +71,7 @@ The previous set of codes was rather messy as I would lump up almost the entire 
 
 Lastly is just the aesthestic of the dashboard. Previously I was using the same style as Benedict's dashboard. Now I have updated it to follow Singapore flag colour codes. After all, the dashbaord is about *Singapore* hawker centres. I've also formatted the data table so that it is aesthetically pleasing and less messy. However, this is a very subjective improvement as you may think the previous version is much better looking.
 
+<hr>
 
 # Deployment work
 The dashboard is ultimately deployed using AWS. There are many ways to deploy them but I decided to use Docker image and Amazon ECS. 
@@ -98,6 +103,7 @@ The Docker image was then pushed to Amazon ECR and I then deploy the image using
 
 The app is ultimately deployed on [http://3.0.104.136/](http://3.0.104.136/). 
 
+<hr>
 
 # Final thoughts
 This project is a rather simple project yet it has introduced me to important concepts such as working with API endpoints and AWS deployment. All these concepts are important, not just to a data scientist, but also to IT practitioners out there. 

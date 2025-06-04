@@ -7,7 +7,7 @@ importance: 1
 category: predictive # deployment / predictive / descriptive, if wrong category, the post won't be posted
 
 comments: true
-published: false
+published: true
 ---
 
 A new thread would be posted at the [Finance sub](https://old.reddit.com/r/finance/) every Monday as a platform for the wider community especially those who are new to ask questions related to finance such as financial careers, homework problems or even finance in general. Most of the questions have been asked numerous times and could be easily answered using Google.

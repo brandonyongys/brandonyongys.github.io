@@ -2,9 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: byongys # the website title (if blank, full name will be used instead)
 first_name: Brandon
-middle_name: # YS
+middle_name: YS
 last_name: Yong
 email: byongys@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -71,7 +71,7 @@ github_username: brandonyongys # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: brandonyongys # your LinkedIn user name
+linkedin_username: brandonyong # your LinkedIn user name
 telegram_username: # your Telegram user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
