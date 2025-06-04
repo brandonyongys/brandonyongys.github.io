@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: byongys # the website title (if blank, full name will be used instead)
+title: BYONGYS # the website title (if blank, full name will be used instead)
 first_name: Brandon
 middle_name: YS
 last_name: Yong
@@ -114,9 +114,11 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Failure is the source of success # blog_name will be displayed in your blog page
+blog_name: Build, Break, Rebuild # blog_name will be displayed in your blog page
 blog_nav_title: blog # your blog must have a title for it to be displayed in the nav bar
-blog_description: Not 1, not 2 but series of failures...
+# blog_description: Every bug, bottleneck, and burnout builds a better engineer. Documenting the process.
+# blog_description: A journey through machine learning, backend chaos, and AWS spaghetti — all documented with painful honesty.
+blog_description: Every bug, bottleneck, and burnout builds a better engineer - all documented with painful honesty.
 permalink: /blog/:year/:title/
 
 # Pagination

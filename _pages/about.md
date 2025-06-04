@@ -27,11 +27,11 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-👋 Hi, I'm Brandon — a backend & cloud engineer working in Singapore's public healthcare system. I wear many hats across data engineering, app development, and cloud infrastructure, with a growing passion for large language models (LLMs) and AI systems that actually do useful things.
+👋 Hi, I'm Brandon — a backend & cloud engineer working in Singapore's public healthcare system. I've worn many hats across data engineering, app development, and infrastructure, and these days I'm most excited about building AI systems that actually do something useful.
 
-By day, I build real-world tools for clinicians and patients — like WhatsApp-based health chatbots, food logging platforms, clinical decision support APIs, and LLM pipelines that help make sense of messy drug data. I've deployed production systems across Kubernetes, AWS Lambda, and Django, and I'm especially hands-on with building scalable serverless pipelines using the AWS stack.
+By day, I build real-world tools for clinicians and patients: WhatsApp health chatbots, food logging pipelines, clinical decision support APIs, and LLM workflows that try to make sense of messy medical data. I've shipped production systems across Kubernetes, AWS Lambda, and Django — but I'm most in my element building scrappy, serverless pipelines that just work.
 
-I started my career in logistics and academia, then transitioned into healthcare — and along the way, picked up a few AWS certifications, a love for automating things, and a decent collection of side projects.
+My journey started in logistics and academia, detoured through data science, and landed in healthcare. Along the way, I picked up some AWS certs, a love for automating things, and a healthy respect for every bug, bottleneck, and burnout that's made me better.
 
 🧪 Side Projects I Tinker With
 * Supermarket Price Tracker – A scraper + MySQL + Telegram chatbot that lets you check product prices from major supermarkets.
@@ -45,6 +45,8 @@ I started my career in logistics and academia, then transitioned into healthcare
 * Learning more about AI infrastructure and deployment patterns
 * Automating boring stuff
 
-When I'm not working, you'll probably find me reading about financial independence, lurking on Reddit, or planning my dream trip to see the aurora somewhere cold.
+Outside of tech, I'm probably deep in a Reddit rabbit hole, reading about financial independence, or daydreaming about chasing auroras in some freezing corner of the world.
+
+🛠️ This blog is called **Build, Break, Rebuild** because that's exactly how my systems (and skills) have evolved - one failure at a time.
 
 Feel free to check out my projects or say hi!
