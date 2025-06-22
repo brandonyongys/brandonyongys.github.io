@@ -58,4 +58,4 @@ social: false  # includes social icons at the bottom of the page
 
 
 <b>Notice:</b> This webapp has been moved to a new hosting platform for improved performance.
-👉 Please visit the updated version here: [byongys.netlify.app](byongys.netlify.app)
+👉 Please visit the updated version here: [https://byongys.netlify.app/](https://byongys.netlify.app/)
