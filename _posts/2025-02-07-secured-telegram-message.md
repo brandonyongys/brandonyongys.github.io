@@ -8,7 +8,7 @@ tags: [technical, programming, project, AWS]
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 
 comments: true
-published: true
+published: false
 
 ---
 After setting up and connecting my Telegram bot to AWS, I realized that my API Gateway was exposed to potential threats. Anyone who discovers the API Gateway URL could send unauthorized requests, flood it with spam (DDoS), or attempt to exploit vulnerabilities in user inputs.

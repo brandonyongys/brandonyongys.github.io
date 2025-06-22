@@ -8,7 +8,7 @@ tags: [technical, programming, project, AWS]
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 
 comments: true
-published: true
+published: false
 
 ---
 One of my exciting [plans for 2025](https://brandonyongys.github.io/blog/2025/setting-my-goals/) is to develop a simple Supermarket chatbot, and after reflecting on my current knowledge, I initially thought of using WhatsApp for its implementation since I have prior experience with it at work. However, I quickly realized that using WhatsApp might not be the most efficient option, as it would involve additional third-party software and could become quite costly.

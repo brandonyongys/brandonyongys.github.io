@@ -7,7 +7,7 @@ tags: [career, AWS, technical]
 # categories: career
 
 comments: true
-published: true
+published: false
 ---
 
 Throughout my career as a healthcare data scientist, there was no immediate need for me to get any cloud certificates (be it from AWS, GCP, Azure or anyt other platforms). It is simply because we are not allowed to use or connect our corporate machines to the internet. With that policy, my healthcare cluster did not explore or build a separate IT infrastructure to connect to the cloud services (that I am aware of).

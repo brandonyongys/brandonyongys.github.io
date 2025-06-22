@@ -7,7 +7,7 @@ tags: [career, technical]
 # categories: career
 
 comments: true
-published: true
+published: false
 
 
 # Content
