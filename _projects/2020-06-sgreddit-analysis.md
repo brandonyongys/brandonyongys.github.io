@@ -8,7 +8,7 @@ importance: 1
 category: data analysis # chatbot, data analysis, web app, if wrong category, the post won't be posted
 
 comments: true
-published: true
+published: false
 
 ---
 

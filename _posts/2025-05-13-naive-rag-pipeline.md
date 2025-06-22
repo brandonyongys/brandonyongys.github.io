@@ -8,7 +8,7 @@ tags: [growth, technical, programming, project, AWS]
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 
 comments: true
-published: true
+published: false
 
 ---
 

@@ -9,7 +9,7 @@ tags: [career, technical, programming]
 
 
 comments: true
-published: true
+published: false
 ---
 I have developed multiple applications for both patients facing and internal facing. Recently I have received feedback that one of my internal facing applications is taking a long time to process before returning a payload. As a result, the staff could not make a proper decision at the point of patient care. 
 

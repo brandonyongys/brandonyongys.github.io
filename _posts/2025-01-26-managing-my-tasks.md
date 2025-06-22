@@ -8,7 +8,7 @@ tags: [life, career]
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 
 comments: true
-published: true
+published: false
 
 ---
 Over the years, I've tried countless ways to manage my personal and work to-do lists. From the old-school pen and paper method to experimenting with apps like Evernote, Todoist, and even WhatsApp, I've been on a mission to find the perfect system.

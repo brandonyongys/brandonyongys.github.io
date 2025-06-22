@@ -8,7 +8,7 @@ tags: [life, career, growth]
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 
 comments: true
-published: true
+published: false
 ---
 # The past (achievements)
 Chinese New Year was relatively early this year and the fortunes were displayed across Singapore. I checked my fortunes and most of them generally have the same forecasts - I would have a good year career wise. That is true to a certain extent.

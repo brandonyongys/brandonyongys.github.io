@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 # display_categories: [chatbot, web app, data analysis]
 horizontal: false
-published: true
+published: false
 ---
 
 <!-- pages/projects.md -->

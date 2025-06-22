@@ -8,7 +8,7 @@ tags: [technical, programming, project, AWS]
 # display_tags: ['life', 'career', 'technical', 'programming', 'project', 'AWS', 'growth']
 
 comments: true
-published: true
+published: false
 
 ---
 Lately, it feels like "RAG" is everywhere. It's not a new concept, but it keeps popping up. At its core, Retrieval-Augmented Generation (RAG) is pretty straightforward:
